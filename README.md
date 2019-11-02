@@ -14,6 +14,15 @@ $ sudo passwd mfvargas
 $ sudo adduser mfvargas sudo
 ```
 
+### Administración de paquetes
+
+#### Actualización
+```terminal
+$ sudo apt update
+$ sudo apt upgrade -y
+$ sudo reboot
+```
+
 ### Otros
 
 #### Cambio del shell a bash
