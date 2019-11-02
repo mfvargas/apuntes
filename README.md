@@ -6,7 +6,7 @@
 
 #### Creación de usuarios
 Esta tarea debe realizarse desde la cuena de usuario con privilegios para ejecutar sudo o desde la cuenta de root
-```bash
+```terminal
 $ sudo useradd mfvargas -c 'Manuel Vargas' -m
 $ sudo passwd mfvargas
 
@@ -17,7 +17,7 @@ $ sudo adduser mfvargas sudo
 ### Otros
 
 #### Cambio del shell a bash
-```bash
+```terminal
 # Para ver el shell actual
 $ echo $SHELL
 
