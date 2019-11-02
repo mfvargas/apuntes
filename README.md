@@ -5,8 +5,9 @@
 ### Administración de usuarios
 
 #### Creación de usuarios
+Esta tarea debe realizarse desde la cuena de usuario con privilegios para ejecutar sudo o desde la cuenta de root
 ```
-# sudo useradd mfvargas -c 'Manuel Vargas' -m
-# sudo passwd mfvargas
-# sudo adduser mfvargas sudo
+$ sudo useradd mfvargas -c 'Manuel Vargas' -m
+$ sudo passwd mfvargas
+$ sudo adduser mfvargas sudo
 ```
