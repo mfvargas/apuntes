@@ -6,7 +6,7 @@
 
 #### Creación de usuarios
 ```
-$ sudo useradd mfvargas -c 'Manuel Vargas' -m
-$ sudo passwd mfvargas
-$ sudo adduser mfvargas sudo
+# sudo useradd mfvargas -c 'Manuel Vargas' -m
+# sudo passwd mfvargas
+# sudo adduser mfvargas sudo
 ```
