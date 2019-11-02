@@ -23,4 +23,7 @@ $ echo $SHELL
 
 # Para hacer el cambio
 $ chsh -s /bin/bash
+
+# Es necesario reconectarse para ver los resultados
+$ exit
 ```
