@@ -3,7 +3,7 @@
 ## Administración de usuarios
 
 ### Creación de usuarios
-Esta tarea debe realizarse desde la cuena de usuario con privilegios para ejecutar sudo o desde la cuenta de root
+Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecutar sudo o desde la cuenta de root
 ```terminal
 $ sudo useradd mfvargas -c 'Manuel Vargas' -m
 $ sudo passwd mfvargas
