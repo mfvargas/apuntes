@@ -1,4 +1,5 @@
 # _Snippets_ para Unix/Linux
+Estos comandos han sido probados en [Ubuntu 18.04 (Bionic Beaver)](http://releases.ubuntu.com/18.04/).
 
 ## Administración de usuarios
 
