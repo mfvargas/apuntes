@@ -13,3 +13,14 @@ $ sudo passwd mfvargas
 # Para agregar al grupo sudo
 $ sudo adduser mfvargas sudo
 ```
+
+### Otros
+
+#### Cambio del shell a bash
+```bash
+# Para ver el shell actual
+$ echo $SHELL
+
+# Para hacer el cambio
+$ chsh -s /bin/bash
+```
