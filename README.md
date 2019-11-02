@@ -9,5 +9,7 @@ Esta tarea debe realizarse desde la cuena de usuario con privilegios para ejecut
 ```
 $ sudo useradd mfvargas -c 'Manuel Vargas' -m
 $ sudo passwd mfvargas
+
+# Para agregar al grupo sudo
 $ sudo adduser mfvargas sudo
 ```
