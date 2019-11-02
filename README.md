@@ -3,4 +3,4 @@ _[Snippet](https://es.wikipedia.org/wiki/Snippet)_ es un término del idioma ing
 
 La siguiente es la lista de _snippets_ contenidos en este repositorio, agrupados por sistema operativo o lenguaje de programación.
 
-[Unix/Linux](https://github.com/mfvargas/snippets/blob/master/unix-linux/README.md)
+* [Unix/Linux](https://github.com/mfvargas/snippets/blob/master/unix-linux/README.md)
