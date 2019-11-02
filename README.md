@@ -1,23 +1,12 @@
 # Snippets
 
-## Comandos del sistema operativo
+## Linux/Unix
 
-### cURL
+### Administración de usuarios
 
-#### Acceso a servicios web
-
-##### Obtención de token
+#### Creación de usuarios
 ```
-$ curl -k <url> -X POST -H "Content-Type: application/json" --data "{\"Username\":\"<usuario>\",\"Password\":\"<clave>\"}"
-```
-
-## Python
-
-### Procesamiento de datos geoespaciales
-
-#### PROJ
-
-##### Programa que agrega columnas correspondientes a la proyección WGS84
-```
-
+$ sudo useradd mfvargas -c 'Manuel Vargas' -m
+$ sudo passwd mfvargas
+$ sudo adduser mfvargas sudo
 ```
