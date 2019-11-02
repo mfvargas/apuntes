@@ -17,7 +17,7 @@ $ sudo adduser mfvargas sudo
 ### Administración de paquetes
 
 #### Actualización
-```terminal
+```console
 $ sudo apt update
 $ sudo apt upgrade -y
 $ sudo reboot
@@ -26,7 +26,7 @@ $ sudo reboot
 ### Otros
 
 #### Cambio del shell a bash
-```terminal
+```console
 # Para ver el shell actual
 $ echo $SHELL
 
