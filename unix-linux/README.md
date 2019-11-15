@@ -7,15 +7,10 @@ Estos comandos han sido probados en [Ubuntu 18.04 (Bionic Beaver)](http://releas
 Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecutar sudo o desde la cuenta de root
 ```terminal
 # Creación del usuario
-$ sudo useradd mfvargas -c 'Manuel Vargas' -m
-# Probar: sudo adduser mfvargas -c 'Manuel Vargas' -m
-
-# Cambio de clave
-$ sudo passwd mfvargas
+sudo adduser mfvargas
 
 # Para agregar al grupo sudo
-$ sudo adduser mfvargas sudo
-# Probar: sudo usermod -aG sudo mfvargas
+$ sudo usermod -aG sudo mfvargas
 ```
 
 ## Administración de paquetes
