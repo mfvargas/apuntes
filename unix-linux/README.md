@@ -9,7 +9,7 @@ Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecu
 # Creación del usuario
 sudo adduser mfvargas
 
-# Para agregar al grupo sudo
+# Para agregar el usuario al grupo sudo
 $ sudo usermod -aG sudo mfvargas
 ```
 
