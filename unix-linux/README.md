@@ -6,9 +6,11 @@ Estos comandos han sido probados en [Ubuntu 18.04 (Bionic Beaver)](http://releas
 ### Creación de usuarios
 Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecutar sudo o desde la cuenta de root
 ```terminal
+# Creación del usuario
 $ sudo useradd mfvargas -c 'Manuel Vargas' -m
 # Probar: sudo adduser mfvargas -c 'Manuel Vargas' -m
 
+# Cambio de clave
 $ sudo passwd mfvargas
 
 # Para agregar al grupo sudo
