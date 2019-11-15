@@ -6,7 +6,7 @@ Estos comandos han sido probados en [Ubuntu 18.04 (Bionic Beaver)](http://releas
 ### Creación de usuarios
 Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecutar sudo o desde la cuenta de root
 ```terminal
-# Creación del usuario
+# Creación de un usuario
 sudo adduser mfvargas
 
 # Para agregar el usuario al grupo sudo
