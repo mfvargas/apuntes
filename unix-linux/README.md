@@ -22,6 +22,16 @@ $ sudo apt upgrade -y
 $ sudo reboot
 ```
 
+### Búsqueda
+```terminal
+$ sudo apt-cache search gdal-bin
+```
+
+### Versiones disponibles
+```terminal
+$ sudo apt-cache madison gdal-bin
+```
+
 ## Otros
 
 ### Cambio del shell a bash
