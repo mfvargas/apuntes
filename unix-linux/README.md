@@ -46,7 +46,6 @@ scp ./mammalia-cr-grp.* ./reptilia-cr-grp.* ./amphibia-cr-grp.* ./aves-cr-grp.* 
 ```
 
 ## Administración de usuarios
-
 ### Creación de usuarios
 Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecutar sudo o desde la cuenta de root
 ```terminal
@@ -58,7 +57,6 @@ $ sudo usermod -aG sudo mfvargas
 ```
 
 ## Administración de paquetes
-
 ### APT
 ```terminal
 # Actualización
@@ -87,6 +85,12 @@ $ sudo apt-get install -y python3-pip
 
 # Instalación de un paquete
 $ sudo pip3 install psycopg2-binary
+```
+
+## Manejo de procesos
+```terminal
+# Búsqueda de un proceso en ejecución, por el nombre del proceso
+$ ps -ef | grep postgres
 ```
 
 ## Cambio del shell a bash
