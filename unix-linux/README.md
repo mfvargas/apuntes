@@ -38,7 +38,7 @@ $ ssh root@159.203.94.51
 
 SCP
 ```terminal
-# Copia recursiva de todos los archivos de un directorio a un host remoto
+# Copia recursiva de todos los archivos de un directorio
 $ scp -r ~/layers/*.* mfvargas@159.203.94.51:~/layers/
 
 # Copia de varios grupos de archivos
