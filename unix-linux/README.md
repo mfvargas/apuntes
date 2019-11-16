@@ -14,6 +14,20 @@ Description:    Ubuntu 18.04.3 LTS
 Release:        18.04
 Codename:       bionic
 ```
+Versión de Debian
+```terminal
+$ cat /etc/debian_version
+```
+```terminal
+buster/sid
+```
+Información sobre el kernel de Linux
+```terminal
+$ uname -mrs
+```
+```terminal
+Linux 4.15.0-70-generic x86_64
+```
 
 ## SSH, SCP
 SSH
