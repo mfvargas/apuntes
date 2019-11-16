@@ -36,7 +36,7 @@ $ sudo apt-get update
 sudo apt-get install -y gdal-bin
 ```
 
-## Pip
+### Pip
 ```terminal
 # Instalación de Pip para Python 3
 $ sudo apt-get install -y python3-pip
@@ -45,7 +45,7 @@ $ sudo apt-get install -y python3-pip
 $ sudo pip3 install psycopg2-binary
 ```
 
-### Cambio del shell a bash
+## Cambio del shell a bash
 ```terminal
 # Para ver el shell actual
 $ echo $SHELL
