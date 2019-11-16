@@ -40,6 +40,9 @@ SCP
 ```terminal
 # Copia recursiva de todos los archivos de un directorio a un host remoto
 $ scp -r ~/layers/*.* mfvargas@159.203.94.51:~/layers/
+
+# Copia de varios grupos de archivos
+scp ./mammalia-cr-grp.* ./reptilia-cr-grp.* ./amphibia-cr-grp.* ./aves-cr-grp.* mfvargas@159.203.94.51:~/estimacion-biodiversidad/datos/areas-distribucion/
 ```
 
 ## Administración de usuarios
