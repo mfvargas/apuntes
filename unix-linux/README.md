@@ -1,6 +1,18 @@
 # _Snippets_ para Unix/Linux
 Estos comandos han sido probados en [Ubuntu 18.04 (Bionic Beaver)](http://releases.ubuntu.com/18.04/).
 
+## SSH
+```terminal
+# Conexión a un host remoto
+$ ssh root@159.203.94.51
+```
+
+SCP
+```terminal
+# Copia recursiva de todos los archivos de un directorio a un host remoto
+$ scp -r ~/layers/*.* mfvargas@159.203.94.51:~/layers/
+```
+
 ## Administración de usuarios
 
 ### Creación de usuarios
@@ -15,7 +27,7 @@ $ sudo usermod -aG sudo mfvargas
 
 ## Administración de paquetes
 
-### Apt
+### APT
 ```terminal
 # Actualización
 $ sudo apt update
