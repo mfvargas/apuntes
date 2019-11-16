@@ -1,7 +1,8 @@
 # _Snippets_ para Unix/Linux
 Estos comandos han sido probados en [Ubuntu 18.04 (Bionic Beaver)](http://releases.ubuntu.com/18.04/).
 
-## SSH
+## SSH, SCP
+SSH
 ```terminal
 # Conexión a un host remoto
 $ ssh root@159.203.94.51
