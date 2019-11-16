@@ -2,7 +2,21 @@
 Estos comandos han sido probados en [Ubuntu 18.04 (Bionic Beaver)](http://releases.ubuntu.com/18.04/).
 
 ## Información general del sistema
-### Versión del sistema operativo
+### Información acerca de las versiones del sistema operativo, el kernel y la distribución de Linux
+Información sobre el kernel de Linux
+```terminal
+$ uname -mrs
+```
+```terminal
+Linux 4.15.0-70-generic x86_64
+```
+Versión de Debian
+```terminal
+$ cat /etc/debian_version
+```
+```terminal
+buster/sid
+```
 Información sobre la distribución y sobre LSB (Linux Standard Base)
 ```terminal
 $ lsb_release -a
@@ -13,20 +27,6 @@ Distributor ID: Ubuntu
 Description:    Ubuntu 18.04.3 LTS
 Release:        18.04
 Codename:       bionic
-```
-Versión de Debian
-```terminal
-$ cat /etc/debian_version
-```
-```terminal
-buster/sid
-```
-Información sobre el kernel de Linux
-```terminal
-$ uname -mrs
-```
-```terminal
-Linux 4.15.0-70-generic x86_64
 ```
 
 ## SSH, SCP
