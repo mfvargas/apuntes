@@ -15,24 +15,35 @@ $ sudo usermod -aG sudo mfvargas
 
 ## Administración de paquetes
 
-### Actualización
+### Apt
 ```terminal
+# Actualización
 $ sudo apt update
 $ sudo apt upgrade -y
 $ sudo reboot
-```
 
-### Búsqueda
-```terminal
+# Búsqueda de paquetes
 $ sudo apt-cache search gdal-bin
-```
 
-### Versiones disponibles
-```terminal
+# Versiones disponibles de un paquete
 $ sudo apt-cache madison gdal-bin
+
+# Adición de un repositorio
+$ sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+$ sudo apt-get update
+
+# Instalación de un paquete
+sudo apt-get install -y gdal-bin
 ```
 
-## Otros
+## Pip
+```terminal
+# Instalación de Pip para Python 3
+$ sudo apt-get install -y python3-pip
+
+# Instalación de un paquete
+$ sudo pip3 install psycopg2-binary
+```
 
 ### Cambio del shell a bash
 ```terminal
