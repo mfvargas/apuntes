@@ -1,6 +1,20 @@
 # _Snippets_ para Unix/Linux
 Estos comandos han sido probados en [Ubuntu 18.04 (Bionic Beaver)](http://releases.ubuntu.com/18.04/).
 
+## Información general del sistema
+### Versión del sistema operativo
+Información sobre la distribución y sobre LSB (Linux Standard Base)
+```terminal
+$ lsb_release -a
+```
+```terminal
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 18.04.3 LTS
+Release:        18.04
+Codename:       bionic
+```
+
 ## SSH, SCP
 SSH
 ```terminal
