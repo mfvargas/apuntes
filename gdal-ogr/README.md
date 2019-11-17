@@ -1,4 +1,4 @@
-# GDAL/OGR
+# GDAL
 
 [Geospatial Data Abstraction Library (GDAL/OGR)](https://gdal.org/) es una biblioteca para leer y escribir datos geoespaciales en varios [formatos raster](https://gdal.org/drivers/raster/) y [vectoriales](https://gdal.org/drivers/vector/). La sigla GDAL se utiliza para referirse a la funcionalidad para datos raster y OGR para la correspondiente a los datos vectoriales. En ocasiones, GDAL puede usarse para ambos casos. De aquí en adelante, se utilizá esta última acepción.
 
