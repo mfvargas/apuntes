@@ -41,7 +41,7 @@ $ unzip ne_110m_admin_0_countries.zip
 ```
 
 ### Datos vectoriales
-Información acerca de una fuente de datos
+Información general (ej. tipo de geometría, cantidad de registros, extensión, SRS, nombres y tipos de los campos) acerca de una fuente de datos
 ```terminal
 # Información acerca de una capa
 $ ogrinfo -so ne_110m_admin_0_countries.shp ne_110m_admin_0_countries
