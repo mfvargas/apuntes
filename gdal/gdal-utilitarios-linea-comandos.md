@@ -41,5 +41,13 @@ $ unzip ne_110m_admin_0_countries.zip
 ```
 
 ### Datos vectoriales
+Información acerca de una fuente de datos
+```terminal
+# Información acerca de una capa
+$ ogrinfo -so ne_110m_admin_0_countries.shp ne_110m_admin_0_countries
+
+# Información acerca de todas las capas
+$ ogrinfo -al -so ne_110m_admin_0_countries.shp
+```
 
 ### Datos raster
