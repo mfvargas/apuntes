@@ -6,6 +6,12 @@
 * Ejemplos de comandos: [GDAL/OGR cheat sheet](https://github.com/glw/gdalcheatsheet)
 * Ejemplos de comandos: [OGR2OGR Cheatsheet](https://www.bostongis.com/PrinterFriendly.aspx?content_name=ogr_cheatsheet)
 
+## Consideraciones generales
+Para obtener ayuda acerca de un comando, puede usarse la opción `-- formats` como, por ejemplo:
+```terminal
+$ ogrinfo --help
+```
+
 ## Snippets
 Se recomienda ejecutar estos ejemplos desde la línea de comandos de [Anaconda](https://www.anaconda.com/). También pueden ejecutarse en otras [distribuciones binarias de GDAL](https://gdal.org/download.html#binaries).
 
