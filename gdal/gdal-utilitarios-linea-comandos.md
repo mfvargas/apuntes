@@ -7,7 +7,12 @@
 * Ejemplos de comandos: [OGR2OGR Cheatsheet](https://www.bostongis.com/PrinterFriendly.aspx?content_name=ogr_cheatsheet)
 
 ## Consideraciones generales
-Para obtener ayuda acerca de un comando, puede usarse la opción `-- formats`. Por ejemplo:
+Los utilitarios de GDAL comparten una serie de [opciones comunes](https://gdal.org/programs/raster_common_options.html#raster-common-options) que pueden visualizarse con la opción `-- help-general`. Por ejemplo:
+```terminal
+$ ogrinfo --help-general
+```
+
+Para obtener ayuda acerca de un comando, puede usarse la opción `-- help`. Por ejemplo:
 ```terminal
 $ ogrinfo --help
 ```
