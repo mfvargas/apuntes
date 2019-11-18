@@ -4,7 +4,7 @@
 Ejemplos de comandos: [Cheat sheet for GDAL/OGR command-line tools](https://github.com/dwtkns/gdal-cheat-sheet)
 
 ## Snippets
-Se recomienda ejecutar estos ejemplos desde la línea de comandos de [Anaconda](https://www.anaconda.com/). También pueden funcionar en otras instalaciones de los binarios de GDAL.
+Se recomienda ejecutar estos ejemplos desde la línea de comandos de [Anaconda](https://www.anaconda.com/). También pueden funcionar en otras instalaciones de las [distribuciones binarias de GDAL](https://gdal.org/download.html#binaries).
 
 ### Datos vectoriales
 
