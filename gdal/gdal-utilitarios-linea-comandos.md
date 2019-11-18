@@ -7,7 +7,7 @@
 * Ejemplos de comandos: [OGR2OGR Cheatsheet](https://www.bostongis.com/PrinterFriendly.aspx?content_name=ogr_cheatsheet)
 
 ## Consideraciones generales
-Para obtener ayuda acerca de un comando, puede usarse la opción `-- formats` como, por ejemplo:
+Para obtener ayuda acerca de un comando, puede usarse la opción `-- formats`. Por ejemplo:
 ```terminal
 $ ogrinfo --help
 ```
