@@ -5,9 +5,14 @@
 * Ejemplos de comandos: [Cheat sheet for GDAL/OGR command-line tools](https://github.com/dwtkns/gdal-cheat-sheet)
 
 ## Snippets
-Se recomienda ejecutar estos ejemplos desde la línea de comandos de [Anaconda](https://www.anaconda.com/). También pueden en otras [distribuciones binarias de GDAL](https://gdal.org/download.html#binaries).
+Se recomienda ejecutar estos ejemplos desde la línea de comandos de [Anaconda](https://www.anaconda.com/). También pueden ejecutarse en otras [distribuciones binarias de GDAL](https://gdal.org/download.html#binaries).
 
-Como ejemplos, se utilizarán 
+Para ejemplificar los comandos, se utilizarán archivos de [Natural Earth](https://www.naturalearthdata.com/). En un sistema Unix/Linux, pueden descargarse y descomprimirse con los comandos:
+
+```terminal
+$ wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/110m/cultural/ne_110m_admin_0_countries.zip
+$ unzip ne_110m_admin_0_countries.zip
+```
 
 ### Datos vectoriales
 
