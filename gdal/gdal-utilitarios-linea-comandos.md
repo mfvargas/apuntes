@@ -11,11 +11,6 @@ Los utilitarios de GDAL comparten una serie de [opciones comunes](https://gdal.o
 ```terminal
 $ ogrinfo --help-general
 ```
-
-Para obtener ayuda acerca de un comando, puede usarse la opción `-- help`. Por ejemplo:
-```terminal
-$ ogrinfo --help
-```
 ```terminal
 Generic GDAL utility command options:
   --version: report version of GDAL in use.
@@ -29,6 +24,11 @@ Generic GDAL utility command options:
   --locale [locale]: install locale for debugging (i.e. en_US.UTF-8)
   --help-general: report detailed help on general options.
   ```
+  
+Para obtener ayuda acerca de un comando particular, puede usarse la opción `-- help`. Por ejemplo:
+```terminal
+$ ogrinfo --help
+```
 
 ## Snippets
 Se recomienda ejecutar estos ejemplos desde la línea de comandos de [Anaconda](https://www.anaconda.com/). También pueden ejecutarse en otras [distribuciones binarias de GDAL](https://gdal.org/download.html#binaries).
