@@ -5,4 +5,5 @@ La siguiente es la lista de _snippets_ contenidos en este repositorio, agrupados
 
 * [GDAL](https://github.com/mfvargas/snippets/blob/master/gdal/README.md)
 * [Python](https://github.com/mfvargas/snippets/blob/master/python/README.md)
+* [Rasterio](https://github.com/mfvargas/snippets/blob/master/rasterio/README.md)
 * [Unix/Linux](https://github.com/mfvargas/snippets/blob/master/unix-linux/README.md)
