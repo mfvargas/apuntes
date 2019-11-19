@@ -120,7 +120,7 @@ Indexación espacial
 >>> band1[row, col]
 267.6978
 
-# El método xy() retorna las coordenadas espaciales de un pixel
+# El método xy() retorna las coordenadas espaciales de un pixel (por defecto, retorna el centro)
 >>> dataset.xy(dataset.height // 2, dataset.width // 2) # centro de la imagen
 (-74.97499973140657, 14.72499986924231)
 ```
