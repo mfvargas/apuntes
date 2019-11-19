@@ -44,7 +44,72 @@ $ gunzip chirps-v2.0.2019.10.tif.gz
 >>> dataset.name
 'chirps-v2.0.2019.10.tif'
 
+# Dimensiones
+>>> dataset.width
+720
+>>> dataset.height
+350
+
+# CRS
+>>> dataset.crs
+CRS.from_epsg(4326)
+
+# Límites
+>>> dataset.bounds
+BoundingBox(left=-93.0, bottom=5.999999739229679, right=-56.9999994635582, top=23.5)
+
+# Matriz de transformación
+>>> dataset.transform
+Affine(0.05000000074505806, 0.0, -93.0,
+       0.0, -0.05000000074505806, 23.5)
+       
+# Fila y columna de esquina superior izquierda
+>>> dataset.transform * (0, 0)
+(-93.0, 23.5)
+
+# Fila y columna de la esquina inferior derecha
+>>> dataset.transform * (dataset.width, dataset.height)
+(-56.9999994635582, 5.999999739229679)
+```
+
+Manejo de las bandas
+```python
 # Cantidad de bandas
 >>> dataset.count
 1
+
+# Tipos de datos de las bandas
+>>> {i: dtype for i, dtype in zip(dataset.indexes, dataset.dtypes)}
+{1: 'float32'}
+
+# Índices de las bandas
+>>> dataset.indexes
+(1,)
+
+# El método read() retorna un arreglo N-D de Numpy. El argumento es el índice de la banda
+>>> band1 = dataset.read(1)
+
+# Datos de la banda 1
+>>> band1
+array([[-9999.      , -9999.      , -9999.      , ..., -9999.      ,
+        -9999.      , -9999.      ],
+       [-9999.      , -9999.      , -9999.      , ..., -9999.      ,
+        -9999.      , -9999.      ],
+       [-9999.      , -9999.      , -9999.      , ..., -9999.      ,
+        -9999.      , -9999.      ],
+       ...,
+       [-9999.      , -9999.      , -9999.      , ..., -9999.      ,
+        -9999.      , -9999.      ],
+       [-9999.      , -9999.      , -9999.      , ...,    16.187757,
+        -9999.      , -9999.      ],
+       [-9999.      , -9999.      , -9999.      , ...,    19.232725,
+        -9999.      ,    15.843171]], dtype=float32)
+        
+# Los valores del arreglo se pueden acceder por los índices de la fila y la columna
+>>> band1[0,0]
+-9999.0
+```
+
+Indexación espacial
+```python
 ```
