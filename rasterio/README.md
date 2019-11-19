@@ -33,7 +33,8 @@ $ wget ftp://ftp.chg.ucsb.edu/pub/org/chg/products/CHIRPS-2.0/camer-carib_monthl
 $ gunzip chirps-v2.0.2019.10.tif.gz
 ```
 
-### Básicos
+### Manejo de conjuntos de datos raster
+Información básica
 ```python
 >>> import rasterio
 
@@ -112,4 +113,14 @@ array([[-9999.      , -9999.      , -9999.      , ..., -9999.      ,
 
 Indexación espacial
 ```python
+# El método index() retorna los índices correspondientes a un punto en el espacio georreferenciado
+>>> row, col = dataset.index(-84, 10)
+>>> row, col
+(269, 179)
+>>> band1[row, col]
+267.6978
+
+# El método xy() retorna las coordenadas espaciales de un pixel
+>>> dataset.xy(dataset.height // 2, dataset.width // 2) # centro de la imagen
+(-74.97499973140657, 14.72499986924231)
 ```
