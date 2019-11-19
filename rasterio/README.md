@@ -32,3 +32,17 @@ Para ejemplificar los comandos, se utilizarán archivos de [Climate Hazards Grou
 $ wget ftp://ftp.chg.ucsb.edu/pub/org/chg/products/CHIRPS-2.0/camer-carib_monthly/tifs/chirps-v2.0.2019.10.tif.gz
 $ gunzip chirps-v2.0.2019.10.tif.gz
 ```
+
+### Básicos
+```python
+import rasterio
+
+# Apertura de un conjunto de datos
+dataset = rasterio.open('chirps-v2.0.2019.10.tif')
+
+# Nombre del conjunto de datos
+dataset.name
+
+# Cantidad de bandas
+dataset.count
+```
