@@ -35,14 +35,16 @@ $ gunzip chirps-v2.0.2019.10.tif.gz
 
 ### Básicos
 ```python
-import rasterio
+>>> import rasterio
 
 # Apertura de un conjunto de datos
-dataset = rasterio.open('chirps-v2.0.2019.10.tif')
+>>> dataset = rasterio.open('chirps-v2.0.2019.10.tif')
 
 # Nombre del conjunto de datos
-dataset.name
+>>> dataset.name
+'chirps-v2.0.2019.10.tif'
 
 # Cantidad de bandas
-dataset.count
+>>> dataset.count
+1
 ```
