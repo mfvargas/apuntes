@@ -22,3 +22,13 @@ $ conda install rasterio
 # Listado de versiones disponibles en el canal
 $ conda search rasterio --channel conda-forge
 ```
+
+## Snippets
+Se recomienda ejecutar estos ejemplos en la distribución de Python de [Anaconda](https://www.anaconda.com/), aunque también puede funcionar en otras distribuciones.
+
+Para ejemplificar los comandos, se utilizarán archivos de [Climate Hazards Group InfraRed Precipitation with Station data (CHIRPS)](https://www.chc.ucsb.edu/data/chirps). En un sistema Unix/Linux, pueden descargarse y descomprimirse con los comandos:
+
+```terminal
+$ wget ftp://ftp.chg.ucsb.edu/pub/org/chg/products/CHIRPS-2.0/camer-carib_monthly/tifs/chirps-v2.0.2019.10.tif.gz
+$ unzip chirps-v2.0.2019.10.tif.gz
+```
