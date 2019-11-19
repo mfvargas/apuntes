@@ -4,6 +4,8 @@
 ## Recursos
 * Página oficial: [Rasterio](https://github.com/mapbox/rasterio)
 * Documentación: [Rasterio: access to geospatial raster data -- rasterio documentation](https://rasterio.readthedocs.io/)
+* Guía de inicio rápido: [Python Quickstart -- rasterio documentation](https://rasterio.readthedocs.io/en/stable/quickstart.html)
+* Referencia del API: [Python API Reference -- rasterio documentation](https://rasterio.readthedocs.io/en/stable/api/)
 
 ## Instalación
 Hay instrucciones para varios ambientes en [Installation -- rasterio documentation](https://rasterio.readthedocs.io/en/stable/installation.html).
