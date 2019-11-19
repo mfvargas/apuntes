@@ -6,7 +6,7 @@
 * Documentación: [Rasterio: access to geospatial raster data -- rasterio documentation](https://rasterio.readthedocs.io/)
 
 ## Instalación
-Hay instrucciones para varios ambientes en [](https://rasterio.readthedocs.io/en/stable/installation.html).
+Hay instrucciones para varios ambientes en [Installation -- rasterio documentation](https://rasterio.readthedocs.io/en/stable/installation.html).
 
 ### Anaconda
 Las instrucciones están en [https://github.com/conda-forge/rasterio-feedstock](https://github.com/conda-forge/rasterio-feedstock).
