@@ -30,5 +30,5 @@ Para ejemplificar los comandos, se utilizarán archivos de [Climate Hazards Grou
 
 ```terminal
 $ wget ftp://ftp.chg.ucsb.edu/pub/org/chg/products/CHIRPS-2.0/camer-carib_monthly/tifs/chirps-v2.0.2019.10.tif.gz
-$ unzip chirps-v2.0.2019.10.tif.gz
+$ gunzip chirps-v2.0.2019.10.tif.gz
 ```
