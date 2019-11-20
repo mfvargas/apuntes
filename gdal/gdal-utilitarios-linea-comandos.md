@@ -50,7 +50,7 @@ $ ogrinfo -so ne_110m_admin_0_countries.shp ne_110m_admin_0_countries
 $ ogrinfo -al -so ne_110m_admin_0_countries.shp
 ```
 
-Conversión entre formatos
+Conversiones entre formatos
 ```terminal
 # Descarga de una capa en un servicio WFS a un archivo GeoJSON
 $ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 -simplify 100 provincias.geojson WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs?" limiteprovincial_5k
