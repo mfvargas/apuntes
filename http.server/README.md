@@ -8,8 +8,9 @@ El módulo [http.server](https://docs.python.org/3/library/http.server.html) de 
 ## Snippets
 Se recomienda ejecutar estos ejemplos desde la línea de comandos de [Anaconda](https://www.anaconda.com/). También pueden ejecutarse en otras [distribuciones binarias de GDAL](https://gdal.org/download.html#binaries).
 
-Inicio del servidor en el puerto 8888
+## Inicio del servidor
 ```terminal
+# Inicio del servidor en el puerto 8888
 $ python -m http.server 8888
 ```
 
