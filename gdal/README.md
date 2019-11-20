@@ -6,4 +6,4 @@ GDAL cuenta con un único [modelo abstracto de datos raster](https://gdal.org/us
 
 A pesar de que GDAL está programada en C/C++, cuenta con una interfaz de programación de aplicaciones (API) para varios lenguajes de programación, incluyendo [C](https://gdal.org/api/index.html#c-api), [C++](https://gdal.org/api/index.html#id3), [Python](https://gdal.org/python/index.html) y [Java](https://gdal.org/java/overview-summary.html). Además, ofrece un conjunto de [utilitarios de línea de comandos](https://gdal.org/programs/) cuyas [distribuciones binarias](https://gdal.org/download.html#binaries) están disponibles para varios sistemas operativos, incluyendo Windows, macOS y Linux. Estas API y los utilitarios también están incluídos en plataforma de ciencia de datos llamada [Anaconda](https://www.anaconda.com/), la cual cuenta con versiones para todos los sistemas operativos mencionados.
 
-* [Utilitarios de la línea de comandos](https://github.com/mfvargas/snippets/blob/master/gdal/gdal-utilitarios-linea-comandos.md)
+* [Utilitarios de línea de comandos](https://github.com/mfvargas/snippets/blob/master/gdal/gdal-utilitarios-linea-comandos.md)
