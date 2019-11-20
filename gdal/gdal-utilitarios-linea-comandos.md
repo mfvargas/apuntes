@@ -1,4 +1,4 @@
-# Snippets de los utilitarios de línea de comandos de GDAL
+# Utilitarios de línea de comandos de GDAL
 
 ## Recursos
 * Página oficial de los utilitarios de línea de comandos de GDAL: [Programs -- GDAL documentation](https://gdal.org/programs/)
