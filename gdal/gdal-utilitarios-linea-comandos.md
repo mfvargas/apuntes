@@ -41,13 +41,19 @@ $ unzip ne_110m_admin_0_countries.zip
 ```
 
 ### Datos vectoriales
-Información general (ej. tipo de geometría, cantidad de registros, extensión, SRS, nombres y tipos de los campos) acerca de una fuente de datos
+Información general (ej. tipo de geometría, cantidad de registros, extensión, SRS, nombres y tipos de los campos) acerca de una fuente de datos.
 ```terminal
 # Información acerca de una capa
 $ ogrinfo -so ne_110m_admin_0_countries.shp ne_110m_admin_0_countries
 
 # Información acerca de todas las capas
 $ ogrinfo -al -so ne_110m_admin_0_countries.shp
+```
+
+Conversión entre formatos
+```terminal
+# Descarga de una capa en un servicio WFS a un archivo GeoJSON
+$ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 -simplify 100 provincias.geojson WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs?" limiteprovincial_5k
 ```
 
 ### Datos raster
