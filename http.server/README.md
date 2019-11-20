@@ -7,4 +7,4 @@ Inicio del servidor en el puerto 8888
 $ python -m http.server 8888
 ```
 
-El comando anterior inicia un servidor local que puede accederse en la dirección [http://localhost:8888/](http://localhost:8888/).
+El comando anterior inicia un servidor local que puede accederse en la dirección [http://localhost:8888/](http://localhost:8888/)
