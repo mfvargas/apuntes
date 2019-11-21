@@ -1,4 +1,4 @@
-# _Snippets_ para Unix/Linux
+# Unix/Linux
 Estos comandos han sido probados en [Ubuntu 18.04 (Bionic Beaver)](http://releases.ubuntu.com/18.04/). Pueden funcionar en otros sistemas operativos de la familia [Debian GNU/Linux](https://www.debian.org/) como, por ejemplo, [Debian 10 (Buster)](https://wiki.debian.org/DebianBuster).
 
 ## Información general del sistema
