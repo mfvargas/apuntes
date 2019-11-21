@@ -9,6 +9,8 @@ $ git config --global user.email "mfvargas@gmail.com"
 
 ### Creación de un repositorio
 ```terminal
+$ mkdir repositorio
+$ cd repositorio
 $ git init
 $ git add .
 $ git commit -m "Commit inicial"
