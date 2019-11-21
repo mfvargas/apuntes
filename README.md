@@ -1,5 +1,5 @@
 # Apuntes
-Notas y _snippets_ de [Manuel Vargas](https://github.com/mfvargas) sobre sistemas de información geográfica, informática de la biodiversidad y otros temas.
+Notas y _snippets_[^1] de [Manuel Vargas](https://github.com/mfvargas) sobre sistemas de información geográfica, informática de la biodiversidad y otros temas.
 
 La siguiente es la lista de apuntes contenidos en este repositorio, agrupados por tema.
 
