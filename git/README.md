@@ -1,4 +1,8 @@
 # Git
+[Git](https://git-scm.com/) es sistema distribuido de control de versiones.
+
+## Recursos
+Sitio oficial: [Git](https://git-scm.com/)
 
 ## Snippets
 ### Configuración de git
