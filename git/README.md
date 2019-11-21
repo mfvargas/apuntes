@@ -1,5 +1,7 @@
 # Git
-[Git](https://git-scm.com/) es sistema distribuido de control de versiones.
+[Git](https://git-scm.com/) es sistema distribuido de control de versiones. Su objetivo es mantener un registro de cambios en archivos de computadora y coordinar el trabajo que varias personas realizan en archivos compartidos. Fue creado para coordinar el trabajo entre programadores, pero puede ser utilizado para rastrear cambios en cualquier tipo de archivos (ej. textos).
+
+Git fue creado en 2005 por [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), con el propósito de coordinar el desarrollo del [kernel de Linux](https://en.wikipedia.org/wiki/Linux_kernel).
 
 ## Recursos
 Sitio oficial: [Git](https://git-scm.com/)
