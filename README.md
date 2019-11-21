@@ -1,7 +1,5 @@
 # Apuntes de Manuel Vargas
-Notas y _snippets_<sup>[1](#footnote01)</sup> de [Manuel Vargas](https://github.com/mfvargas) sobre sistemas de información geográfica, informática de la biodiversidad y otros temas.
-
-La siguiente es la lista de apuntes contenidos en este repositorio, agrupados por tema.
+Notas y _snippets_<sup>[1](#footnote01)</sup> de [Manuel Vargas](https://github.com/mfvargas) sobre sistemas de información geográfica, informática de la biodiversidad y otros temas:
 
 * [GDAL](https://github.com/mfvargas/snippets/blob/master/gdal/README.md)
 * [Git](https://github.com/mfvargas/snippets/blob/master/git/README.md)
