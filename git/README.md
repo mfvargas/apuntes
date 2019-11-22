@@ -4,8 +4,8 @@
 Git fue creado en 2005 por [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), con el propósito de coordinar el desarrollo del [kernel de Linux](https://en.wikipedia.org/wiki/Linux_kernel).
 
 ## Recursos
-Sitio oficial de Git: [Git](https://git-scm.com/)
-Ayuda y flujos de trabajo: [Using Git - GitHub Help](https://help.github.com/en/github/using-git)
+* Sitio oficial de Git: [Git](https://git-scm.com/)
+* Ayuda y flujos de trabajo: [Using Git - GitHub Help](https://help.github.com/en/github/using-git)
 
 ## Snippets
 ### Configuración de git
