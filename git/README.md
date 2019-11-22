@@ -32,10 +32,18 @@ $ git push -u origin master
 $ git clone https://github.com/estimacion-biodiversidad/estimacion-biodiversidad-qgis-plugin.git
 ```
 
-### Actualización de un repositorio
+### Aplicar cambios a un repositorio remoto
 ```terminal
 $ git status
 $ git add .
 $ git commit -m "Comentario"
 $ git push -u origin master
+```
+
+### Aplicar cambios desde un repositorio remoto
+Recursos:
+* [Getting changes from a remote repository - GitHub Help](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository)
+
+```terminal
+$ git pull origin master
 ```
