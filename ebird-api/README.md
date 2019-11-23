@@ -1,4 +1,4 @@
-# eBird - API
+# API de eBird
 [eBird](https://ebird.org/) es una base de datos en Internet sobre observaciones de aves. [Es el proyecto de ciencia ciudadana relacionado con biodiversidad más grande del mundo](https://ebird.org/about), con más de 100 millones de registros de aves contribuidos cada año por los _eBirders_. Una iniciativa colaborativa que cuenta con cientos de organizaciones socias, así como miles de expertos regionales, y cientos de miles de usuarios. eBird es administrado por el [Laboratorio de Ornitología de Cornell](https://www.birds.cornell.edu/).
 
 El proyecto fue iniciado en 2002 por el Laboratorio de Ornitología de Cornell y la [National Audubon Society](https://www.audubon.org/).
@@ -22,3 +22,4 @@ La [interfaz de programación de aplicaciones (API) de eBird](https://documenter
 ## Ejemplos
 
 ### Python
+[Consulta de las observaciones realizadas en una lista de _hotspots_ en un rango de fechas y exportación a un archivo CSV]()
