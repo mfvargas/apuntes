@@ -22,4 +22,4 @@ La [interfaz de programación de aplicaciones (API) de eBird](https://documenter
 ## Ejemplos
 
 ### Python
-[Consulta de las observaciones realizadas en una lista de _hotspots_ en un rango de fechas y exportación a un archivo CSV]()
+* [Consulta de las observaciones realizadas en una lista de _hotspots_ en un rango de fechas y exportación a un archivo CSV](https://github.com/mfvargas/apuntes/blob/master/ebird-api/Ejemplo%20de%20uso%20del%20API%20de%20eBird%20en%20Python.ipynb)
