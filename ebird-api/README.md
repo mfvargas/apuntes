@@ -9,6 +9,9 @@ La [interfaz de programación de aplicaciones (API) de eBird](https://documenter
 
 ## Recursos
 * Sitio oficial de eBird: [eBird - Discover a new world of birding...](https://ebird.org/)
-* Documentación del API: [eBird API 2.0](https://documenter.getpostman.com/view/664302/S1ENwy59?version=latest)
+* Documentación del API de eBird: [eBird API 2.0](https://documenter.getpostman.com/view/664302/S1ENwy59?version=latest)
+* Interfaz en Python para el API de eBird: [eBird API - PyPI](https://pypi.org/project/ebird-api/)
+* Interfaz en R para el API de eBird: [ropensci/rebird: Wrapper to the eBird API](https://github.com/ropensci/rebird)
+* Ejemplo de uso del API de eBird desde Python y R: [Wednesday Birders - Using the ebird API, Python, and R to analyze data for our birding group - hselab.org](http://hselab.org/wednesday-birders-using-the-ebird-api-python-and-r-to-analyze-data-for-our-birding-group.html)
 
 ## Snippets
