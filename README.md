@@ -1,6 +1,7 @@
 # Apuntes de Manuel Vargas
 Notas y _snippets_<sup>[1](#footnote01)</sup> de [Manuel Vargas](https://github.com/mfvargas) sobre sistemas de información geográfica, informática de la biodiversidad y otros temas:
 
+* [eBird - API](https://github.com/mfvargas/snippets/blob/master/ebird-api/README.md)
 * [GDAL](https://github.com/mfvargas/snippets/blob/master/gdal/README.md)
 * [Git](https://github.com/mfvargas/snippets/blob/master/git/README.md)
 * [http.server](https://github.com/mfvargas/snippets/blob/master/http.server/README.md)
