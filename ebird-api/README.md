@@ -3,7 +3,7 @@
 
 El proyecto fue iniciado en 2002 por el Laboratorio de Ornitología de Cornell y la [National Audubon Society](https://www.audubon.org/).
 
-eBird registra información información básica acerca de la distribución y la abundancia de aves en varias escalas espaciales y temporales. Una interfaz web (disponible también en dispositivos móviles) le permite a los participantes ingresar sus observaciones y consultar los resultados por medio de [visualizaciones estadísticas y geoespaciales](https://ebird.org/explore).
+eBird registra información básica acerca de la distribución y la abundancia de aves en varias escalas espaciales y temporales. Una interfaz web (disponible también en dispositivos móviles) le permite a los participantes ingresar sus observaciones y consultar los resultados por medio de [visualizaciones estadísticas y geoespaciales](https://ebird.org/explore).
 
 La [interfaz de programación de aplicaciones (API) de eBird](https://documenter.getpostman.com/view/664302/S1ENwy59?version=latest) permite realizar programáticamente consultas por criterios como ubicación, fecha, taxonomía y otros.
 
