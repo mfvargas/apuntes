@@ -8,7 +8,7 @@ eBird registra información básica acerca de la distribución y la abundancia d
 La [interfaz de programación de aplicaciones (API) de eBird](https://documenter.getpostman.com/view/664302/S1ENwy59?version=latest) permite realizar programáticamente consultas por criterios como ubicación, fecha, taxonomía y otros.
 
 ## Observaciones generales sobre el uso del API
-* Para utilizar el API, primero debe [solicitarse una llave (_key_)](https://ebird.org/api/keygen), la cual estará ligada a la cuenta de usuario de eBird. Esta llave debe ser incluida en un encabezado llamado ```x-ebirdapitoken```. También puede utilizarse como un parámetro de solicitud (_request parameter_) llamado ```key```.
+* Para utilizar el API de eBird, primero debe [solicitarse una llave (_key_)](https://ebird.org/api/keygen), la cual estará ligada a la cuenta de usuario. Esta llave debe ser incluida en un encabezado llamado ```x-ebirdapitoken```. También puede utilizarse como un parámetro de solicitud (_request parameter_) llamado ```key```.
 * El formato por defecto de las respuestas es [JavaScript Object Notation (JSON)](https://json.org/).
 
 ## Recursos
