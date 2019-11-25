@@ -12,5 +12,6 @@ La [interfaz de programación de aplicaciones (API) de GBIF](https://www.gbif.or
 ## Recursos
 * Sitio oficial de GBIF: [GBIF](https://www.gbif.org/)
 * Documentación del API de GBIF: [GBIF REST API](https://www.gbif.org/developer/summary)
-* Interfaz en Python para el API de GBIF: [gbif - PyPI](https://pypi.org/project/gbif/)
+* Interfaz en Python para el API de GBIF: [pygbif - PyPI](https://pypi.org/project/pygbif/)
+* Interfaz en Python para el API de GBIF: [gbif - PyPI](https://pypi.org/project/gbif/) (**parece estar en desuso**)
 * Interfaz en R para el API de GBIF: [ropensci/rgbif: Interface to the Global Biodiversity Information Facility API](https://github.com/ropensci/rgbif/)
