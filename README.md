@@ -2,6 +2,7 @@
 ## Computación
 
 * [eBird - API](https://github.com/mfvargas/snippets/blob/master/ebird-api/README.md)
+* [GBIF - API](https://github.com/mfvargas/snippets/blob/master/gbif-api/README.md)
 * [GDAL](https://github.com/mfvargas/snippets/blob/master/gdal/README.md)
 * [Git](https://github.com/mfvargas/snippets/blob/master/git/README.md)
 * [http.server](https://github.com/mfvargas/snippets/blob/master/http.server/README.md)
