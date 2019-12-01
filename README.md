@@ -1,6 +1,6 @@
 # Apuntes de Manuel Vargas
 ## Computación
-
+* [conda](https://github.com/mfvargas/snippets/blob/master/conda/README.md)
 * [eBird - API](https://github.com/mfvargas/snippets/blob/master/ebird-api/README.md)
 * [Fiona](https://github.com/mfvargas/snippets/blob/master/fiona/README.md)
 * [Folium](https://github.com/mfvargas/snippets/blob/master/folium/README.md)
