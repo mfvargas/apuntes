@@ -2,8 +2,8 @@
 [Rasterio](https://github.com/mapbox/rasterio) es una biblioteca de Python para leer y escribir datos raster.
 
 ## Recursos
-* Página oficial: [Rasterio](https://github.com/mapbox/rasterio)
-* Documentación: [Rasterio: access to geospatial raster data -- rasterio documentation](https://rasterio.readthedocs.io/)
+* Página oficial de Rasterio: [Rasterio](https://github.com/mapbox/rasterio)
+* Documentación oficial de Rasterio: [Rasterio: access to geospatial raster data -- rasterio documentation](https://rasterio.readthedocs.io/)
 * Guía de inicio rápido: [Python Quickstart -- rasterio documentation](https://rasterio.readthedocs.io/en/stable/quickstart.html)
 * Referencia del API: [Python API Reference -- rasterio documentation](https://rasterio.readthedocs.io/en/stable/api/)
 
