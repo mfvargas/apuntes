@@ -4,4 +4,4 @@
 ## Recursos
 * Sitio oficial de Flutter: [Flutter - Beautiful native apps in record time](https://flutter.dev/)
 * Sitio oficial de Dart: [Dart programming language](https://dart.dev/)
-* DartPad: [DartPad](https://dartpad.dartlang.org/)
+* Consola en línea de Dart: [DartPad](https://dartpad.dartlang.org/)
