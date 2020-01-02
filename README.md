@@ -3,6 +3,7 @@
 * [Conda](https://github.com/mfvargas/snippets/blob/master/conda/README.md)
 * [eBird - API](https://github.com/mfvargas/snippets/blob/master/ebird-api/README.md)
 * [Fiona](https://github.com/mfvargas/snippets/blob/master/fiona/README.md)
+* [Flutter](https://github.com/mfvargas/snippets/blob/master/flutter/README.md)
 * [Folium](https://github.com/mfvargas/snippets/blob/master/folium/README.md)
 * [GBIF - API](https://github.com/mfvargas/snippets/blob/master/gbif-api/README.md)
 * [GDAL](https://github.com/mfvargas/snippets/blob/master/gdal/README.md)
