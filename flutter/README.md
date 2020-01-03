@@ -5,5 +5,6 @@
 * Sitio oficial de Flutter: [Flutter - Beautiful native apps in record time](https://flutter.dev/)
 * Sitio oficial de Dart: [Dart programming language](https://dart.dev/)
 * Documentación oficial de Dart: [Dart Documentation](https://dart.dev/guides)
+* "Tour" del lenguaje Dart: [Language tour | Dart](https://dart.dev/guides/language/language-tour)
 * Consola en línea de Dart: [DartPad](https://dartpad.dartlang.org/)
 * Recursos del curso en Udemy de London App Brewery: [Flutter-Course-Resources The Complete Flutter Development Bootcam](https://github.com/londonappbrewery/Flutter-Course-Resources)
