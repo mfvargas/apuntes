@@ -10,6 +10,7 @@
 
 #### Widgets de Material implementados en Flutter
 * Documentación general de los widgets de Material implementados en Flutter: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
+* StatelessWidget: [StatelessWidget class - material library](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)
 * Scaffold: [Scaffold class - material library](https://api.flutter.dev/flutter/material/Scaffold-class.html)
 * AppBar: [AppBar class - material library](https://api.flutter.dev/flutter/material/AppBar-class.html)
 
