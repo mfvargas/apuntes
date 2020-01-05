@@ -6,7 +6,7 @@
 * Sitio oficial de Flutter: [Flutter - Beautiful native apps in record time](https://flutter.dev/)
 * Documentación oficial de Flutter: [Flutter Documentation - Flutter](https://flutter.dev/docs)
 * Libro de recetas de Flutter: [Cookbook - Flutter](https://flutter.dev/docs/cookbook)
-* Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
+* Documentación de los widgets de Material implementados en Flutter: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
 * Recursos del curso en Udemy de London App Brewery: [Flutter-Course-Resources The Complete Flutter Development Bootcam](https://github.com/londonappbrewery/Flutter-Course-Resources)
 
 ### Dart
@@ -15,3 +15,6 @@
 * "Tour" del lenguaje Dart: [Language tour | Dart](https://dart.dev/guides/language/language-tour)
 * Guía de estilo de Dart: [Effective Dart: Style | Dart](https://dart.dev/guides/language/effective-dart/style)
 * Consola en línea de Dart: [DartPad](https://dartpad.dartlang.org/)
+
+### Otros
+* Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
