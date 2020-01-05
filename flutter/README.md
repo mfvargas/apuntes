@@ -9,6 +9,10 @@
 * Documentación de los widgets de Material implementados en Flutter: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
 * Recursos del curso en Udemy de London App Brewery: [Flutter-Course-Resources The Complete Flutter Development Bootcam](https://github.com/londonappbrewery/Flutter-Course-Resources)
 
+#### Paquetes
+* Lista de paquetes: [Top packages](https://pub.dev/packages/)
+* geolocator: [geolocator | Flutter Package](https://pub.dev/packages/geolocator)
+
 ### Dart
 * Sitio oficial de Dart: [Dart programming language | Dart](https://dart.dev/)
 * Documentación oficial de Dart: [Dart Documentation | Dart](https://dart.dev/guides)
