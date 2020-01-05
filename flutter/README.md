@@ -6,10 +6,13 @@
 * Sitio oficial de Flutter: [Flutter - Beautiful native apps in record time](https://flutter.dev/)
 * Documentación oficial de Flutter: [Flutter Documentation - Flutter](https://flutter.dev/docs)
 * Libro de recetas de Flutter: [Cookbook - Flutter](https://flutter.dev/docs/cookbook)
-* Documentación de los widgets de Material implementados en Flutter: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
 * Recursos del curso en Udemy de London App Brewery: [Flutter-Course-Resources The Complete Flutter Development Bootcam](https://github.com/londonappbrewery/Flutter-Course-Resources)
 
-#### Paquetes
+#### Widgets de Material implementados en Flutter
+* Documentación general de los widgets de Material implementados en Flutter: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
+* Scaffold: [Scaffold class - material library](https://api.flutter.dev/flutter/material/Scaffold-class.html)
+
+#### Paquetes de Flutter
 * Lista de paquetes: [Top packages](https://pub.dev/packages/)
 * geolocator: [geolocator | Flutter Package](https://pub.dev/packages/geolocator)
 
