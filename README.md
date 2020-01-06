@@ -11,6 +11,7 @@
 * [Git](https://github.com/mfvargas/snippets/blob/master/git/README.md)
 * [http.server](https://github.com/mfvargas/snippets/blob/master/http.server/README.md)
 * [OMDb - API](https://github.com/mfvargas/snippets/blob/master/omdb-api/README.md)
+* [OpenWeatherMap - API](https://github.com/mfvargas/snippets/blob/master/openweathermap-api/README.md)
 * [Pandas](https://github.com/mfvargas/snippets/blob/master/pandas/README.md)
 * [Python](https://github.com/mfvargas/snippets/blob/master/python/README.md)
 * [Rasterio](https://github.com/mfvargas/snippets/blob/master/rasterio/README.md)
