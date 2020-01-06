@@ -3,13 +3,13 @@
 
 ## Recursos
 ### Flutter
-* Sitio oficial de Flutter: [Flutter - Beautiful native apps in record time](https://flutter.dev/)
-* Documentación oficial de Flutter: [Flutter Documentation - Flutter](https://flutter.dev/docs)
-* Libro de recetas de Flutter: [Cookbook - Flutter](https://flutter.dev/docs/cookbook)
+* Sitio oficial: [Flutter - Beautiful native apps in record time](https://flutter.dev/)
+* Documentación oficial: [Flutter Documentation - Flutter](https://flutter.dev/docs)
+* Libro de recetas: [Cookbook - Flutter](https://flutter.dev/docs/cookbook)
 * Recursos del curso en Udemy de London App Brewery: [Flutter-Course-Resources The Complete Flutter Development Bootcam](https://github.com/londonappbrewery/Flutter-Course-Resources)
 
 #### Widgets de Material implementados en Flutter
-* Documentación general de los widgets de Material implementados en Flutter: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
+* Documentación general: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
 * StatelessWidget: [StatelessWidget class - material library](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)
 * StatefulWidget: [StatefulWidget class - material library](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
 * Scaffold: [Scaffold class - material library](https://api.flutter.dev/flutter/material/Scaffold-class.html)
@@ -18,9 +18,9 @@
 
 #### Paquetes de Flutter
 * Lista de paquetes: [Top packages](https://pub.dev/packages/)
-* geolocator: [geolocator | Flutter Package](https://pub.dev/packages/geolocator)
-* http: [http | Flutter Package](https://pub.dev/packages/http)
-* flutter_spinkit: [flutter_spinkit | Flutter Package](https://pub.dev/packages/flutter_spinkit)
+* geolocator (servicios de geolocalización): [geolocator | Flutter Package](https://pub.dev/packages/geolocator)
+* http (solicitudes http para API): [http | Flutter Package](https://pub.dev/packages/http)
+* flutter_spinkit (animaciones para indicar carga de datos): [flutter_spinkit | Flutter Package](https://pub.dev/packages/flutter_spinkit)
 
 ### Dart
 * Sitio oficial de Dart: [Dart programming language | Dart](https://dart.dev/)
