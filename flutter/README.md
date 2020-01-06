@@ -20,6 +20,7 @@
 * Lista de paquetes: [Top packages](https://pub.dev/packages/)
 * geolocator: [geolocator | Flutter Package](https://pub.dev/packages/geolocator)
 * http: [http | Flutter Package](https://pub.dev/packages/http)
+* flutter_spinkit: [flutter_spinkit | Flutter Package](https://pub.dev/packages/flutter_spinkit)
 
 ### Dart
 * Sitio oficial de Dart: [Dart programming language | Dart](https://dart.dev/)
