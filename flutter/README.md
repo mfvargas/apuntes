@@ -23,11 +23,11 @@
 * flutter_spinkit (animaciones para indicar carga de datos): [flutter_spinkit | Flutter Package](https://pub.dev/packages/flutter_spinkit)
 
 ### Dart
-* Sitio oficial de Dart: [Dart programming language | Dart](https://dart.dev/)
-* Documentación oficial de Dart: [Dart Documentation | Dart](https://dart.dev/guides)
-* "Tour" del lenguaje Dart: [Language tour | Dart](https://dart.dev/guides/language/language-tour)
-* Guía de estilo de Dart: [Effective Dart: Style | Dart](https://dart.dev/guides/language/effective-dart/style)
-* Consola en línea de Dart: [DartPad](https://dartpad.dartlang.org/)
+* Sitio oficial: [Dart programming language | Dart](https://dart.dev/)
+* Documentación oficial: [Dart Documentation | Dart](https://dart.dev/guides)
+* "Tour" del lenguaje: [Language tour | Dart](https://dart.dev/guides/language/language-tour)
+* Guía de estilo: [Effective Dart: Style | Dart](https://dart.dev/guides/language/effective-dart/style)
+* Consola en línea: [DartPad](https://dartpad.dartlang.org/)
 
 ### Otros
 * Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
