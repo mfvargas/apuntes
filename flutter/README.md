@@ -5,10 +5,13 @@
 ### Flutter
 * Sitio oficial: [Flutter - Beautiful native apps in record time](https://flutter.dev/)
 * Documentación oficial: [Flutter Documentation - Flutter](https://flutter.dev/docs)
-* Libro de recetas: [Cookbook - Flutter](https://flutter.dev/docs/cookbook)
 * Recursos del curso en Udemy de London App Brewery: [Flutter-Course-Resources The Complete Flutter Development Bootcam](https://github.com/londonappbrewery/Flutter-Course-Resources)
 
-#### Widgets de Material implementados en Flutter
+#### Recetas
+* Libro de recetas: [Cookbook - Flutter](https://flutter.dev/docs/cookbook)
+* Navegación con rutas nombradas: [Navigate with named routes - Flutter](https://flutter.dev/docs/cookbook/navigation/named-routes)
+
+#### Widgets de Material
 * Documentación general: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
 * StatelessWidget: [StatelessWidget class - material library](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)
 * StatefulWidget: [StatefulWidget class - material library](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
@@ -18,7 +21,7 @@
 * FlatButton: [FlatButton class - material library](https://api.flutter.dev/flutter/material/FlatButton-class.html)
 * RaisedButton: [RaisedButton class - material library](https://api.flutter.dev/flutter/material/RaisedButton-class.html)
 
-#### Paquetes de Flutter
+#### Paquetes
 * Lista de paquetes: [Top packages](https://pub.dev/packages/)
 * geolocator (servicios de geolocalización): [geolocator | Flutter Package](https://pub.dev/packages/geolocator)
 * http (solicitudes http para API): [http | Flutter Package](https://pub.dev/packages/http)
