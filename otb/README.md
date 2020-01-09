@@ -7,5 +7,4 @@
 * Notas para la instalación en Ubuntu: [Ubuntu - Package Search Results -- otb](https://packages.ubuntu.com/search?keywords=otb&searchon=names)
 * Aplicaciones: [All Applications -- Orfeo Toolbox documentation](https://www.orfeo-toolbox.org/CookBook/Applications.html)
 
-
-[Utilitarios de línea de comandos](https://github.com/mfvargas/snippets/blob/master/gdal/otb-linea-comandos.md)
+* [Utilitarios de línea de comandos](https://github.com/mfvargas/snippets/blob/master/gdal/otb-linea-comandos.md)
