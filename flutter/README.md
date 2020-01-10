@@ -26,6 +26,8 @@
 * geolocator (servicios de geolocalización): [geolocator | Flutter Package](https://pub.dev/packages/geolocator)
 * http (solicitudes http para API): [http | Flutter Package](https://pub.dev/packages/http)
 * flutter_spinkit (animaciones para indicar carga de datos): [flutter_spinkit | Flutter Package](https://pub.dev/packages/flutter_spinkit)
+* firebase_core (complemento para el acceso al API central de Firebase) [firebase_core | Flutter Package](https://pub.dev/packages/firebase_core)
+* firebase_auth (complemento para el acceso al API de autenticación de Firebase) [firebase_auth | Flutter Package](https://pub.dev/packages/firebase_auth)
 
 ### Dart
 * Sitio oficial: [Dart programming language | Dart](https://dart.dev/)
@@ -33,6 +35,9 @@
 * "Tour" del lenguaje: [Language tour | Dart](https://dart.dev/guides/language/language-tour)
 * Guía de estilo: [Effective Dart: Style | Dart](https://dart.dev/guides/language/effective-dart/style)
 * Consola en línea: [DartPad](https://dartpad.dartlang.org/)
+
+### FlutterFire
+* FlutterFire: [flutterfire/README.md](https://github.com/FirebaseExtended/flutterfire/blob/master/README.md)
 
 ### Otros
 * Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
