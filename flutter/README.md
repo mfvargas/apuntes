@@ -61,7 +61,7 @@ $ tar xf flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
 ```terminal
 $ nano $HOME/.bashrc
 
-# Debe agregarse la línea (y hacer la sustitución por el directorio correspondiente):
+# Debe agregarse la siguiente línea (y hacer la sustitución por el directorio correspondiente):
 export PATH="$PATH:/home/mfvargas/flutter/bin"
 ```
 
