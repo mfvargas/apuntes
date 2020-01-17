@@ -5,6 +5,7 @@
 ### Flutter
 * Sitio oficial: [Flutter - Beautiful native apps in record time](https://flutter.dev/)
 * Documentación oficial: [Flutter Documentation - Flutter](https://flutter.dev/docs)
+* Instalación: [Install - Flutter](https://flutter.dev/docs/get-started/install)
 * Recursos del curso en Udemy de London App Brewery: [Flutter-Course-Resources The Complete Flutter Development Bootcam](https://github.com/londonappbrewery/Flutter-Course-Resources)
 
 #### Recetas
