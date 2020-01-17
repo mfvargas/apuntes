@@ -48,7 +48,7 @@
 ### Linux
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
 
-Descarga y extracción
+**Descarga y extracción**
 ```terminal
 $ cd
 
@@ -57,10 +57,16 @@ $ wget wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/f
 $ tar xf flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
 ```
 
-Modificación del PATH
+**Modificación del PATH**
 ```terminal
 $ nano $HOME/.bashrc
 
 # Debe agregarse la línea (y hacer la sustitución por el directorio correspondiente):
 export PATH="$PATH:/home/mfvargas/flutter/bin"
+```
+
+**Pruebas**
+```terminal
+$ flutter
+$ flutter doctor
 ```
