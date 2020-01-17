@@ -43,3 +43,12 @@
 
 ### Otros
 * Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
+
+## Instalación
+### Linux
+El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
+```terminal
+$ wget wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
+$ tar xf flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
+```
+
