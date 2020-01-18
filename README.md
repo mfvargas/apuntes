@@ -11,6 +11,7 @@
 * [GeoPandas](https://github.com/mfvargas/snippets/blob/master/geopandas/README.md)
 * [Git](https://github.com/mfvargas/snippets/blob/master/git/README.md)
 * [http.server](https://github.com/mfvargas/snippets/blob/master/http.server/README.md)
+* [Jekyll](https://github.com/mfvargas/snippets/blob/master/jekyll/README.md)
 * [OMDb - API](https://github.com/mfvargas/snippets/blob/master/omdb-api/README.md)
 * [OpenWeatherMap - API](https://github.com/mfvargas/snippets/blob/master/openweathermap-api/README.md)
 * [OTB](https://github.com/mfvargas/snippets/blob/master/otb/README.md)
