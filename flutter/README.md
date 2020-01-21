@@ -76,4 +76,4 @@ $ flutter
 $ flutter doctor
 ```
 
-### Instalación de Android Studio
+#### Instalación de Android Studio
