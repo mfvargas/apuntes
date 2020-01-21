@@ -65,6 +65,9 @@ $ nano $HOME/.bashrc
 
 # Debe agregarse la siguiente línea (y hacer la sustitución por el directorio correspondiente):
 export PATH="$PATH:$HOME/flutter/bin"
+
+# Verificación
+$ echo $PATH
 ```
 
 ##### Pruebas
