@@ -89,7 +89,7 @@ El archivo debe descargarse de [https://developer.android.com/studio](https://de
 
 Para extraerlo:
 ```terminal
-$ sudo tar xvzf <archivo-descargado> -d /opt
+$ sudo tar xvzf <archivo-descargado> -C /opt
 ```
 
 ##### Ejecución del instalador
