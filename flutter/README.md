@@ -121,4 +121,4 @@ $ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-
 ```
 
 ##### Instalación de complementos para Flutter
-En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **Flutter** (automáticamente se instalará también el complemento **Dart**). Debe reiniciarse el Android Studio y en el menú principal aparecerá la opción _Start a new Flutter project_.
+En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **Flutter** (automáticamente se instalará también el complemento **Dart**). Luego debe reiniciarse el Android Studio y en el menú principal aparecerá la opción _Start a new Flutter project_.
