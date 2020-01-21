@@ -115,9 +115,14 @@ INFO: /dev/kvm exists
 KVM acceleration can be used
 ```
 
-Para instalarlo:
+Además, debe ejecutarse:
 ```terminal
-$ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-libs-multiarch
+$ sudo apt-get install qemu-kvm
+```
+
+Para asignar permisos:
+```terminal
+$ sudo adduser $USER kvm
 ```
 
 ##### Instalación de complementos para Flutter
