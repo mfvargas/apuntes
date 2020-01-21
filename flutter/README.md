@@ -50,6 +50,7 @@ El procedimiento está detallado en [https://flutter.dev/docs/get-started/instal
 
 **Descarga y extracción**
 ```terminal
+# La instalación se realizará en $HOME/flutter
 $ cd
 
 # Debe sustituirse el nombre del archivo por el correspondiente a la última versión
@@ -62,7 +63,7 @@ $ tar xf flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
 $ nano $HOME/.bashrc
 
 # Debe agregarse la siguiente línea (y hacer la sustitución por el directorio correspondiente):
-export PATH="$PATH:/home/mfvargas/flutter/bin"
+export PATH="$PATH:$HOME/flutter/bin"
 ```
 
 **Pruebas**
