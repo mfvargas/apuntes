@@ -53,7 +53,7 @@ El procedimiento está detallado en [https://flutter.dev/docs/get-started/instal
 $ cd
 
 # Debe sustituirse el nombre del archivo por el correspondiente a la última versión
-$ wget wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
+$ wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
 $ tar xf flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
 ```
 
