@@ -96,3 +96,26 @@ $ sudo tar xvzf <archivo-descargado> -C /opt
 ```terminal
 $ sudo /opt/android-studio/bin/studio.sh
 ```
+
+##### Ejecución del programa
+```terminal
+$ /opt/android-studio/bin/studio.sh
+```
+
+##### Configuración de acelaración de VM
+El procedimiento está detallado en [https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux).
+
+Para verificar si KVM está instalado:
+```terminal
+$ sudo apt-get install cpu-checker
+$ egrep -c '(vmx|svm)' /proc/cpuinfo
+12
+$ kvm-ok
+INFO: /dev/kvm exists
+KVM acceleration can be used
+```
+
+Para instalarlo:
+```terminal
+$ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-libs-multiarch
+```
