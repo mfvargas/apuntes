@@ -124,6 +124,7 @@ Para agregar el usuario al grupo kvm:
 ```terminal
 $ sudo adduser $USER kvm
 ```
+**Luego de esto, debe reiniciarse el sistema operativo**
 
 ##### Instalación de complementos para Flutter
 En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **Flutter** (automáticamente se instalará también el complemento **Dart**). Luego debe reiniciarse el Android Studio y en el menú principal aparecerá la opción _Start a new Flutter project_.
