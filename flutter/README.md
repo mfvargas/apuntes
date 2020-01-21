@@ -48,8 +48,8 @@
 ### Linux
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
 
-#### Instalación del SDK de Flutter ####
-##### Descarga y extracción #####
+#### Instalación del SDK de Flutter
+##### Descarga y extracción
 ```terminal
 # La instalación se realizará en $HOME/flutter
 $ cd
@@ -59,7 +59,7 @@ $ wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutte
 $ tar xf flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
 ```
 
-##### Modificación del PATH #####
+##### Modificación del PATH
 ```terminal
 $ nano $HOME/.bashrc
 
@@ -79,10 +79,20 @@ $ flutter doctor
 #### Instalación de Android Studio
 El procedimiento está detallado en [https://developer.android.com/studio/install#linux](https://developer.android.com/studio/install#linux).
 
-##### Descarga y extracción #####
-El archivo para descargar está en [https://developer.android.com/studio](https://developer.android.com/studio).
+##### Instalación de paquetes requeridos
 ```terminal
-
+$ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 ```
 
+##### Descarga y extracción
+El archivo debe descargarse de [https://developer.android.com/studio](https://developer.android.com/studio).
 
+Para extraerlo:
+```terminal
+$ sudo tar xvzf <archivo-descargado> -d /opt
+```
+
+##### Ejecución del instalador
+```terminal
+$ sudo /opt/android-studio/bin/studio.sh
+```
