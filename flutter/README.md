@@ -77,3 +77,12 @@ $ flutter doctor
 ```
 
 #### Instalación de Android Studio
+El procedimiento está detallado en [https://developer.android.com/studio/install#linux](https://developer.android.com/studio/install#linux).
+
+##### Descarga y extracción #####
+El archivo para descargar está en [https://developer.android.com/studio](https://developer.android.com/studio).
+```terminal
+
+```
+
+
