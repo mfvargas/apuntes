@@ -48,7 +48,8 @@
 ### Linux
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
 
-**Descarga y extracción**
+#### Instalación del SDK de Flutter ####
+##### Descarga y extracción #####
 ```terminal
 # La instalación se realizará en $HOME/flutter
 $ cd
@@ -58,7 +59,7 @@ $ wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutte
 $ tar xf flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
 ```
 
-**Modificación del PATH**
+##### Modificación del PATH #####
 ```terminal
 $ nano $HOME/.bashrc
 
@@ -66,8 +67,10 @@ $ nano $HOME/.bashrc
 export PATH="$PATH:$HOME/flutter/bin"
 ```
 
-**Pruebas**
+##### Pruebas
 ```terminal
 $ flutter
 $ flutter doctor
 ```
+
+### Instalación de Android Studio
