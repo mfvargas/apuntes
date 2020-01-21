@@ -120,7 +120,7 @@ Además, debe ejecutarse:
 $ sudo apt-get install qemu-kvm
 ```
 
-Para asignar permisos:
+Para agregar el usuario al grupo kvm:
 ```terminal
 $ sudo adduser $USER kvm
 ```
