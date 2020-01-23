@@ -124,7 +124,17 @@ Para agregar el usuario al grupo kvm:
 ```terminal
 $ sudo adduser $USER kvm
 ```
-**Luego de esto, debe reiniciarse el sistema operativo**
+Luego de esto, debe reiniciarse el sistema operativo.
 
 ##### Instalación de complementos para Flutter
 En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **Flutter** (automáticamente se instalará también el complemento **Dart**). Luego debe reiniciarse el Android Studio y en el menú principal aparecerá la opción _Start a new Flutter project_.
+
+##### Sugerencias para la creación de un dispositivo virtual
+* Usar Nexus 6
+* Activar la aceleración de hardware (VM)
+
+##### Posible problemas
+**Licencias no aceptadas**: [https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements](https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements)
+```terminal
+$ flutter doctor --android-licenses
+```
