@@ -134,7 +134,10 @@ En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **
 * Activar la aceleración de hardware (VM)
 
 ##### Posible problemas
-**Licencias no aceptadas**: [https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements](https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements)
+**Licencias no aceptadas**
+El problema y su solución se explican en [https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements](https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements).
+
+El siguiente comando solucionó el problema:
 ```terminal
 $ flutter doctor --android-licenses
 ```
