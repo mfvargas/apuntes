@@ -44,12 +44,11 @@
 ### Otros
 * Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
 
-## Instalación
-### Linux
+## Instalación en Linux
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
 
-#### Instalación del SDK de Flutter
-##### Descarga y extracción
+### Instalación del SDK de Flutter
+#### Descarga y extracción
 ```terminal
 # La instalación se realizará en $HOME/flutter
 $ cd
@@ -59,7 +58,7 @@ $ wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutte
 $ tar xf flutter_linux_v1.12.13+hotfix.5-stable.tar.xz
 ```
 
-##### Modificación del PATH
+#### Modificación del PATH
 ```terminal
 $ nano $HOME/.bashrc
 
@@ -70,21 +69,21 @@ export PATH="$PATH:$HOME/flutter/bin"
 $ echo $PATH
 ```
 
-##### Pruebas
+#### Pruebas
 ```terminal
 $ flutter
 $ flutter doctor
 ```
 
-#### Instalación de Android Studio
+### Instalación de Android Studio
 El procedimiento está detallado en [https://developer.android.com/studio/install#linux](https://developer.android.com/studio/install#linux).
 
-##### Instalación de paquetes requeridos
+#### Instalación de paquetes requeridos
 ```terminal
 $ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 ```
 
-##### Descarga y extracción
+#### Descarga y extracción
 El archivo debe descargarse de [https://developer.android.com/studio](https://developer.android.com/studio).
 
 Para extraerlo:
@@ -92,17 +91,17 @@ Para extraerlo:
 $ sudo tar xvzf <archivo-descargado> -C /opt
 ```
 
-##### Ejecución del instalador
+#### Ejecución del instalador
 ```terminal
 $ sudo /opt/android-studio/bin/studio.sh
 ```
 
-##### Ejecución del programa
+#### Ejecución del programa
 ```terminal
 $ /opt/android-studio/bin/studio.sh
 ```
 
-##### Configuración de acelaración de VM
+#### Configuración de acelaración de VM
 (Este es un tema independiente de la instalación de Android Studio)
 El procedimiento está detallado en [https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux).
 
@@ -127,14 +126,14 @@ $ sudo adduser $USER kvm
 ```
 Luego de esto, debe reiniciarse el sistema operativo.
 
-##### Instalación de complementos para Flutter
+#### Instalación de complementos para Flutter
 En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **Flutter** (automáticamente se instalará también el complemento **Dart**). Luego debe reiniciarse el Android Studio y en el menú principal aparecerá la opción _Start a new Flutter project_.
 
-##### Sugerencias para la creación de un dispositivo virtual
+#### Sugerencias para la creación de un dispositivo virtual
 * Usar Nexus 6
 * Activar la aceleración de hardware (VM)
 
-##### Posibles problemas
+#### Posibles problemas
 _Licencias no aceptadas_
 El problema y su solución se explican en [https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements](https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements).
 
@@ -142,7 +141,7 @@ El siguiente comando solucionó el problema:
 ```terminal
 $ flutter doctor --android-licenses
 ```
-##### Sugerencias
+#### Sugerencias
 En _File - Settings - Languages & Frameworks - Flutter_ activar:
 * _Perform hot reload on save_ (está activado por defecto)
 * _Format code on save_
