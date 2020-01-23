@@ -103,6 +103,7 @@ $ /opt/android-studio/bin/studio.sh
 ```
 
 ##### Configuración de acelaración de VM
+(Este es un tema independiente de la instalación de Android Studio)
 El procedimiento está detallado en [https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux).
 
 Para verificar si KVM está instalado:
@@ -133,7 +134,7 @@ En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **
 * Usar Nexus 6
 * Activar la aceleración de hardware (VM)
 
-##### Posible problemas
+##### Posibles problemas
 _Licencias no aceptadas_
 El problema y su solución se explican en [https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements](https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements).
 
@@ -141,3 +142,7 @@ El siguiente comando solucionó el problema:
 ```terminal
 $ flutter doctor --android-licenses
 ```
+##### Sugerencias
+En _File - Settings - Languages & Frameworks - Flutter_ activar:
+* _Perform hot reload on save_ (está activado por defecto)
+* _Format code on save_
