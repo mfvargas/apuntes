@@ -48,7 +48,6 @@
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
 
 ### Configuración de acelaración de VM
-(Este es un tema independiente de la instalación de Android Studio)
 El procedimiento está detallado en [https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux).
 
 Para verificar si KVM está instalado:
