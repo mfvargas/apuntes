@@ -47,6 +47,31 @@
 ## Instalación en Linux
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
 
+### Configuración de acelaración de VM
+(Este es un tema independiente de la instalación de Android Studio)
+El procedimiento está detallado en [https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux).
+
+Para verificar si KVM está instalado:
+```terminal
+$ sudo apt-get install cpu-checker
+$ egrep -c '(vmx|svm)' /proc/cpuinfo
+12
+$ kvm-ok
+INFO: /dev/kvm exists
+KVM acceleration can be used
+```
+
+Además, debe ejecutarse:
+```terminal
+$ sudo apt-get install qemu-kvm
+```
+
+Para agregar el usuario al grupo kvm:
+```terminal
+$ sudo adduser $USER kvm
+```
+Luego de esto, debe reiniciarse el sistema operativo.
+
 ### Instalación del SDK de Flutter
 #### Descarga y extracción
 ```terminal
@@ -120,28 +145,3 @@ $ flutter doctor --android-licenses
 En _File - Settings - Languages & Frameworks - Flutter_ activar:
 * _Perform hot reload on save_ (está activado por defecto)
 * _Format code on save_
-
-### Configuración de acelaración de VM
-(Este es un tema independiente de la instalación de Android Studio)
-El procedimiento está detallado en [https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux).
-
-Para verificar si KVM está instalado:
-```terminal
-$ sudo apt-get install cpu-checker
-$ egrep -c '(vmx|svm)' /proc/cpuinfo
-12
-$ kvm-ok
-INFO: /dev/kvm exists
-KVM acceleration can be used
-```
-
-Además, debe ejecutarse:
-```terminal
-$ sudo apt-get install qemu-kvm
-```
-
-Para agregar el usuario al grupo kvm:
-```terminal
-$ sudo adduser $USER kvm
-```
-Luego de esto, debe reiniciarse el sistema operativo.
