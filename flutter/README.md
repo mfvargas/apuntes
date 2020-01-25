@@ -101,7 +101,27 @@ $ sudo /opt/android-studio/bin/studio.sh
 $ /opt/android-studio/bin/studio.sh
 ```
 
-#### Configuración de acelaración de VM
+#### Instalación de complementos para Flutter
+En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **Flutter** (automáticamente se instalará también el complemento **Dart**). Luego debe reiniciarse el Android Studio y en el menú principal aparecerá la opción _Start a new Flutter project_.
+
+#### Sugerencias para la creación de un dispositivo virtual
+* Usar Nexus 6
+* Activar la aceleración de hardware (VM)
+
+#### Posibles problemas
+_Licencias no aceptadas_
+El problema y su solución se explican en [https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements](https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements).
+
+El siguiente comando solucionó el problema:
+```terminal
+$ flutter doctor --android-licenses
+```
+#### Sugerencias
+En _File - Settings - Languages & Frameworks - Flutter_ activar:
+* _Perform hot reload on save_ (está activado por defecto)
+* _Format code on save_
+
+### Configuración de acelaración de VM
 (Este es un tema independiente de la instalación de Android Studio)
 El procedimiento está detallado en [https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux).
 
@@ -125,23 +145,3 @@ Para agregar el usuario al grupo kvm:
 $ sudo adduser $USER kvm
 ```
 Luego de esto, debe reiniciarse el sistema operativo.
-
-#### Instalación de complementos para Flutter
-En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **Flutter** (automáticamente se instalará también el complemento **Dart**). Luego debe reiniciarse el Android Studio y en el menú principal aparecerá la opción _Start a new Flutter project_.
-
-#### Sugerencias para la creación de un dispositivo virtual
-* Usar Nexus 6
-* Activar la aceleración de hardware (VM)
-
-#### Posibles problemas
-_Licencias no aceptadas_
-El problema y su solución se explican en [https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements](https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements).
-
-El siguiente comando solucionó el problema:
-```terminal
-$ flutter doctor --android-licenses
-```
-#### Sugerencias
-En _File - Settings - Languages & Frameworks - Flutter_ activar:
-* _Perform hot reload on save_ (está activado por defecto)
-* _Format code on save_
