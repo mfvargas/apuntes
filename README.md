@@ -1,5 +1,6 @@
 # Apuntes de Manuel Vargas
 ## Computación
+* [Anaconda](https://github.com/mfvargas/snippets/blob/master/anaconda/README.md)
 * [Android Studio](https://github.com/mfvargas/snippets/blob/master/android-studio/README.md)
 * [Conda](https://github.com/mfvargas/snippets/blob/master/conda/README.md)
 * [eBird - API](https://github.com/mfvargas/snippets/blob/master/ebird-api/README.md)
