@@ -44,7 +44,7 @@
 ### Otros
 * Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
 
-## Instalación en Linux
+## Instalación y configuración en Linux
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
 
 ### Configuración de acelaración de VM
