@@ -13,6 +13,7 @@
 * Navegación con rutas nombradas: [Navigate with named routes - Flutter](https://flutter.dev/docs/cookbook/navigation/named-routes)
 
 #### Widgets de Material
+* Sitio oficial: [Homepage - Material Design](https://material.io/)
 * Documentación general: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
 * StatelessWidget: [StatelessWidget class - material library](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)
 * StatefulWidget: [StatefulWidget class - material library](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
@@ -42,7 +43,7 @@
 * FlutterFire: [flutterfire/README.md](https://github.com/FirebaseExtended/flutterfire/blob/master/README.md)
 
 ### Otros
-* Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
+* Generador de íconos para apps: [App Icon Generator](https://appicon.co/)
 
 ## Instalación y configuración en Linux
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
