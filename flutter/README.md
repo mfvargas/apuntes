@@ -12,6 +12,9 @@
 * Libro de recetas: [Cookbook - Flutter](https://flutter.dev/docs/cookbook)
 * Navegación con rutas nombradas: [Navigate with named routes - Flutter](https://flutter.dev/docs/cookbook/navigation/named-routes)
 
+#### Widgets
+* Catálogo: [Wdiget catalog - Flutter](https://flutter.dev/docs/development/ui/widgets)
+
 #### Widgets de Material
 * Sitio oficial: [Homepage - Material Design](https://material.io/)
 * Documentación general: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
