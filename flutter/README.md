@@ -133,7 +133,7 @@ $ /opt/android-studio/bin/studio.sh
 En _Configure - Settings - Plugins_ debe buscarse e instalarse el complemento **Flutter** (automáticamente se instalará también el complemento **Dart**). Luego debe reiniciarse el Android Studio y en el menú principal aparecerá la opción _Start a new Flutter project_.
 
 #### Sugerencias para la creación de un dispositivo virtual
-* Usar Nexus 6
+* Usar Nexus 6 (también vale la pena revisar los Pixel, que traen el símbolo de Play, lo que significa que tienen algunas aplicaciones, como Google Maps, instaladas ya.)
 * Activar la aceleración de hardware (VM)
 
 #### Posibles problemas
