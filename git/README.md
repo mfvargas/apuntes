@@ -23,7 +23,7 @@ $ git add .
 $ git commit -m "Commit inicial"
 
 # El repositorio estimacion-biodiversidad/estimacion-biodiversidad-qgis-plugin debe ser creado en GitHub (https://github.com/)
-$ git remote add origin git@github.com:estimacion-biodiversidad/estimacion-biodiversidad-qgis-plugin
+$ git remote add origin https://github.com/estimacion-biodiversidad/estimacion-biodiversidad-qgis-plugin
 
 $ git push -u origin master
 ```
