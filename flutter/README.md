@@ -104,6 +104,8 @@ $ flutter doctor
 ### Instalación de Android Studio
 El procedimiento está detallado en [https://developer.android.com/studio/install#linux](https://developer.android.com/studio/install#linux).
 
+**NOTA**: aunque se utilice otro IDE, la instalación de Android Studio siempre es necesaria, para realizar tareas como configuración de emuladores.
+
 #### Instalación de paquetes requeridos
 ```terminal
 $ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
