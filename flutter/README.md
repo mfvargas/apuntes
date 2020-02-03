@@ -147,7 +147,7 @@ En _File - Settings - Languages & Frameworks - Flutter_ activar:
 * _Perform hot reload on save_ (está activado por defecto)
 * _Format code on save_
 
-## Comandos
+## Interfaz de línea de comandos
 Se recomienda leer [Flutter and the Command Line — a Love Story](https://medium.com/flutter-community/flutter-and-the-command-line-a-love-story-a3648ef2411).
 
 Para obtener ayuda general sobre los comandos de Flutter
