@@ -13,7 +13,7 @@
 * Navegación con rutas nombradas: [Navigate with named routes - Flutter](https://flutter.dev/docs/cookbook/navigation/named-routes)
 
 #### Widgets
-* Catálogo: [Wdiget catalog - Flutter](https://flutter.dev/docs/development/ui/widgets)
+* Catálogo general: [Widget catalog - Flutter](https://flutter.dev/docs/development/ui/widgets)
 
 #### Widgets de Material
 * Sitio oficial: [Homepage - Material Design](https://material.io/)
