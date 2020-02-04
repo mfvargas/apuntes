@@ -16,16 +16,16 @@
 * Catálogo general: [Widget catalog - Flutter](https://flutter.dev/docs/development/ui/widgets)
 
 #### Widgets de Material
-* Sitio oficial: [Homepage - Material Design](https://material.io/)
+* Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
 * Documentación general: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
-* StatelessWidget: [StatelessWidget class - material library](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)
-* StatefulWidget: [StatefulWidget class - material library](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
-* Scaffold: [Scaffold class - material library](https://api.flutter.dev/flutter/material/Scaffold-class.html)
 * AppBar: [AppBar class - material library](https://api.flutter.dev/flutter/material/AppBar-class.html)
-* Text: [Text class - material library](https://api.flutter.dev/flutter/widgets/Text-class.html)
 * FlatButton: [FlatButton class - material library](https://api.flutter.dev/flutter/material/FlatButton-class.html)
+* Icons: [Icons class - material library](https://api.flutter.dev/flutter/material/Icons-class.html)
 * RaisedButton: [RaisedButton class - material library](https://api.flutter.dev/flutter/material/RaisedButton-class.html)
-
+* Scaffold: [Scaffold class - material library](https://api.flutter.dev/flutter/material/Scaffold-class.html)
+* StatefulWidget: [StatefulWidget class - material library](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
+* StatelessWidget: [StatelessWidget class - material library](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)
+* Text: [Text class - material library](https://api.flutter.dev/flutter/widgets/Text-class.html)
 #### Paquetes
 * Lista de paquetes: [Top packages](https://pub.dev/packages/)
 * geolocator (servicios de geolocalización): [geolocator | Flutter Package](https://pub.dev/packages/geolocator)
