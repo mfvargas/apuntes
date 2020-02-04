@@ -18,6 +18,7 @@
 #### Widgets de Material
 * Sitio oficial de Material: [Homepage - Material Design](https://material.io/)
 * Documentación general: [material library - Dart API](https://api.flutter.dev/flutter/material/material-library.html)
+* Paletas, íconos y colores: [Material Palette](https://www.materialpalette.com/)
 * AppBar: [AppBar class - material library](https://api.flutter.dev/flutter/material/AppBar-class.html)
 * FlatButton: [FlatButton class - material library](https://api.flutter.dev/flutter/material/FlatButton-class.html)
 * Icons: [Icons class - material library](https://api.flutter.dev/flutter/material/Icons-class.html)
