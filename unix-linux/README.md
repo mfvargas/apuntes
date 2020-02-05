@@ -50,7 +50,7 @@ scp ./mammalia-cr-grp.* ./reptilia-cr-grp.* ./amphibia-cr-grp.* ./aves-cr-grp.* 
 Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecutar sudo o desde la cuenta de root
 ```terminal
 # Creación de un usuario
-sudo adduser mfvargas
+$ sudo adduser mfvargas
 
 # Adición del usuario al grupo sudo
 $ sudo usermod -aG sudo mfvargas
