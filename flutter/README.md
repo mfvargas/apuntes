@@ -50,6 +50,7 @@
 * Generador de íconos para apps: [App Icon Generator](https://appicon.co/)
 * Uso de los comandos de Flutter en el sistema operativo: [Flutter and the Command Line — a Love Story](https://medium.com/flutter-community/flutter-and-the-command-line-a-love-story-a3648ef2411)
 * Uso de Google Maps: [Adding Google Maps to a Flutter App](https://codelabs.developers.google.com/codelabs/google-maps-in-flutter/)
+* Diseños para páginas web y aplicaciones móviles: [Dribbble - Discover the World's Top Designers & Creative Professionals](https://dribbble.com/)
 
 ## Instalación y configuración en Linux
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
