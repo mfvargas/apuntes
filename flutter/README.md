@@ -30,14 +30,16 @@
 * StatefulWidget: [StatefulWidget class - material library](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
 * StatelessWidget: [StatelessWidget class - material library](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html)
 * Text: [Text class - material library](https://api.flutter.dev/flutter/widgets/Text-class.html)
+
 #### Paquetes
 * Lista de paquetes: [Top packages](https://pub.dev/packages/)
+* cloud_firestore (complemento para el acceso al API de Cloud Firestore) [cloud_firestore | Flutter Package](https://pub.dev/packages/cloud_firestore)
+* firebase_auth (complemento para el acceso al API de autenticación de Firebase) [firebase_auth | Flutter Package](https://pub.dev/packages/firebase_auth)
+* firebase_core (complemento para el acceso al API central de Firebase) [firebase_core | Flutter Package](https://pub.dev/packages/firebase_core)
+* flutter_spinkit (animaciones para indicar carga de datos): [flutter_spinkit | Flutter Package](https://pub.dev/packages/flutter_spinkit)
 * geolocator (servicios de geolocalización): [geolocator | Flutter Package](https://pub.dev/packages/geolocator)
 * http (solicitudes http para API): [http | Flutter Package](https://pub.dev/packages/http)
-* flutter_spinkit (animaciones para indicar carga de datos): [flutter_spinkit | Flutter Package](https://pub.dev/packages/flutter_spinkit)
-* firebase_core (complemento para el acceso al API central de Firebase) [firebase_core | Flutter Package](https://pub.dev/packages/firebase_core)
-* firebase_auth (complemento para el acceso al API de autenticación de Firebase) [firebase_auth | Flutter Package](https://pub.dev/packages/firebase_auth)
-* cloud_firestore (complemento para el acceso al API de Cloud Firestore) [cloud_firestore | Flutter Package](https://pub.dev/packages/cloud_firestore)
+* provider (manejo del estado): [provider | Flutter Package](https://pub.dev/packages/provider)
 
 ### Dart
 * Sitio oficial: [Dart programming language | Dart](https://dart.dev/)
