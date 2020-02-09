@@ -43,6 +43,7 @@
 * Sitio oficial: [Dart programming language | Dart](https://dart.dev/)
 * Documentación oficial: [Dart Documentation | Dart](https://dart.dev/guides)
 * "Tour" del lenguaje: [Language tour | Dart](https://dart.dev/guides/language/language-tour)
+* Palabras clave ("keywords"): [Language tour - Keywords | Dart](https://dart.dev/guides/language/language-tour#keywords)
 * Guía de estilo: [Effective Dart: Style | Dart](https://dart.dev/guides/language/effective-dart/style)
 * Consola en línea: [DartPad](https://dartpad.dartlang.org/)
 
