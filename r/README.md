@@ -8,3 +8,5 @@
 
 ### Entrenamiento
 * Taller de Zev Ross: [Modern Geospatial Data Analysis with R](http://files.zevross.com/workshops/spatial/slides/html/0-deck-list.html)
+* Taller sobre _machine learning_: [Introduction to Machine Learning with the Tidyverse](https://education.rstudio.com/blog/2020/02/conf20-intro-ml/)
+* Curso sobre R y estadística: [Teacups, Giraffes, & Statistics](https://tinystats.github.io/teacups-giraffes-and-statistics/)
