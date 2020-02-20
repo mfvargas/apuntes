@@ -170,7 +170,7 @@ Estos _shortcuts_ son aportados por los complementos de Flutter para Android Stu
 
 **Para ver el código fuente de un Widget**:
 
-```Ctrl clic``` sobre el widget
+```Ctrl-clic``` sobre el widget
 
 ## Interfaz de línea de comandos
 Se recomienda leer [Flutter and the Command Line — a Love Story](https://medium.com/flutter-community/flutter-and-the-command-line-a-love-story-a3648ef2411).
