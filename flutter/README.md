@@ -161,6 +161,14 @@ En _File - Settings - Languages & Frameworks - Flutter_ activar:
 * _Perform hot reload on save_ (está activado por defecto)
 * _Format code on save_
 
+#### _Shortcuts_
+Estos _shortcuts_ son aportados por los complementos de Flutter para Android Studio y están disponibles también para otros editores e IDE (ej. [Visual Studio Code](https://code.visualstudio.com/)).
+
+Para declarar un Stateless Widget o un Stateful Widget:
+```terminal
+st
+```
+
 ## Interfaz de línea de comandos
 Se recomienda leer [Flutter and the Command Line — a Love Story](https://medium.com/flutter-community/flutter-and-the-command-line-a-love-story-a3648ef2411).
 
