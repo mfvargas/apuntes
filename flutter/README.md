@@ -164,11 +164,11 @@ En _File - Settings - Languages & Frameworks - Flutter_ activar:
 #### _Shortcuts_
 Estos _shortcuts_ son aportados por los complementos de Flutter para Android Studio y están disponibles también para otros editores e IDE (ej. [Visual Studio Code](https://code.visualstudio.com/)).
 
-Para declarar un Stateless Widget o un Stateful Widget:
+**Para declarar un Stateless Widget o un Stateful Widget**:
 
 ```st```
 
-Para ver el código fuente de un Widget:
+**Para ver el código fuente de un Widget**:
 
 ```Ctrl clic``` sobre el widget
 
