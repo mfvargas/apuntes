@@ -172,6 +172,10 @@ Estos _shortcuts_ son aportados por los complementos de Flutter para Android Stu
 
 ```Ctrl-clic``` sobre el widget
 
+**Para ver las opciones disponibles (ej. parámetros)**:
+
+```Ctrl-espacio``` (ej. entre los paréntesis del encabezado de la función)
+
 ## Interfaz de línea de comandos
 Se recomienda leer [Flutter and the Command Line — a Love Story](https://medium.com/flutter-community/flutter-and-the-command-line-a-love-story-a3648ef2411).
 
