@@ -12,6 +12,7 @@
 * [GeoPandas](https://github.com/mfvargas/snippets/blob/master/geopandas/README.md)
 * [Git](https://github.com/mfvargas/snippets/blob/master/git/README.md)
 * [http.server](https://github.com/mfvargas/snippets/blob/master/http.server/README.md)
+* [ImageMagick](https://github.com/mfvargas/snippets/blob/master/imagemagick/README.md)
 * [Jekyll](https://github.com/mfvargas/snippets/blob/master/jekyll/README.md)
 * [Jupyter Notebook](https://github.com/mfvargas/snippets/blob/master/jupyter-notebook/README.md)
 * [OMDb - API](https://github.com/mfvargas/snippets/blob/master/omdb-api/README.md)
