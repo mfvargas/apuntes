@@ -14,3 +14,8 @@ Reducción de la calidad de una imagen
 ```terminal
 $ convert image.jpg -quality 75 output_file.jpg
 ```
+
+Reducción del tamaño de una imagen
+```terminal
+convert image.jpg -resize 50% output_file.jpg
+```
