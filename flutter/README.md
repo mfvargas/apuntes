@@ -196,7 +196,8 @@ $ cd proyecto_flutter
 $ flutter run
 ```
 
-# Aplicación básica (main.dart)
+# Snippets
+## Aplicación básica (main.dart)
 ```dart
 import 'package:flutter/material.dart';
 
