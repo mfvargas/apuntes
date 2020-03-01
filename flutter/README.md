@@ -227,3 +227,13 @@ class MyHomePage extends StatelessWidget {
   }
 }
 ```
+
+## Conversiones entre tipos
+```dart
+# Texto a número
+print(double.parse("123.5"));
+
+# Número a texto con cantidad fija de decimales
+var numero = 123.5444;
+print(numero.toStringAsFixed(2));
+```
