@@ -245,6 +245,6 @@ La lista completa está en:
 ```dart
 import 'package:intl/intl.dart';
 
-hoy = DateTime.now();
+var hoy = DateTime.now();
 print(DateFormat.yMMMd().format(hoy));
 ```
