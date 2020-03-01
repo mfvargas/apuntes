@@ -229,6 +229,7 @@ class MyHomePage extends StatelessWidget {
 ```
 
 ## Conversiones entre tipos
+### Textos y números
 ```dart
 // Texto a número
 print(double.parse("123.5"));
@@ -236,4 +237,14 @@ print(double.parse("123.5"));
 // Número a texto con cantidad fija de decimales
 var numero = 123.5444;
 print(numero.toStringAsFixed(2));
+```
+
+### Formatos de fechas
+La lista completa está en:
+[DateFormat class - intl library - Dart API](https://pub.dev/documentation/intl/latest/intl/DateFormat-class.html)
+```dart
+import 'package:intl/intl.dart';
+
+hoy = DateTime.now();
+print(DateFormat.yMMMd().format(hoy));
 ```
