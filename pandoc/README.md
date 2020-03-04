@@ -6,7 +6,7 @@ Sitio oficial: [Pandoc: a universal document converter](https://pandoc.org/)
 ## Snippets
 Conversión de MD a Beamer
 ```terminal
-$ pandoc -t beamer input.md output.pdf
+$ pandoc -t beamer input.md -o output.pdf
 ```
 input.md
 ```
