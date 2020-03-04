@@ -1,8 +1,8 @@
 # Conda
 
 ## Recursos
-Sitio oficial: [Conda](https://conda.io/)
-Manejo de ambientes: [Managing environments -- conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+* Sitio oficial: [Conda](https://conda.io/)
+* Manejo de ambientes: [Managing environments -- conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 ## Snippets
 Manejo de ambientes
