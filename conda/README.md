@@ -21,6 +21,6 @@ $ conda activate myenv
 $ conda list -n myenv
 
 # Instalación de paquetes en un ambiente
-conda install -n myenv scipy
-conda install -n myenv scipy=0.15.0
+$ conda install -n myenv scipy
+$ conda install -n myenv scipy=0.15.0
 ```
