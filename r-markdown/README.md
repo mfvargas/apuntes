@@ -3,6 +3,7 @@
 ## Recursos
 * Sitio oficial: [R Markdown](https://rmarkdown.rstudio.com/)
 * Guía de referencia: [R Markdown Reference Guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+* Cheat Sheet: [R Markdown Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 
 ### Libros
 * [R Markdown: The Definitive Guide (Xie et al., 2018)](https://bookdown.org/yihui/rmarkdown/)
