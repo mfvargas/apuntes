@@ -3,6 +3,7 @@
 ## Recursos
 * Sitio oficial: [R Markdown](https://rmarkdown.rstudio.com/)
 * Guía de referencia: [R Markdown Reference Guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+* Formatos: [R Markdown Formats](https://rmarkdown.rstudio.com/formats)
 * Cheat Sheet: [R Markdown Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 * Opciones para los bloques de código: [Chunk options and package options](https://yihui.org/knitr/options/)
 * Paquete para insertar videos: [vebmedr](http://ijlyttle.github.io/vembedr/)
