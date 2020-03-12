@@ -76,6 +76,13 @@ $ sudo apt-get update
 
 # Instalación de un paquete
 sudo apt-get install -y gdal-bin
+
+# Instalación de un archivo DEB
+$ sudo dpkg -i /path/to/deb/file
+# o
+$ sudo apt-get install -f
+# o
+sudo apt install /path/to/package/name.deb
 ```
 
 ### Pip
