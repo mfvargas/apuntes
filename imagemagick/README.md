@@ -16,7 +16,11 @@ Reducción de la calidad de una imagen
 $ convert image.jpg -quality 75 output_file.jpg
 ```
 
-Reducción del tamaño de una imagen
+Reducción del tamaño de una imagen (en porcentaje)
 ```terminal
 $ convert image.jpg -resize 50% output_file.jpg
+```
+Reducción del tamaño de una imagen (en pixeles)
+```terminal
+$ convert icono-app.png -resize 1024x1024 icono-app-1024x1024.png
 ```
