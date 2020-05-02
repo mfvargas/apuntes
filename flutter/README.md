@@ -58,7 +58,7 @@
 * Uso de Google Maps: [Adding Google Maps to a Flutter App](https://codelabs.developers.google.com/codelabs/google-maps-in-flutter/)
 * Diseños para páginas web y aplicaciones móviles: [Dribbble - Discover the World's Top Designers & Creative Professionals](https://dribbble.com/)
 * Como cambiar el nombre bajo el ícono de la aplicació: [Flutter - Change App Launcher Icon & Name](https://www.woolha.com/tutorials/flutter-change-app-launcher-icon-name-android-ios)
-* Shortcuts para Flutter en los IDE: [Flutter — IDE Shortcuts for Faster Development](https://medium.com/flutter-community/flutter-ide-shortcuts-for-faster-development-2ef45c51085b)
+* Shortcuts para Flutter en Android Studio: [Flutter — IDE Shortcuts for Faster Development](https://medium.com/flutter-community/flutter-ide-shortcuts-for-faster-development-2ef45c51085b)
 
 ## Instalación y configuración en Linux
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
