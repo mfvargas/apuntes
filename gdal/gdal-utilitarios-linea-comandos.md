@@ -55,6 +55,9 @@ Conversiones entre formatos
 ```terminal
 # Descarga de una capa en un servicio WFS a un archivo GeoJSON
 $ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 -simplify 100 provincias.geojson WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs?" limiteprovincial_5k
+
+# Conversión de CSV a GeoJSON con especificación de columnas (cláusula -select) y filtro (cláusula -where)
+ogr2ogr -f GeoJSON output.geojson occurrences.csv -select "kingdom, scientificName, stateProvince" -where "stateProvince='Heredia'" -oo X_POSSIBLE_NAMES=decimalLongitude -oo Y_POSSIBLE_NAMES=decimalLatitude
 ```
 
 ### Datos raster
