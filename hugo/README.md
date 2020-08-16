@@ -6,5 +6,5 @@
 ## Instalación
 ### Ubuntu
 ```terminal
-
+$ snap install hugo --channel=extended
 ```
