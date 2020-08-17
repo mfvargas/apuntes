@@ -83,6 +83,10 @@ $ sudo dpkg -i /path/to/deb/file
 $ sudo apt-get install -f
 # o
 sudo apt install /path/to/package/name.deb
+
+# Borrado de un paquete
+$ sudo apt remove vim
+$ sudo apt purge vim
 ```
 
 ### Pip
