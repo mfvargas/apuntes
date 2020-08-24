@@ -21,6 +21,7 @@
 * [OTB](https://github.com/mfvargas/snippets/blob/master/otb/README.md)
 * [Pandas](https://github.com/mfvargas/snippets/blob/master/pandas/README.md)
 * [Python](https://github.com/mfvargas/snippets/blob/master/python/README.md)
+* [QGIS](https://github.com/mfvargas/snippets/blob/master/qgis/README.md)
 * [R](https://github.com/mfvargas/snippets/blob/master/r/README.md)
 * [Rasterio](https://github.com/mfvargas/snippets/blob/master/rasterio/README.md)
 * [Shapely](https://github.com/mfvargas/snippets/blob/master/shapely/README.md)
