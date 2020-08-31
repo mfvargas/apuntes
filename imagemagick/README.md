@@ -6,9 +6,14 @@
 * Ejemplos de comandos: [A few basic (but powerful) ImageMagick commands](https://medium.com/@contactsunny/a-few-basic-but-powerful-imagemagick-commands-b5809b0a1076)
 
 ## Snippets
-Instalación
+Instalación con APT
 ```terminal
 $ sudo apt install imagemagick
+```
+
+Instalación con Conda
+```terminal
+$ conda install -c conda-forge imagemagick
 ```
 
 Reducción de la calidad de una imagen
