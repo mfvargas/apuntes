@@ -16,6 +16,7 @@
 * [ImageMagick](https://github.com/mfvargas/snippets/blob/master/imagemagick/README.md)
 * [Jekyll](https://github.com/mfvargas/snippets/blob/master/jekyll/README.md)
 * [Jupyter Notebook](https://github.com/mfvargas/snippets/blob/master/jupyter-notebook/README.md)
+* [Node.js](https://github.com/mfvargas/snippets/blob/master/nodejs/README.md)
 * [OMDb - API](https://github.com/mfvargas/snippets/blob/master/omdb-api/README.md)
 * [OpenWeatherMap - API](https://github.com/mfvargas/snippets/blob/master/openweathermap-api/README.md)
 * [OTB](https://github.com/mfvargas/snippets/blob/master/otb/README.md)
