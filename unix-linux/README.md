@@ -46,7 +46,7 @@ scp ./mammalia-cr-grp.* ./reptilia-cr-grp.* ./amphibia-cr-grp.* ./aves-cr-grp.* 
 ```
 
 ## WGET, FTP
-Copia de un directorio completo
+Copia de un directorio completo  
 [https://stackoverflow.com/questions/113886/how-to-recursively-download-a-folder-via-ftp-on-linux](https://stackoverflow.com/questions/113886/how-to-recursively-download-a-folder-via-ftp-on-linux)
 ```shell
 wget -r -nH --cut-dirs=5 -nc ftp://<usuario>:<clave>@<servidor>//<ruta/absoluta/completa>
