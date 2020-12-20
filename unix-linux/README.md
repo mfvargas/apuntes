@@ -45,6 +45,13 @@ $ scp -r ~/layers/*.* mfvargas@159.203.94.51:~/layers/
 scp ./mammalia-cr-grp.* ./reptilia-cr-grp.* ./amphibia-cr-grp.* ./aves-cr-grp.* mfvargas@159.203.94.51:~/estimacion-biodiversidad/datos/areas-distribucion/
 ```
 
+## WGET, FTP
+Copia de un directorio completo
+[https://stackoverflow.com/questions/113886/how-to-recursively-download-a-folder-via-ftp-on-linux](https://stackoverflow.com/questions/113886/how-to-recursively-download-a-folder-via-ftp-on-linux)
+```shell
+wget -r -nH --cut-dirs=5 -nc ftp://<usuario>:<clave>@<servidor>//<ruta/absoluta/completa>
+```
+
 ## Administración de usuarios
 ### Creación de usuarios
 Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecutar sudo o desde la cuenta de root
