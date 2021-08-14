@@ -31,10 +31,10 @@ $ conda deactivate
 $ conda activate ambiente-jupyterbook
 
 # Creación de un proyecto
-$ jupyter-book create nuevo-libro/
+$ jupyter-book create nuevo-libro
 
 # Generación de archivos HTML
-$ jupyter-book build nuevo-libro/
+$ jupyter-book build nuevo-libro
 
 # Publicación de archivos HTML
 
@@ -49,6 +49,13 @@ $ git push -u origin main
 
 # Con ghp-import, se crea una rama gh-pages para almacenar el sitio HTML
 $ ghp-import -n -p -f _build/html
+
+# NOTAS
+# GH Pages debe configurarse para esperar el sitio en la rama gh-pages
+# Para publicar cada cambia, debe ejecutarse:
+# jupyter-book build nuevo-libro/
+# cd nuevo-libro
+# ghp-import -n -p -f _build/html
 
 $ conda deactivate
 ```
