@@ -94,14 +94,13 @@ Luego de esto, debe reiniciarse el sistema operativo.
 ```terminal
 # Instalación mediante Snap
 $ sudo snap install flutter --classic
-
-# Ruta
-$ flutter sdk-path
 ```
 
 #### Pruebas
 ```terminal
 $ flutter
+$ flutter --version
+$ flutter sdk-path
 $ flutter doctor
 ```
 
