@@ -68,7 +68,7 @@ Ya no estoy tan seguro de que tan necesaria es esta parte.
 El procedimiento está detallado en [https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux).
 
 Para verificar si KVM está instalado:
-```terminal
+```shell
 $ sudo apt-get install cpu-checker
 $ egrep -c '(vmx|svm)' /proc/cpuinfo
 12
@@ -78,12 +78,12 @@ KVM acceleration can be used
 ```
 
 Además, debe ejecutarse:
-```terminal
+```shell
 $ sudo apt-get install qemu-kvm
 ```
 
 Para agregar el usuario al grupo kvm:
-```terminal
+```shell
 $ sudo adduser $USER kvm
 ```
 Luego de esto, debe reiniciarse el sistema operativo.
@@ -91,13 +91,13 @@ Luego de esto, debe reiniciarse el sistema operativo.
 ### Instalación del SDK de Flutter
 #### Descarga y extracción
 Esta parte se modificó para hacerla con Snap.
-```terminal
+```shell
 # Instalación mediante Snap
 $ sudo snap install flutter --classic
 ```
 
 #### Pruebas
-```terminal
+```shell
 $ flutter
 $ flutter --version
 $ flutter sdk-path
@@ -107,7 +107,7 @@ $ flutter doctor
 #### Downgrade
 Por si se desea usar una versión más baja.  
 https://stackoverflow.com/questions/49468321/how-to-downgrade-flutter-sdk-dart-1-x
-```terminal
+```shell
 $ flutter downgrade 1.22.6
 ```
 
@@ -117,7 +117,7 @@ El procedimiento está detallado en [https://developer.android.com/studio/instal
 **NOTA**: aunque se utilice otro IDE, la instalación de Android Studio siempre es necesaria, para realizar tareas como configuración de emuladores.
 
 #### Instalación de paquetes requeridos
-```terminal
+```shell
 $ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 ```
 
@@ -125,17 +125,17 @@ $ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz
 El archivo debe descargarse de [https://developer.android.com/studio](https://developer.android.com/studio).
 
 Para extraerlo:
-```terminal
+```shell
 $ sudo tar xvzf <archivo-descargado> -C /opt
 ```
 
 #### Ejecución del instalador
-```terminal
+```shell
 $ sudo /opt/android-studio/bin/studio.sh
 ```
 
 #### Ejecución del programa
-```terminal
+```shell
 $ /opt/android-studio/bin/studio.sh
 ```
 
@@ -151,7 +151,7 @@ _Licencias no aceptadas_
 El problema y su solución se explican en [https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements](https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements).
 
 El siguiente comando solucionó el problema:
-```terminal
+```shell
 $ flutter doctor --android-licenses
 ```
 #### Sugerencias
@@ -178,12 +178,12 @@ Estos _shortcuts_ son aportados por los complementos de Flutter para Android Stu
 Se recomienda leer [Flutter and the Command Line — a Love Story](https://medium.com/flutter-community/flutter-and-the-command-line-a-love-story-a3648ef2411).
 
 Para obtener ayuda general sobre los comandos de Flutter
-```terminal
+```shell
 $ flutter help
 ```
 
 Para revisar y corregir el estado de la instalación de Flutter
-```terminal
+```shell
 $ flutter doctor
 ```
 
