@@ -8,6 +8,9 @@
 # Actualización de Conda
 $ conda update -n base -c defaults conda
 
+# Actualización de Miniconda
+$ conda update conda
+
 # Creación del ambiente
 $ conda create -n qgis
 
