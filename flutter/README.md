@@ -106,9 +106,16 @@ $ flutter doctor
 
 #### Downgrade
 Por si se desea usar una versión más baja.  
-https://stackoverflow.com/questions/49468321/how-to-downgrade-flutter-sdk-dart-1-x
+https://stackoverflow.com/questions/66545480/flutter-downgrade-error-there-is-no-previously-recorded-version-for-channel
 ```shell
-$ flutter downgrade 1.22.6
+$ cd /home/mfvargas/snap/flutter/common/flutter
+$ git checkout 1.22.6
+
+# Verificación
+$ flutter
+$ flutter --version
+$ flutter sdk-path
+$ flutter doctor
 ```
 
 ### Instalación de Android Studio
