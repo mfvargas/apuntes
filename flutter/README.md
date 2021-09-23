@@ -64,7 +64,7 @@
 El procedimiento está detallado en [https://flutter.dev/docs/get-started/install/linux](https://flutter.dev/docs/get-started/install/linux).
 
 ### Configuración de acelaración de VM
-**YA NO ESTOY SEGURO DE QUE TAN NECESARIA ES ESTA PARTE**  
+**Ya no estoy tan seguro de que tan necesaria es esta parte**  
 El procedimiento está detallado en [https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux](https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux).
 
 Para verificar si KVM está instalado:
@@ -90,7 +90,7 @@ Luego de esto, debe reiniciarse el sistema operativo.
 
 ### Instalación del SDK de Flutter
 #### Descarga y extracción
-**ESTA PARTE SE MODIFICÓ PARA HACERLA CON SNAP**
+**Esta parte se modificó para hacerla con Snap**
 ```terminal
 # Instalación mediante Snap
 $ sudo snap install flutter --classic
@@ -105,6 +105,7 @@ $ flutter doctor
 ```
 
 #### Downgrade
+**Por si se desea usar una versión más baja**
 https://stackoverflow.com/questions/49468321/how-to-downgrade-flutter-sdk-dart-1-x
 ```terminal
 $ flutter downgrade 1.22.6
