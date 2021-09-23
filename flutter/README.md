@@ -133,17 +133,17 @@ El archivo debe descargarse de [https://developer.android.com/studio](https://de
 
 Para extraerlo:
 ```shell
-$ sudo tar xvzf <archivo-descargado> -C /opt
+$ sudo tar xvzf <archivo-descargado> -C /usr/local
 ```
 
 #### Ejecución del instalador
 ```shell
-$ sudo /opt/android-studio/bin/studio.sh
+$ sudo /usr/local/android-studio/bin/studio.sh
 ```
 
 #### Ejecución del programa
 ```shell
-$ /opt/android-studio/bin/studio.sh
+$ /usr/local/android-studio/bin/studio.sh
 ```
 
 #### Instalación de complementos para Flutter
