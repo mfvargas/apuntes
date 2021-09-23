@@ -77,9 +77,9 @@ INFO: /dev/kvm exists
 KVM acceleration can be used
 ```
 
-Además, debe ejecutarse:
+Instalación:
 ```shell
-$ sudo apt-get install qemu-kvm
+$ sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
 ```
 
 Para agregar el usuario al grupo kvm:
@@ -134,11 +134,6 @@ El archivo debe descargarse de [https://developer.android.com/studio](https://de
 Para extraerlo:
 ```shell
 $ sudo tar xvzf <archivo-descargado> -C /usr/local
-```
-
-#### Ejecución del instalador
-```shell
-$ sudo /usr/local/android-studio/bin/studio.sh
 ```
 
 #### Ejecución del programa
