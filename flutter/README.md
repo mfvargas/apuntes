@@ -129,7 +129,7 @@ $ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz
 ```
 
 #### Descarga y extracción
-El archivo debe descargarse de [https://developer.android.com/studio](https://developer.android.com/studio).
+El archivo con la última versión puede descargarse de [https://developer.android.com/studio](https://developer.android.com/studio). Las versiones pasadas están disponibles en [https://developer.android.com/studio/archive](https://developer.android.com/studio/archive).
 
 Para extraerlo:
 ```shell
