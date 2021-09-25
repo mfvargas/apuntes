@@ -2,12 +2,12 @@
 
 ## Creación de un ambiente Conda
 ```shell
-conda update conda
-conda create -n r
-conda activate r
-conda config --env --add channels conda-forge
-conda config --env --set channel_priority strict
-conda install r-base r-essentials r-flexdashboard r-plotly r-sf r-raster r-leafem r-leaflet r-leaflet.extras r-leaflet.providers r-leaflet.minicharts
+$ conda update conda
+$ conda create -n r
+$ conda activate r
+$ conda config --env --add channels conda-forge
+$ conda config --env --set channel_priority strict
+$ conda install r-base r-essentials r-flexdashboard r-plotly r-sf r-raster r-leafem r-leaflet r-leaflet.extras r-leaflet.providers r-leaflet.minicharts
 ```
 
 ## Recursos
