@@ -1,5 +1,15 @@
 # R
 
+## Creación de un ambiente Conda
+```shell
+conda update conda
+conda create -n r
+conda activate r
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+conda install r-base r-essentials r-flexdashboard r-plotly r-sf r-raster r-leafem r-leaflet r-leaflet.extras r-leaflet.providers r-leaflet.minicharts
+```
+
 ## Recursos
 * Instalación en Ubuntu 16.04: [How To Install R on Ubuntu 16.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-16-04-2)
 * Instalación en Ubuntu 18.04: [How To Install R on Ubuntu 18.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04)
