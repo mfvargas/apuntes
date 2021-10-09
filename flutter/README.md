@@ -205,7 +205,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
-    return MaterialApp(home: Text('Hola mundo'),);
+    return MaterialApp(home: Text('Hello world'),);
   }
 }
 ```
@@ -220,7 +220,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Hola mundo',
+      title: 'Hello world application',
       home: MyHomePage(),
     );
   }
@@ -231,13 +231,27 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter App'),
+        title: Text('Hello world'),
       ),
       body: Center(
-        child: Text('Widget Playground!'),
+        child: Text('Hello world'),
       ),
     );
   }
+}
+```
+
+## Declaración de clase y constructor
+```dart
+class Person {
+  String name;
+  int age;
+  
+  Person({this.name, this.age = 25});
+}
+
+void main() {
+  var p1 = Person(name:"Ana");
 }
 ```
 
