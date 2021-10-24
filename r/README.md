@@ -7,7 +7,7 @@ $ conda create -n r
 $ conda activate r
 $ conda config --env --add channels conda-forge
 $ conda config --env --set channel_priority strict
-$ conda install r-base r-essentials r-flexdashboard r-plotly r-sf r-raster r-leafem r-leaflet r-leaflet.extras r-leaflet.providers r-leaflet.minicharts
+$ conda install r-base r-essentials r-ggplot2 r-plotly r-sf r-terra r-raster r-leaflet r-leaflet.providers r-leaflet.extras r-leaflet.minicharts r-leafem r-flexdashboard r-shiny r-shinydashboard r-packrat r-rsconnect
 ```
 
 ## Recursos
