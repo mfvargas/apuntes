@@ -1,4 +1,4 @@
-## Python - creación de un ambiente Conda
+# Python - creación de un ambiente Conda
 
 ```shell
 $ conda update conda
