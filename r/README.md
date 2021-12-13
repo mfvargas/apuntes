@@ -10,6 +10,12 @@ $ conda config --env --set channel_priority strict
 $ conda install r-base r-essentials r-ggplot2 r-plotly r-sf r-terra r-raster r-leaflet r-leaflet.providers r-leaflet.extras r-leaflet.minicharts r-leafem r-flexdashboard r-shiny r-shinydashboard r-packrat r-rsconnect
 ```
 
+Algunos paquetes fueron instalados con `install.packages()` debido a que no tienen una versión para instalarse con conda:
+
+```shell
+$ install.packages("elevatr")
+```
+
 ## Recursos
 * Instalación en Ubuntu 16.04: [How To Install R on Ubuntu 16.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-16-04-2)
 * Instalación en Ubuntu 18.04: [How To Install R on Ubuntu 18.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04)
