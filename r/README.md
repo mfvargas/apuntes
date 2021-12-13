@@ -10,7 +10,7 @@ $ conda config --env --set channel_priority strict
 $ conda install r-base r-essentials r-ggplot2 r-plotly r-sf r-terra r-raster r-leaflet r-leaflet.providers r-leaflet.extras r-leaflet.minicharts r-leafem r-flexdashboard r-shiny r-shinydashboard r-packrat r-rsconnect
 ```
 
-Algunos paquetes fueron instalados con `install.packages()` debido a que no tienen una versión para instalarse con conda:
+Algunos paquetes fueron instalados con `install.packages()` debido a que no tienen una versión para conda:
 
 ```shell
 $ install.packages("elevatr")
