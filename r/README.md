@@ -15,7 +15,7 @@ Algunos paquetes fueron instalados con `install.packages()` debido a que no se e
 ```shell
 $ install.packages("elevatr")
 $ install.packages("maptiles")
-$ install.packages("rayvista")
+$ devtools::install_github("h-a-graham/rayvista", dependencies=TRUE)
 ```
 
 ## Recursos
