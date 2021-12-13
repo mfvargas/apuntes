@@ -7,7 +7,7 @@ $ conda create -n r
 $ conda activate r
 $ conda config --env --add channels conda-forge
 $ conda config --env --set channel_priority strict
-$ conda install r-base r-essentials r-ggplot2 r-plotly r-sf r-terra r-raster r-leaflet r-leaflet.providers r-leaflet.extras r-leaflet.minicharts r-leafem r-flexdashboard r-shiny r-shinydashboard r-packrat r-rsconnect r-rayshader
+$ conda install r-base r-essentials r-devtools r-ggplot2 r-plotly r-sf r-terra r-raster r-leaflet r-leaflet.providers r-leaflet.extras r-leaflet.minicharts r-leafem r-flexdashboard r-shiny r-shinydashboard r-packrat r-rsconnect r-rayshader
 ```
 
 Algunos paquetes fueron instalados con `install.packages()` debido a que no se encontró una versión para conda:
