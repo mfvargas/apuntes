@@ -36,6 +36,8 @@ $ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox
 
 ## Notas para máquinas virtuales Windows
 - El instalador de Windows puede descargarse de [Download Windows 10 Disc Image (ISO File)](https://www.microsoft.com/en-in/software-download/windows10ISO).
+- Se recomienda aumentar la memoria de video.
+- Se recomienda no crear discos de menos de 50 GB.
 - Para la configuración regional se recomienda:
     - Idioma: 
     - Región:
