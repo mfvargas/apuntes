@@ -31,7 +31,7 @@ conda env remove --name myenv
 
 ## Ambientes conda
 
-### python-general
+### python
 Ambiente para tareas generales con Python.
 
 ```shell
@@ -39,13 +39,13 @@ Ambiente para tareas generales con Python.
 conda update conda
 
 # Borrado del ambiente (si es que existe)
-# conda remove -n python-general --all
+# conda remove -n python --all
 
 # Creación del ambiente
-conda create -n python-general
+conda create -n python
 
 # Activación del ambiente
-conda activate python-general
+conda activate python
 
 # Configuración del ambiente
 conda config --env --add channels conda-forge
