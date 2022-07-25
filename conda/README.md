@@ -59,4 +59,7 @@ mamba install git python jupyter jupyterlab numpy pandas matplotlib plotly dash 
 
 # Instalación de pytorch
 mamba install pytorch torchvision torchaudio cpuonly -c pytorch
+
+# Desactivación del ambiente
+conda deactivate
 ```
