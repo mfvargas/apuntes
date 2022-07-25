@@ -7,21 +7,21 @@ Información sobre el kernel de Linux
 ```shell
 uname -mrs
 ```
-```bash
+```shell
 Linux 4.15.0-70-generic x86_64
 ```
 Versión de Debian
-```bash
+```shell
 cat /etc/debian_version
 ```
-```bash
+```shell
 buster/sid
 ```
 Información sobre la distribución y sobre LSB (Linux Standard Base)
-```bash
+```shell
 lsb_release -a
 ```
-```bash
+```shell
 No LSB modules are available.
 Distributor ID: Ubuntu
 Description:    Ubuntu 18.04.3 LTS
@@ -31,13 +31,13 @@ Codename:       bionic
 
 ## SSH, SCP
 SSH
-```bash
+```shell
 # Conexión a un host remoto
 ssh root@159.203.94.51
 ```
 
 SCP
-```bash
+```shell
 # Copia recursiva de todos los archivos de un directorio
 scp -r ~/layers/*.* mfvargas@159.203.94.51:~/layers/
 
@@ -53,19 +53,22 @@ wget -r -nH --cut-dirs=5 -nc ftp://<usuario>:<clave>@<servidor>//<ruta/absoluta/
 ```
 
 ## Administración de usuarios
-### Creación de usuarios
-Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecutar sudo o desde la cuenta de root
-```bash
+Esta tarea debe realizarse desde la cuenta de usuario con privilegios para ejecutar sudo o desde la cuenta de root.
+
+```shell
 # Creación de un usuario
 sudo adduser mfvargas
 
 # Adición del usuario al grupo sudo
 sudo usermod -aG sudo mfvargas
+
+# Cambio de usuario
+sudo -u mfvargas -i
 ```
 
 ## Administración de paquetes
 ### APT
-```bash
+```shell
 # Actualización
 sudo apt update
 sudo apt upgrade -y
@@ -97,7 +100,7 @@ sudo apt purge vim
 ```
 
 ### Pip
-```bash
+```shell
 # Instalación de Pip para Python 3
 sudo apt-get install -y python3-pip
 
@@ -106,13 +109,13 @@ sudo pip3 install psycopg2-binary
 ```
 
 ## Manejo de procesos
-```bash
+```shell
 # Búsqueda de un proceso en ejecución, por el nombre del proceso
 ps -ef | grep postgres
 ```
 
 ## Cambio del shell a bash
-```bash
+```shell
 # Para ver el shell actual
 echo $SHELL
 
