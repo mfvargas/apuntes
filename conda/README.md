@@ -6,24 +6,57 @@
 
 ## Snippets
 Manejo de ambientes
-```terminal
+
+```shell
 # Lista de ambientes
-$ conda env list
+conda env list
 
 # Creación de un ambiente
-$ conda create -n myenv python
-$ conda create -n myenv scipy=0.15.0
+conda create -n myenv python
+conda create -n myenv scipy=0.15.0
 
 # Activación de un ambiente
-$ conda activate myenv
+conda activate myenv
 
 # Lista de paquetes en un ambiente
-$ conda list -n myenv
+conda list -n myenv
 
 # Instalación de paquetes en un ambiente
-$ conda install -n myenv scipy
-$ conda install -n myenv scipy=0.15.0
+conda install -n myenv scipy
+conda install -n myenv scipy=0.15.0
 
 # Borrado de un ambiente
-$ conda env remove --name myenv
+conda env remove --name myenv
+```
+
+## Ambientes conda
+
+### python-general
+Ambiente para tareas generales con Python.
+
+```shell
+# Actualización de Conda
+conda update conda
+
+# Borrado del ambiente (si es que existe)
+# conda remove -n python-general --all
+
+# Creación del ambiente
+conda create -n python-general
+
+# Activación del ambiente
+conda activate python-general
+
+# Configuración del ambiente
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+
+# Instalación de mamba
+conda install -c conda-forge mamba
+
+# Instalación de módulos
+mamba install git python jupyter jupyterlab numpy pandas matplotlib plotly dash gdal fiona shapely geopandas rasterio folium
+
+# Instalación de pytorch
+mamba install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
