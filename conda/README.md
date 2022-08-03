@@ -88,7 +88,7 @@ conda config --env --set channel_priority strict
 conda install -c conda-forge mamba
 
 # Instalación de módulos
-mamba install git r-base rstudio-desktop r-quarto r-ggplot2 r-ggthemes r-plotly r-dt r-flexdashboard r-shiny r-packrat r-rsconnect
+mamba install git r-base r-essentials r-quarto r-ggplot2 r-ggthemes r-plotly r-dt r-flexdashboard r-shiny r-packrat r-rsconnect
 
 # Desactivación del ambiente
 conda deactivate
