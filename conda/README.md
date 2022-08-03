@@ -63,3 +63,33 @@ mamba install pytorch torchvision torchaudio cpuonly -c pytorch
 # Desactivación del ambiente
 conda deactivate
 ```
+
+### quarto
+Ambiente para tareas generales con Quarto.
+
+```shell
+# Actualización de Conda
+conda update conda
+
+# Borrado del ambiente (si es que existe)
+# conda remove -n quarto --all
+
+# Creación del ambiente
+conda create -n quarto
+
+# Activación del ambiente
+conda activate quarto
+
+# Configuración del ambiente
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+
+# Instalación de mamba
+conda install -c conda-forge mamba
+
+# Instalación de módulos
+mamba install git r-base r-essentials r-quarto r-ggplot2 r-ggthemes r-plotly r-dt r-sf r-rmapshaper r-terra r-raster r-rgdal r-leaflet r-leaflet.providers r-leaflet.extras r-leaflet.minicharts r-leafem r-flexdashboard r-shiny r-shinydashboard r-packrat r-rsconnect
+
+# Desactivación del ambiente
+conda deactivate
+```
