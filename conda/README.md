@@ -88,7 +88,7 @@ conda config --env --set channel_priority strict
 conda install -c conda-forge mamba
 
 # Instalación de módulos
-mamba install git r-base r-essentials r-quarto r-bookdown r-blogdown r-xaringan r-distill r-tidyverse r-palmerpenguins r-plotly r-dt r-sf r-rmapshaper r-terra r-raster r-rgdal r-leaflet r-leaflet.providers r-leaflet.extras r-leaflet.minicharts r-leafem r-flexdashboard r-shiny r-shinydashboard r-packrat r-rsconnect
+mamba install git r-base r-essentials r-quarto r-bookdown r-blogdown r-xaringan r-distill r-tidyverse r-ggthemes r-palmerpenguins r-plotly r-dt r-sf r-rmapshaper r-terra r-raster r-rgdal r-leaflet r-leaflet.providers r-leaflet.extras r-leaflet.minicharts r-leafem r-flexdashboard r-shiny r-shinydashboard r-packrat r-rsconnect
 
 # NOTA: parece que RStudio debe instalarse fuera de conda (descargándose del sitio web de la iniciativa). Al ejecutarse rstudio desde la línea de comandos del ambiente conda, se abrirá la versión de RStudio que se instaló.
 
