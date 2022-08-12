@@ -55,7 +55,7 @@ conda config --env --set channel_priority strict
 conda install -c conda-forge mamba
 
 # Instalación de módulos
-mamba install git python jupyter jupyterlab numpy pandas matplotlib plotly dash gdal fiona shapely geopandas rasterio folium
+mamba install git python pyodbc jupyter jupyterlab numpy pandas matplotlib plotly plotly_express dash gdal fiona shapely geopandas rasterio folium
 
 # Instalación de pytorch
 mamba install pytorch torchvision torchaudio cpuonly -c pytorch
