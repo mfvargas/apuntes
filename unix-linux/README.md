@@ -125,3 +125,10 @@ chsh -s /bin/bash
 # Es necesario reconectarse para ver los resultados
 exit
 ```
+
+## Espacio en discos
+Consulta de archivos y directorios más grandes
+
+```shell
+du -a /dir/ | sort -n -r | head -n 20
+```
