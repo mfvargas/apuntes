@@ -2,7 +2,7 @@
 [Flutter](https://flutter.dev/) es un SDK (_Software Development Kit_) de código abierto utilizado en la actualidad principalmente en aplicaciones móviles y basado en el lenguaje de programación [Dart](https://dart.dev/). Tanto Flutter como Dart fueron creados por Google. Flutter permite el desarrollo de aplicaciones tanto para [Android](https://www.android.com/) como para [iOS](https://www.apple.com/ios/) a partir de una misma base de código fuente.
 
 **PARA EL PROBLEMA DE QUE LA LISTA DE DISPOSITIVOS SE QUEDA EN "Loading..."**  
-Ver [https://stackoverflow.com/questions/51101178/android-studio-device-list-stuck-on-loading](https://stackoverflow.com/questions/51101178/android-studio-device-list-stuck-on-loading)
+Hay varias soluciones en [https://stackoverflow.com/questions/51101178/android-studio-device-list-stuck-on-loading](https://stackoverflow.com/questions/51101178/android-studio-device-list-stuck-on-loading). Las que han funcionado son:
 - Buscar en todas partes con `Shift` + `Shift`: *Restart Flutter Daemon*
 - Usar: *File - Invalidate Caches / Restart*
 
