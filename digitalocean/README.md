@@ -27,9 +27,9 @@ doctl compute droplet create \
 
 ## Tareas posteriores
 
-### Conexión
+### Conexión con el usuario root
 ```shell
-ssh mfvargas@999.999.999.999
+ssh root@999.999.999.999
 ```
 
 ### Actualización de paquetes
