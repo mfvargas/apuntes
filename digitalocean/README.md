@@ -1,6 +1,11 @@
 # DigitalOcean
 
+## Comandos para listar opciones de configuración
 
+### Lista de droplets
+```shell
+doctl compute droplet list --format "ID,Name,PublicIPv4"
+```
 
 ## Máquinas virtuales
 
@@ -10,7 +15,7 @@ doctl compute droplet create \
   --region nyc1 \
   --image ubuntu-22-04-x64 \
   --size s-1vcpu-512mb-10gb \
-  --ssh-keys 36947975 \ # HAY QUE USAR LA LLAVE APROPIADA
+  --ssh-keys 36947975 \
   --tag-names tag1,tag2 \
   nombre
 ```
