@@ -3,6 +3,7 @@
 * [Anaconda](https://github.com/mfvargas/snippets/blob/master/anaconda/README.md)
 * [Android Studio](https://github.com/mfvargas/snippets/blob/master/android-studio/README.md)
 * [Conda](https://github.com/mfvargas/snippets/blob/master/conda/README.md)
+* [DigitalOcean](https://github.com/mfvargas/snippets/blob/master/digitalocean/README.md)
 * [eBird - API](https://github.com/mfvargas/snippets/blob/master/ebird-api/README.md)
 * [Fiona](https://github.com/mfvargas/snippets/blob/master/fiona/README.md)
 * [Flutter](https://github.com/mfvargas/snippets/blob/master/flutter/README.md)
