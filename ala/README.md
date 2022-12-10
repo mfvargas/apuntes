@@ -8,7 +8,7 @@
 ### Creación y configuración de máquinas virtuales en DO
 
 #### Instalador
-Creación de la máquina virtual
+**Creación de la máquina virtual**
 ```shell
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 1 CPU 512 MB 10 GB
 doctl compute droplet create \
@@ -21,20 +21,20 @@ doctl compute droplet create \
 ```
 Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
 
-Conexión con el usuario root
+**Conexión con el usuario root**
 ```shell
 # Conexión el usuario root
 ssh root@000.000.000.000
 ```
 
-Actualización de paquetes
+**Actualización de paquetes**
 ```shell
 # Actualización de paquetes
 apt update -y
 apt upgrade -y
 ```
 
-Creación y configuración del usuario ubuntu
+**Creación y configuración del usuario ubuntu**
 ```shell
 # Creación del usuario
 adduser ubuntu --disabled-password
@@ -53,19 +53,19 @@ chmod 644 /home/ubuntu/.ssh/authorized_keys
 chown -R ubuntu:ubuntu /home/ubuntu/.ssh
 ```
 
-Copia de la llave
+**Copia de la llave pública**
 ```shell
 # Salida para regresar a la estación de trabajo
 exit
 
 # Copia de la llave pública
-cat ~/.ssh/crbio.pub | ssh root@999.999.999.999 "cat >> /home/ubuntu/.ssh/authorized_keys"
+cat ~/.ssh/crbio.pub | ssh root@000.000.000.000 "cat >> /home/ubuntu/.ssh/authorized_keys"
 
 # Prueba de la conexión con el usuario ubuntu y la llave pública
-ssh ubuntu@999.999.999.999
+ssh ubuntu@000.000.000.000
 ```
 
-Instalación de Docker
+**Instalación de Docker**\
 [https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
 ```shell
 # Instalación de Docker
