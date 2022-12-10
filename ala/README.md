@@ -34,7 +34,7 @@ apt update -y
 apt upgrade -y
 ```
 
-# Creación y configuración del usuario ubuntu
+Creación y configuración del usuario ubuntu
 ```shell
 # Creación del usuario
 adduser ubuntu --disabled-password
@@ -51,10 +51,18 @@ touch /home/ubuntu/.ssh/authorized_keys
 chmod 700 /home/ubuntu/.ssh
 chmod 644 /home/ubuntu/.ssh/authorized_keys
 chown -R ubuntu:ubuntu /home/ubuntu/.ssh
+```
 
-# Prueba de conexión
+Copia de la llave
+```shell
+# Salida para regresar a la estación de trabajo
 exit
-ssh root@000.000.000.000
+
+# Copia de la llave pública
+cat ~/.ssh/crbio.pub | ssh root@999.999.999.999 "cat >> /home/ubuntu/.ssh/authorized_keys"
+
+# Prueba de la conexión con el usuario ubuntu y la llave pública
+ssh ubuntu@999.999.999.999
 ```
 
 Instalación de Docker
