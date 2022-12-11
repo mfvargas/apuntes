@@ -13,7 +13,7 @@ Máquinas virtuales:
 - Servidor 1
 - Servidor 2
 
-#### Liviing Atlases Toolkit
+#### Living Atlases Toolkit
 **Creación de la máquina virtual**
 ```shell
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 2 CPU 4 GB 80 GB
@@ -124,6 +124,20 @@ kill -9 <PROCESO>
 
 El LA Toolkit debe estar disponible en:\
 [http://localhost:2010/](http://localhost:2010/)
+
+#### Servidor 01
+```shell
+# NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB
+doctl compute droplet create \
+  --region nyc1 \
+  --image ubuntu-18-04-x64 \
+  --size s-8vcpu-16gb \
+  --ssh-keys 36105160 \
+  --tag-names ala,crbio \
+  living-atlas-servidor-01
+```
+Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+
 
 ## Otros
 
