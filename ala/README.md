@@ -30,7 +30,7 @@ Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute dr
 **Conexión con el usuario root**
 ```shell
 # Conexión el usuario root
-ssh root@000.000.000.000
+ssh root@<DIRECCION-IP>
 ```
 
 **Actualización de paquetes**
@@ -65,10 +65,10 @@ chown -R ubuntu:ubuntu /home/ubuntu/.ssh
 exit
 
 # Copia de la llave pública
-cat ~/.ssh/crbio.pub | ssh root@000.000.000.000 "cat >> /home/ubuntu/.ssh/authorized_keys"
+cat ~/.ssh/crbio.pub | ssh root@<DIRECCION-IP> "cat >> /home/ubuntu/.ssh/authorized_keys"
 
 # Prueba de la conexión con el usuario ubuntu y la llave pública
-ssh ubuntu@000.000.000.000
+ssh ubuntu@<DIRECCION-IP>
 ```
 
 **Instalación y configuración de Docker**\
@@ -82,7 +82,7 @@ DRY_RUN=1 sudo sh ./get-docker.sh
 sudo docker version
 
 # Adición del usuario ubuntu al grupo docker, para así ejecutar docker sin sudo
-sudo usermod -aG docker $USER
+sudo usermod -aG docker ubuntu
 # Activación de cambios en el grupo
 newgrp docker
 # Prueba
@@ -113,7 +113,7 @@ docker ps
 **Acceso desde otra computadora**
 ```shell
 # Creación de un tunel ssh
-ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@000.000.000.000 -N -f
+ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@<DIRECCION-IP> -N -f
 ```
 
 Si el puerto está en uso:
