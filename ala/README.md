@@ -116,6 +116,12 @@ docker ps
 ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@000.000.000.000 -N -f
 ```
 
+Si el puerto está en uso:
+```shell
+sudo netstat -tulpn | grep 2010
+kill -9 <PROCESO>
+```
+
 El LA Toolkit debe estar disponible en:\
 [http://localhost:2010/](http://localhost:2010/)
 
