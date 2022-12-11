@@ -9,28 +9,28 @@ Se detalla un procedimiento para instalar un portal de datos de biodiversidad co
 ### Creación y configuración de máquinas virtuales en DO
 Máquinas virtuales:
 
-- Living Atlases Toolkit
-- Servidor 1
-- Servidor 2
+- latoolkit.geoacademia.org (Living Atlases Toolkit)
+- geoacademia.org (Servidor principal)
 
 #### Living Atlases Toolkit
 **Creación de la máquina virtual**
 ```shell
-# NYC1 - Ubuntu 18.04 (LTS) x64 - 2 CPU 4 GB 80 GB
+# NYC1 - Ubuntu 18.04 (LTS) x64 - 1 CPU 2 GB 60 GB
 doctl compute droplet create \
   --region nyc1 \
   --image ubuntu-18-04-x64 \
-  --size s-2vcpu-4gb \
-  --ssh-keys 36105160 \
-  --tag-names ala,crbio \
-  living-atlas-toolkit
+  --size s-1vcpu-2gb \
+  --ssh-keys 37032818 \
+  --tag-names ala,geoacademia \
+  latoolkit.geoacademia.org
 ```
-Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+- Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `latoolkit.geoacademia.org`.
 
 **Conexión con el usuario root**
 ```shell
-# Conexión el usuario root
-ssh root@<DIRECCION-IP>
+# Conexión con el nombre
+ssh root@latoolkit.geoacademia.org
 ```
 
 **Actualización de paquetes**
@@ -65,10 +65,10 @@ chown -R ubuntu:ubuntu /home/ubuntu/.ssh
 exit
 
 # Copia de la llave pública
-cat ~/.ssh/crbio.pub | ssh root@<DIRECCION-IP> "cat >> /home/ubuntu/.ssh/authorized_keys"
+cat ~/.ssh/crbio.pub | ssh root@latoolkit.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
 
 # Prueba de la conexión con el usuario ubuntu y la llave pública
-ssh ubuntu@<DIRECCION-IP>
+ssh ubuntu@latoolkit.geoacademia.org
 ```
 
 **Instalación y configuración de Docker**\
@@ -113,7 +113,8 @@ docker ps
 **Acceso desde otra computadora**
 ```shell
 # Creación de un tunel ssh
-ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@<DIRECCION-IP> -N -f
+ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.geoacademia.org -N -f
+# ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@<DIRECCION-IP> -N -f
 ```
 
 Si el puerto está en uso:
@@ -123,6 +124,9 @@ kill -9 <PROCESO>
 ```
 
 El LA Toolkit debe estar disponible en:\
+[http://latoolkit.geoacademia.org:2010/](http://latoolkit.geoacademia.org:2010/)
+
+o si se usó el IP en:\
 [http://localhost:2010/](http://localhost:2010/)
 
 #### Servidor 01
@@ -132,11 +136,12 @@ doctl compute droplet create \
   --region nyc1 \
   --image ubuntu-18-04-x64 \
   --size s-8vcpu-16gb \
-  --ssh-keys 36105160 \
-  --tag-names ala,crbio \
-  living-atlas-servidor-01
+  --ssh-keys 37032818 \
+  --tag-names ala,geoacademia \
+  datos.geoacademia.org
 ```
-Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+- Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `latoolkit.geoacademia.org`.
 
 
 ## Otros
