@@ -11,10 +11,11 @@
 **Creación de la máquina virtual**
 ```shell
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 1 CPU 512 MB 10 GB
+# NYC1 - Ubuntu 18.04 (LTS) x64 - 4 CPU 8 GB 160 GB
 doctl compute droplet create \
   --region nyc1 \
   --image ubuntu-18-04-x64 \
-  --size s-1vcpu-512mb-10gb \
+  --size s-4vcpu-8gb \
   --ssh-keys 36105160 \
   --tag-names ala,crbio \
   living-atlas-toolkit
@@ -65,12 +66,38 @@ cat ~/.ssh/crbio.pub | ssh root@000.000.000.000 "cat >> /home/ubuntu/.ssh/author
 ssh ubuntu@000.000.000.000
 ```
 
-**Instalación de Docker**\
+**Instalación y configuración de Docker**\
 [https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
 ```shell
-# Instalación de Docker
+# Instalación
 curl -fsSL https://get.docker.com -o get-docker.sh
 DRY_RUN=1 sudo sh ./get-docker.sh
+
+# Prueba
+sudo docker version
+
+# Adición del usuario ubuntu al grupo docker, para así ejecutar docker sin sudo
+sudo usermod -aG docker $USER
+# Activación de cambios en el grupo
+newgrp docker
+# Prueba
+docker run hello-world
+```
+
+**Creación de directorios**
+```shell
+# Creación de directorios
+sudo mkdir -p /data/la-toolkit/config/ /data/la-toolkit/logs/ /data/la-toolkit/ssh/ /data/la-toolkit/mongo /data/la-toolkit/backups
+sudo chmod -R 777 /data
+```
+
+**Instalación de xdg-utils**
+```shell
+sudo apt install -y xdg-utils
+```
+
+```shell
+git clone https://github.com/living-atlases/la-toolkit.git
 ```
 
 ## Otros
