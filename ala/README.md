@@ -142,4 +142,4 @@ doctl compute image list-distribution
 doctl compute droplet list --format "ID,Name,PublicIPv4"
 
 # Borrado de un droplet
-doctl compute droplet delete 000000000
+doctl compute droplet delete <ID-DROPLET>
