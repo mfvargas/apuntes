@@ -4,18 +4,23 @@
 - [Living Atlases Toolkit](https://github.com/living-atlases/la-toolkit)
 
 ## Instalación con el Living Atlases Toolkit
+Se detalla un procedimiento para instalar un portal de datos de biodiversidad con en el software desarrollado y compartido por el [Atlas of Living Australia (ALA)](https://www.ala.org.au/). La instalación se realiza con el [Living Atlases Toolkit](https://github.com/living-atlases/la-toolkit) en máquinas virtuales de [DigitalOcean (DO)](https://www.digitalocean.com/).
 
 ### Creación y configuración de máquinas virtuales en DO
+Máquinas virtuales:
 
-#### Instalador
+- Living Atlases Toolkit
+- Servidor 1
+- Servidor 2
+
+#### Liviing Atlases Toolkit
 **Creación de la máquina virtual**
 ```shell
-# NYC1 - Ubuntu 18.04 (LTS) x64 - 1 CPU 512 MB 10 GB
-# NYC1 - Ubuntu 18.04 (LTS) x64 - 4 CPU 8 GB 160 GB
+# NYC1 - Ubuntu 18.04 (LTS) x64 - 2 CPU 4 GB 80 GB
 doctl compute droplet create \
   --region nyc1 \
   --image ubuntu-18-04-x64 \
-  --size s-4vcpu-8gb \
+  --size s-2vcpu-4gb \
   --ssh-keys 36105160 \
   --tag-names ala,crbio \
   living-atlas-toolkit
@@ -91,14 +96,28 @@ sudo mkdir -p /data/la-toolkit/config/ /data/la-toolkit/logs/ /data/la-toolkit/s
 sudo chmod -R 777 /data
 ```
 
-**Instalación de xdg-utils**
+**Ejecución de la-toolkit**
 ```shell
-sudo apt install -y xdg-utils
+# Clonación del repositorio
+cd
+git clone https://github.com/living-atlases/la-toolkit.git
+
+# Ejecución
+cd la-toolkit
+docker compose up -d
+
+# Revisión de los contenedores creados (la-toolkit, la-toolkit-mongo y la-toolkit-watchtower)
+docker ps
 ```
 
+**Acceso desde otra computadora**
 ```shell
-git clone https://github.com/living-atlases/la-toolkit.git
+# Creación de un tunel ssh
+ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@000.000.000.000 -N -f
 ```
+
+El LA Toolkit debe estar disponible en:\
+[http://localhost:2010/](http://localhost:2010/)
 
 ## Otros
 
