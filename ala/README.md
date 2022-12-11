@@ -129,7 +129,7 @@ El LA Toolkit debe estar disponible en:\
 o si se usó el IP en:\
 [http://localhost:2010/](http://localhost:2010/)
 
-#### Servidor 01
+#### Datos
 ```shell
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB
 doctl compute droplet create \
@@ -141,8 +141,109 @@ doctl compute droplet create \
   datos.geoacademia.org
 ```
 - Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
-- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `latoolkit.geoacademia.org`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea a los nombres `geoacademia.org` y `datos.geoacademia.org`.
 
+**Conexión con el usuario root**
+```shell
+# Conexión con el nombre
+ssh root@datos.geoacademia.org
+```
+
+**Actualización de paquetes**
+```shell
+# Actualización de paquetes
+apt update -y
+apt upgrade -y
+```
+
+**Creación y configuración del usuario ubuntu**
+```shell
+# Creación del usuario
+adduser ubuntu --disabled-password
+
+# Adición al grupo sudo
+usermod -aG sudo ubuntu
+
+# Eliminación de la clave en el comando sudo
+echo "ubuntu ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/90-cloud-init-users
+
+# Creación del directorio .ssh y del archivo authorized_keys
+mkdir -p /home/ubuntu/.ssh
+touch /home/ubuntu/.ssh/authorized_keys
+chmod 700 /home/ubuntu/.ssh
+chmod 644 /home/ubuntu/.ssh/authorized_keys
+chown -R ubuntu:ubuntu /home/ubuntu/.ssh
+```
+
+**Copia de la llave pública**
+```shell
+# Salida para regresar a la estación de trabajo
+exit
+
+# Copia de la llave pública
+cat ~/.ssh/crbio.pub | ssh root@datos.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
+
+# Prueba de la conexión con el usuario ubuntu y la llave pública
+ssh ubuntu@datos.geoacademia.org
+```
+
+#### Datos 02
+```shell
+# NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB
+doctl compute droplet create \
+  --region nyc1 \
+  --image ubuntu-18-04-x64 \
+  --size s-8vcpu-16gb \
+  --ssh-keys 37032818 \
+  --tag-names ala,geoacademia \
+  datos02.geoacademia.org
+```
+- Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `datos02.geoacademia.org`.
+
+**Conexión con el usuario root**
+```shell
+# Conexión con el nombre
+ssh root@datos02.geoacademia.org
+```
+
+**Actualización de paquetes**
+```shell
+# Actualización de paquetes
+apt update -y
+apt upgrade -y
+```
+
+**Creación y configuración del usuario ubuntu**
+```shell
+# Creación del usuario
+adduser ubuntu --disabled-password
+
+# Adición al grupo sudo
+usermod -aG sudo ubuntu
+
+# Eliminación de la clave en el comando sudo
+echo "ubuntu ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/90-cloud-init-users
+
+# Creación del directorio .ssh y del archivo authorized_keys
+mkdir -p /home/ubuntu/.ssh
+touch /home/ubuntu/.ssh/authorized_keys
+chmod 700 /home/ubuntu/.ssh
+chmod 644 /home/ubuntu/.ssh/authorized_keys
+chown -R ubuntu:ubuntu /home/ubuntu/.ssh
+```
+
+**Copia de la llave pública**
+```shell
+# Salida para regresar a la estación de trabajo
+exit
+
+# Copia de la llave pública
+cat ~/.ssh/crbio.pub | ssh root@datos02.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
+
+# Prueba de la conexión con el usuario ubuntu y la llave pública
+ssh ubuntu@datos02.geoacademia.org
+```
 
 ## Otros
 
