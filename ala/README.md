@@ -10,7 +10,7 @@ Se detalla un procedimiento para instalar un portal de datos de biodiversidad co
 Máquinas virtuales:
 
 - latoolkit.geoacademia.org (Living Atlases Toolkit)
-- geoacademia.org (Servidor principal)
+- datos01.geoacademia.org (Servidor principal)
 
 #### Living Atlases Toolkit
 **Creación de la máquina virtual**
@@ -24,8 +24,8 @@ doctl compute droplet create \
   --tag-names ala,geoacademia \
   latoolkit.geoacademia.org
 ```
-- Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
 - Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `latoolkit.geoacademia.org`.
+- Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
 
 **Conexión con el usuario root**
 ```shell
@@ -120,7 +120,9 @@ ssh -i ~/.ssh/geoacademia -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:
 Si el puerto está en uso:
 ```shell
 sudo netstat -tulpn | grep 2010
-kill -9 <PROCESO>
+
+# Debe matarse el proceso en 0.0.0.0:2010
+sudo kill -9 <PROCESO>
 ```
 
 El LA Toolkit debe estar disponible en:\
