@@ -129,7 +129,7 @@ El LA Toolkit debe estar disponible en:\
 o si se usó el IP en:\
 [http://localhost:2010/](http://localhost:2010/)
 
-#### Datos
+#### Datos 01
 ```shell
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB
 doctl compute droplet create \
@@ -138,15 +138,15 @@ doctl compute droplet create \
   --size s-8vcpu-16gb \
   --ssh-keys 37032818 \
   --tag-names ala,geoacademia \
-  datos.geoacademia.org
+  datos01.geoacademia.org
 ```
 - Debe anotarse el IP de la máquina creada. Puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
-- Para efectos de esta guía, el IP de la máquina creada se mapea a los nombres `geoacademia.org` y `datos.geoacademia.org`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea a los nombres `geoacademia.org` y `datos01.geoacademia.org`.
 
 **Conexión con el usuario root**
 ```shell
 # Conexión con el nombre
-ssh root@datos.geoacademia.org
+ssh -i ~/.ssh/geoacademia root@datos01.geoacademia.org
 ```
 
 **Actualización de paquetes**
@@ -181,10 +181,10 @@ chown -R ubuntu:ubuntu /home/ubuntu/.ssh
 exit
 
 # Copia de la llave pública
-cat ~/.ssh/crbio.pub | ssh root@datos.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
+cat ~/.ssh/geoacademia.pub | ssh -i ~/.ssh/geoacademia root@datos01.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
 
 # Prueba de la conexión con el usuario ubuntu y la llave pública
-ssh ubuntu@datos.geoacademia.org
+ssh -i ~/.ssh/geoacademia ubuntu@datos01.geoacademia.org
 ```
 
 #### Datos 02
@@ -204,7 +204,7 @@ doctl compute droplet create \
 **Conexión con el usuario root**
 ```shell
 # Conexión con el nombre
-ssh root@datos02.geoacademia.org
+ssh -i ~/.ssh/geoacademia root@datos02.geoacademia.org
 ```
 
 **Actualización de paquetes**
@@ -239,10 +239,10 @@ chown -R ubuntu:ubuntu /home/ubuntu/.ssh
 exit
 
 # Copia de la llave pública
-cat ~/.ssh/crbio.pub | ssh root@datos02.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
+cat ~/.ssh/crbio.pub | ssh -i ~/.ssh/geoacademia root@datos02.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
 
 # Prueba de la conexión con el usuario ubuntu y la llave pública
-ssh ubuntu@datos02.geoacademia.org
+ssh -i ~/.ssh/geoacademia ubuntu@datos02.geoacademia.org
 ```
 
 ## Otros
