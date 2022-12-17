@@ -112,6 +112,9 @@ docker ps
 
 **Acceso desde otra computadora**
 ```shell
+# Salida para regresar a la estación de trabajo
+exit
+
 # Creación de un tunel ssh
 ssh -i ~/.ssh/geoacademia -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.geoacademia.org -N -f
 # ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@<DIRECCION-IP> -N -f
