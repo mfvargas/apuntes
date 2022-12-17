@@ -15,11 +15,11 @@ Máquinas virtuales:
 #### Living Atlases Toolkit
 **Creación de la máquina virtual**
 ```shell
-# NYC1 - Ubuntu 18.04 (LTS) x64 - 1 CPU 2 GB 60 GB
+# NYC1 - Ubuntu 18.04 (LTS) x64 - 1 CPU 1 GB 25 GB
 doctl compute droplet create \
   --region nyc1 \
   --image ubuntu-18-04-x64 \
-  --size s-1vcpu-2gb \
+  --size s-1vcpu-1gb \
   --ssh-keys 37032818 \
   --tag-names ala,geoacademia \
   latoolkit.geoacademia.org
