@@ -30,7 +30,7 @@ doctl compute droplet create \
 **Conexión con el usuario root**
 ```shell
 # Conexión con el nombre
-ssh root@latoolkit.geoacademia.org
+ssh -i ~/.ssh/geoacademia root@latoolkit.geoacademia.org
 ```
 
 **Actualización de paquetes**
@@ -65,10 +65,10 @@ chown -R ubuntu:ubuntu /home/ubuntu/.ssh
 exit
 
 # Copia de la llave pública
-cat ~/.ssh/geoacademia.pub | ssh root@latoolkit.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
+cat ~/.ssh/geoacademia.pub | ssh -i ~/.ssh/geoacademia root@latoolkit.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
 
 # Prueba de la conexión con el usuario ubuntu y la llave pública
-ssh ubuntu@latoolkit.geoacademia.org
+ssh -i ~/.ssh/geoacademia ubuntu@latoolkit.geoacademia.org
 ```
 
 **Instalación y configuración de Docker**\
@@ -113,7 +113,7 @@ docker ps
 **Acceso desde otra computadora**
 ```shell
 # Creación de un tunel ssh
-ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.geoacademia.org -N -f
+ssh -i ~/.ssh/geoacademia -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.geoacademia.org -N -f
 # ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@<DIRECCION-IP> -N -f
 ```
 
