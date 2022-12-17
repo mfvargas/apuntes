@@ -65,7 +65,7 @@ chown -R ubuntu:ubuntu /home/ubuntu/.ssh
 exit
 
 # Copia de la llave pública
-cat ~/.ssh/crbio.pub | ssh root@latoolkit.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
+cat ~/.ssh/geoacademia.pub | ssh root@latoolkit.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
 
 # Prueba de la conexión con el usuario ubuntu y la llave pública
 ssh ubuntu@latoolkit.geoacademia.org
