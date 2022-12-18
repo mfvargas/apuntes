@@ -10,7 +10,7 @@ Se detalla un procedimiento para instalar un portal de datos de biodiversidad co
 Máquinas virtuales:
 
 - latoolkit.geoacademia.org (Living Atlases Toolkit)
-- datos01.geoacademia.org (Servidor principal)
+- geoacademia.org, datos.geoacademia.org (Servidor principal)
 
 #### Living Atlases Toolkit
 **Creación de la máquina virtual**
