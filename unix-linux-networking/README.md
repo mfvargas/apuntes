@@ -1,4 +1,4 @@
-# UNIX/LINUX Networking
+# Unix/Linux Networking
 
 **Revisión de puertos**
 ```shell
