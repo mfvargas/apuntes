@@ -10,7 +10,8 @@ Se detalla un procedimiento para instalar un portal de datos de biodiversidad co
 Máquinas virtuales:
 
 - latoolkit.crbio.xyz (Living Atlases Toolkit)
-- crbio.xyz, datos.crbio.xyz (Servidor principal)
+- crbio.xyz, datos01.crbio.xyz (collections, logger)
+- datos02.crbio.xyz (records, records-ws, solr)
 
 #### Living Atlases Toolkit
 **Creación de la máquina virtual**
