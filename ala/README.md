@@ -15,22 +15,22 @@ Máquinas virtuales:
 #### Living Atlases Toolkit
 **Creación de la máquina virtual**
 ```shell
-# NYC1 - Ubuntu 18.04 (LTS) x64 - 1 CPU 1 GB 25 GB
+# NYC1 - Ubuntu 18.04 (LTS) x64 - 1 CPU 1 GB RAM 25 GB disco - Llave crbio
 doctl compute droplet create \
   --region nyc1 \
   --image ubuntu-18-04-x64 \
   --size s-1vcpu-1gb \
-  --ssh-keys 37032818 \
-  --tag-names ala,geoacademia \
-  latoolkit.geoacademia.org
+  --ssh-keys 36105160 \
+  --tag-names ala,crbio,latoolkit \
+  latoolkit.crbio.xyz
 ```
-- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `latoolkit.geoacademia.org`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `latoolkit.crbio.xyz`.
 - Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
 
 **Conexión con el usuario root**
 ```shell
 # Conexión con el nombre
-ssh -i ~/.ssh/geoacademia root@latoolkit.geoacademia.org
+ssh -i ~/.ssh/crbio root@latoolkit.crbio.xyz
 ```
 
 **Actualización de paquetes**
@@ -51,24 +51,14 @@ usermod -aG sudo ubuntu
 # Eliminación de la clave en el comando sudo
 echo "ubuntu ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/90-cloud-init-users
 
-# Creación del directorio .ssh y del archivo authorized_keys
-mkdir -p /home/ubuntu/.ssh
-touch /home/ubuntu/.ssh/authorized_keys
-chmod 700 /home/ubuntu/.ssh
-chmod 644 /home/ubuntu/.ssh/authorized_keys
-chown -R ubuntu:ubuntu /home/ubuntu/.ssh
-```
+# Copia de la llave pública al usuario ubuntu
+rsync --archive --chown=ubuntu:ubuntu ~/.ssh /home/ubuntu
 
-**Copia de la llave pública**
-```shell
-# Salida para regresar a la estación de trabajo
+# Salida para volver a la estación de trabajo
 exit
 
-# Copia de la llave pública
-cat ~/.ssh/geoacademia.pub | ssh -i ~/.ssh/geoacademia root@latoolkit.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
-
-# Prueba de la conexión con el usuario ubuntu y la llave pública
-ssh -i ~/.ssh/geoacademia ubuntu@latoolkit.geoacademia.org
+# Conexión con el usuario ubuntu y la llave pública
+ssh -i ~/.ssh/crbio ubuntu@latoolkit.crbio.xyz
 ```
 
 **Instalación y configuración de Docker**\
@@ -116,7 +106,7 @@ docker ps
 exit
 
 # Creación de un tunel ssh
-ssh -i ~/.ssh/geoacademia -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.geoacademia.org -N -f
+ssh -i ~/.ssh/crbio -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.crbio.xyz -N -f
 # ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@<DIRECCION-IP> -N -f
 ```
 
@@ -129,7 +119,7 @@ sudo kill -9 <PROCESO>
 ```
 
 El LA Toolkit debe estar disponible en:\
-[http://latoolkit.geoacademia.org:2010/](http://latoolkit.geoacademia.org:2010/)
+[http://latoolkit.crbio.zyz:2010/](http://latoolkit.crbio.xyz:2010/)
 
 o si se usó el IP en:\
 [http://localhost:2010/](http://localhost:2010/)
