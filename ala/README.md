@@ -52,7 +52,7 @@ usermod -aG sudo ubuntu
 echo "ubuntu ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/90-cloud-init-users
 
 # Copia de la llave pública al usuario ubuntu
-rsync --archive --chown=ubuntu:ubuntu ~/.ssh/home/ubuntu
+rsync --archive --chown=ubuntu:ubuntu ~/.ssh /home/ubuntu
 
 # Salida para volver a la estación de trabajo
 exit
