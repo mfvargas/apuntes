@@ -9,8 +9,8 @@ Se detalla un procedimiento para instalar un portal de datos de biodiversidad co
 ### Creación y configuración de máquinas virtuales en DO
 Máquinas virtuales:
 
-- latoolkit.geoacademia.org (Living Atlases Toolkit)
-- geoacademia.org, datos.geoacademia.org (Servidor principal)
+- latoolkit.crbio.xyz (Living Atlases Toolkit)
+- crbio.xyz, datos.crbio.xyz (Servidor principal)
 
 #### Living Atlases Toolkit
 **Creación de la máquina virtual**
