@@ -25,7 +25,7 @@ doctl compute droplet create \
   latoolkit.crbio.xyz
 ```
 - Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `latoolkit.crbio.xyz`.
-- Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+- Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con:\ `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
 
 **Conexión con el usuario root**
 ```shell
