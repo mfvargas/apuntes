@@ -126,22 +126,22 @@ o si se usó el IP en:\
 
 #### Datos 01
 ```shell
-# NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB
+# NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB - Llave crbio
 doctl compute droplet create \
   --region nyc1 \
   --image ubuntu-18-04-x64 \
   --size s-8vcpu-16gb \
-  --ssh-keys 37032818 \
-  --tag-names ala,geoacademia \
-  datos01.geoacademia.org
+  --ssh-keys 36105160 \
+  --tag-names ala,crbio,latoolkit \
+  datos01.crbio.xyz
 ```
-- Para efectos de esta guía, el IP de la máquina creada se mapea a los nombres `geoacademia.org` y `datos01.geoacademia.org`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea a los nombres `crbio.xyz` y `datos01.crbio.xyz`.
 - Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
 
 **Conexión con el usuario root**
 ```shell
 # Conexión con el nombre
-ssh -i ~/.ssh/geoacademia root@datos01.geoacademia.org
+ssh -i ~/.ssh/crbio root@datos01.crbio.xyz
 ```
 
 **Actualización de paquetes**
@@ -162,44 +162,34 @@ usermod -aG sudo ubuntu
 # Eliminación de la clave en el comando sudo
 echo "ubuntu ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/90-cloud-init-users
 
-# Creación del directorio .ssh y del archivo authorized_keys
-mkdir -p /home/ubuntu/.ssh
-touch /home/ubuntu/.ssh/authorized_keys
-chmod 700 /home/ubuntu/.ssh
-chmod 644 /home/ubuntu/.ssh/authorized_keys
-chown -R ubuntu:ubuntu /home/ubuntu/.ssh
-```
+# Copia de la llave pública al usuario ubuntu
+rsync --archive --chown=ubuntu:ubuntu ~/.ssh /home/ubuntu
 
-**Copia de la llave pública**
-```shell
-# Salida para regresar a la estación de trabajo
+# Salida para volver a la estación de trabajo
 exit
 
-# Copia de la llave pública
-cat ~/.ssh/geoacademia.pub | ssh -i ~/.ssh/geoacademia root@datos01.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
-
-# Prueba de la conexión con el usuario ubuntu y la llave pública
-ssh -i ~/.ssh/geoacademia ubuntu@datos01.geoacademia.org
+# Conexión con el usuario ubuntu y la llave pública
+ssh -i ~/.ssh/crbio ubuntu@datos01.crbio.xyz
 ```
 
 #### Datos 02
 ```shell
-# NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB
+# NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB - Llave crbio
 doctl compute droplet create \
   --region nyc1 \
   --image ubuntu-18-04-x64 \
   --size s-8vcpu-16gb \
-  --ssh-keys 37032818 \
-  --tag-names ala,geoacademia \
-  datos02.geoacademia.org
+  --ssh-keys 36105160 \
+  --tag-names ala,crbio,latoolkit \
+  datos02.crbio.xyz
 ```
-- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `datos02.geoacademia.org`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `datos02.crbio.xyz`.
 - Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
 
 **Conexión con el usuario root**
 ```shell
 # Conexión con el nombre
-ssh -i ~/.ssh/geoacademia root@datos02.geoacademia.org
+ssh -i ~/.ssh/crbio root@datos02.crbio.xyz
 ```
 
 **Actualización de paquetes**
@@ -220,24 +210,14 @@ usermod -aG sudo ubuntu
 # Eliminación de la clave en el comando sudo
 echo "ubuntu ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/90-cloud-init-users
 
-# Creación del directorio .ssh y del archivo authorized_keys
-mkdir -p /home/ubuntu/.ssh
-touch /home/ubuntu/.ssh/authorized_keys
-chmod 700 /home/ubuntu/.ssh
-chmod 644 /home/ubuntu/.ssh/authorized_keys
-chown -R ubuntu:ubuntu /home/ubuntu/.ssh
-```
+# Copia de la llave pública al usuario ubuntu
+rsync --archive --chown=ubuntu:ubuntu ~/.ssh /home/ubuntu
 
-**Copia de la llave pública**
-```shell
-# Salida para regresar a la estación de trabajo
+# Salida para volver a la estación de trabajo
 exit
 
-# Copia de la llave pública
-cat ~/.ssh/geoacademia.pub | ssh -i ~/.ssh/geoacademia root@datos02.geoacademia.org "cat >> /home/ubuntu/.ssh/authorized_keys"
-
-# Prueba de la conexión con el usuario ubuntu y la llave pública
-ssh -i ~/.ssh/geoacademia ubuntu@datos02.geoacademia.org
+# Conexión con el usuario ubuntu y la llave pública
+ssh -i ~/.ssh/crbio ubuntu@datos02.crbio.xyz
 ```
 
 ## Otros
