@@ -44,7 +44,7 @@ apt upgrade -y
 **Creación y configuración del usuario ubuntu**
 ```shell
 # Creación del usuario
-adduser ubuntu --disabled-password
+adduser ubuntu --disabled-password --gecos ""
 
 # Adición al grupo sudo
 usermod -aG sudo ubuntu
