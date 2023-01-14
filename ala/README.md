@@ -37,8 +37,7 @@ ssh -i ~/.ssh/crbio root@latoolkit.crbio.xyz
 **Actualización de paquetes**
 ```shell
 # Actualización de paquetes
-apt update -y
-apt upgrade -y
+apt update -y && apt upgrade -y
 ```
 
 **Creación y configuración del usuario ubuntu**
@@ -148,8 +147,7 @@ ssh -i ~/.ssh/crbio root@datos01.crbio.xyz
 **Actualización de paquetes y creación del usuario ubuntu**
 ```shell
 # Actualización de paquetes
-apt update -y
-apt upgrade -y
+apt update -y && apt upgrade -y
 
 # Creación del usuario ubuntu
 adduser ubuntu --disabled-password --gecos ""
@@ -196,8 +194,7 @@ ssh -i ~/.ssh/crbio root@datos02.crbio.xyz
 **Actualización de paquetes y creación del usuario ubuntu**
 ```shell
 # Actualización de paquetes
-apt update -y
-apt upgrade -y
+apt update -y && apt upgrade -y
 
 # Creación del usuario ubuntu
 adduser ubuntu --disabled-password --gecos ""
