@@ -10,8 +10,8 @@ Se detalla un procedimiento para instalar un portal de datos de biodiversidad co
 Máquinas virtuales:
 
 - latoolkit.crbio.xyz (Living Atlases Toolkit)
-- datos01.crbio.xyz (collections, logger)
-- crbio.xyz, datos02.crbio.xyz (records, records-ws, solr)
+- crbio.xyz, datos01.crbio.xyz (records, records-ws, solr, branding)
+- datos02.crbio.xyz (collections, logger)
 
 #### Living Atlases Toolkit
 **Creación de la máquina virtual**
@@ -136,7 +136,7 @@ doctl compute droplet create \
   --tag-names ala,crbio,latoolkit \
   datos01.crbio.xyz
 ```
-- Para efectos de esta guía, el IP de la máquina creada se mapea a los nombres `datos01.crbio.xyz`, `collections.crbio.xyz` y `logger.crbio.xyz`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea a los nombres `crbio.xyz`, `datos01.crbio.xyz`, ...
 - Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
 
 **Conexión con el usuario root**
@@ -184,7 +184,7 @@ doctl compute droplet create \
   --tag-names ala,crbio,latoolkit \
   datos02.crbio.xyz
 ```
-- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `datos02.crbio.xyz`, `records.crbio.xyz`, `records-ws.crbio.xyz` y `solr.crbio.xyz`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `datos02.crbio.xyz`, ....
 - Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
 
 **Conexión con el usuario root**
