@@ -145,16 +145,13 @@ doctl compute droplet create \
 ssh -i ~/.ssh/crbio root@datos01.crbio.xyz
 ```
 
-**Actualización de paquetes**
+**Actualización de paquetes y creación del usuario ubuntu**
 ```shell
 # Actualización de paquetes
 apt update -y
 apt upgrade -y
-```
 
-**Creación y configuración del usuario ubuntu**
-```shell
-# Creación del usuario
+# Creación del usuario ubuntu
 adduser ubuntu --disabled-password --gecos ""
 
 # Adición al grupo sudo
@@ -168,7 +165,10 @@ rsync --archive --chown=ubuntu:ubuntu ~/.ssh /home/ubuntu
 
 # Salida para volver a la estación de trabajo
 exit
+```
 
+**Conexión con el usuario ubuntu y la llave pública**
+```shell
 # Conexión con el usuario ubuntu y la llave pública
 ssh -i ~/.ssh/crbio ubuntu@datos01.crbio.xyz
 ```
@@ -193,16 +193,13 @@ doctl compute droplet create \
 ssh -i ~/.ssh/crbio root@datos02.crbio.xyz
 ```
 
-**Actualización de paquetes**
+**Actualización de paquetes y creación del usuario ubuntu**
 ```shell
 # Actualización de paquetes
 apt update -y
 apt upgrade -y
-```
 
-**Creación y configuración del usuario ubuntu**
-```shell
-# Creación del usuario
+# Creación del usuario ubuntu
 adduser ubuntu --disabled-password --gecos ""
 
 # Adición al grupo sudo
@@ -216,7 +213,10 @@ rsync --archive --chown=ubuntu:ubuntu ~/.ssh /home/ubuntu
 
 # Salida para volver a la estación de trabajo
 exit
+```
 
+**Conexión con el usuario ubuntu y la llave pública**
+```shell
 # Conexión con el usuario ubuntu y la llave pública
 ssh -i ~/.ssh/crbio ubuntu@datos02.crbio.xyz
 ```
