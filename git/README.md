@@ -10,42 +10,47 @@ Git fue creado en 2005 por [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_
 
 ## Snippets
 ### Configuración de git
-```terminal
-$ git config --global user.name "Manuel Vargas"
-$ git config --global user.email "mfvargas@gmail.com"
+```shell
+git config --global user.name "Manuel Vargas"
+git config --global user.email "mfvargas@gmail.com"
 ```
 
 ### Creación de un repositorio
-```terminal
-$ mkdir repositorio
-$ cd repositorio
-$ git init
-$ git add .
-$ git commit -m "Commit inicial"
+```shell
+mkdir repositorio
+cd repositorio
+git init
+git add .
+git commit -m "Commit inicial"
 
 # El repositorio estimacion-biodiversidad/estimacion-biodiversidad-qgis-plugin debe ser creado en GitHub (https://github.com/)
-$ git remote add origin https://github.com/estimacion-biodiversidad/estimacion-biodiversidad-qgis-plugin
+git remote add origin https://github.com/estimacion-biodiversidad/estimacion-biodiversidad-qgis-plugin
 
-$ git push -u origin master
+git push -u origin master
 ```
 
 ### Clonación de un repositorio
-```terminal
-$ git clone https://github.com/estimacion-biodiversidad/estimacion-biodiversidad-qgis-plugin.git
+```shell
+git clone https://github.com/estimacion-biodiversidad/estimacion-biodiversidad-qgis-plugin.git
 ```
 
 ### Aplicar cambios a un repositorio remoto
-```terminal
-$ git status
-$ git add .
-$ git commit -m "Comentario"
-$ git push -u origin master
+```shell
+git status
+git add .
+git commit -m "Comentario"
+git push -u origin master
 ```
 
 ### Aplicar cambios desde un repositorio remoto
 Recursos:
 * [Getting changes from a remote repository - GitHub Help](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository)
 
-```terminal
-$ git pull origin master
+```shell
+git pull origin master
+```
+
+### Ejecutar un comando de SSH antes del comando Git
+```shell
+GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa' git push
 ```
