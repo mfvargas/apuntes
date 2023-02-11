@@ -1,4 +1,4 @@
-# FTP-LFTP
+# FTP - LFTP
 
 **Tamaño de un directorio**
 ```shell
