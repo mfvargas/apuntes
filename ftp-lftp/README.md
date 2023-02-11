@@ -1,6 +1,6 @@
 # FTP-LFTP
 
-Tamaño de un directorio
+**Tamaño de un directorio**
 ```shell
 lftp ftp://ftp.servidor.org
 > set ssl:check-hostname no
