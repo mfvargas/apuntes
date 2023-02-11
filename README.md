@@ -9,7 +9,7 @@
 * [Fiona](https://github.com/mfvargas/snippets/blob/master/fiona/README.md)
 * [Flutter](https://github.com/mfvargas/snippets/blob/master/flutter/README.md)
 * [Folium](https://github.com/mfvargas/snippets/blob/master/folium/README.md)
-* [FTP-LFTP](https://github.com/mfvargas/snippets/blob/master/ftp-lftp/README.md)
+* [FTP - LFTP](https://github.com/mfvargas/snippets/blob/master/ftp-lftp/README.md)
 * [GBIF - API](https://github.com/mfvargas/snippets/blob/master/gbif-api/README.md)
 * [GDAL](https://github.com/mfvargas/snippets/blob/master/gdal/README.md)
 * [GeoPandas](https://github.com/mfvargas/snippets/blob/master/geopandas/README.md)
