@@ -19,7 +19,7 @@ Máquinas virtuales:
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 1 CPU 1 GB RAM 25 GB disco - Llave crbio
 doctl compute droplet create \
   --region nyc1 \
-  --image ubuntu-20-04-x64 \
+  --image ubuntu-18-04-x64 \
   --size s-1vcpu-1gb \
   --ssh-keys 36105160 \
   --tag-names ala,crbio,latoolkit \
@@ -129,7 +129,7 @@ o si se usó el IP en:\
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB - Llave crbio
 doctl compute droplet create \
   --region nyc1 \
-  --image ubuntu-20-04-x64 \
+  --image ubuntu-18-04-x64 \
   --size s-8vcpu-16gb \
   --ssh-keys 36105160 \
   --tag-names ala,crbio,latoolkit \
@@ -176,7 +176,7 @@ ssh -i ~/.ssh/crbio ubuntu@datos01.crbio.xyz
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB - Llave crbio
 doctl compute droplet create \
   --region nyc1 \
-  --image ubuntu-20-04-x64 \
+  --image ubuntu-18-04-x64 \
   --size s-8vcpu-16gb \
   --ssh-keys 36105160 \
   --tag-names ala,crbio,latoolkit \
