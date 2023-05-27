@@ -91,7 +91,7 @@ sudo chmod -R 777 /data
 
 **Copia de las llaves**
 ```shell
-# Salida para volver a la estación de trabajo
+# Salida para volver a la estación de trabajo (puede que sea necesario repetir el comando)
 exit
 
 # Copia de las llaves
@@ -100,6 +100,9 @@ scp -i ~/.ssh/crbio ~/.ssh/crbio* ubuntu@latoolkit.crbio.xyz:/data/la-toolkit/ss
 
 **Ejecución de la-toolkit**
 ```shell
+# Conexión con el usuario ubuntu y la llave pública
+ssh -i ~/.ssh/crbio ubuntu@latoolkit.crbio.xyz
+
 # Clonación del repositorio
 cd
 git clone https://github.com/living-atlases/la-toolkit.git
