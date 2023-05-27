@@ -89,6 +89,11 @@ sudo mkdir -p /data/la-toolkit/config/ /data/la-toolkit/logs/ /data/la-toolkit/s
 sudo chmod -R 777 /data
 ```
 
+**Copia de las llaves**
+```shell
+scp -i ~/.ssh/crbio ~/.ssh/crbio* ubuntu@latoolkit.crbio.xyz:/data/la-toolkit/ssh
+```
+
 **Ejecución de la-toolkit**
 ```shell
 # Clonación del repositorio
