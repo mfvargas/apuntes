@@ -56,7 +56,10 @@ rsync --archive --chown=ubuntu:ubuntu ~/.ssh /home/ubuntu
 
 # Salida para volver a la estación de trabajo
 exit
+```
 
+**Conexión con el usuario ubuntu y la llave pública**
+```shell
 # Conexión con el usuario ubuntu y la llave pública
 ssh -i ~/.ssh/crbio ubuntu@latoolkit.crbio.xyz
 ```
@@ -66,7 +69,7 @@ ssh -i ~/.ssh/crbio ubuntu@latoolkit.crbio.xyz
 ```shell
 # Instalación
 curl -fsSL https://get.docker.com -o get-docker.sh
-DRY_RUN=1 sudo sh ./get-docker.sh
+sudo sh get-docker.sh
 
 # Prueba
 sudo docker version
