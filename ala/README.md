@@ -147,11 +147,14 @@ doctl compute droplet create \
 ssh -i ~/.ssh/crbio root@datos01.crbio.xyz
 ```
 
-**Actualización de paquetes y creación del usuario ubuntu**
+**Actualización de paquetes**
 ```shell
 # Actualización de paquetes
 apt update -y && apt upgrade -y
+```
 
+**Creación y configuración del usuario ubuntu**
+```shell
 # Creación del usuario ubuntu
 adduser ubuntu --disabled-password --gecos ""
 
@@ -194,11 +197,14 @@ doctl compute droplet create \
 ssh -i ~/.ssh/crbio root@datos02.crbio.xyz
 ```
 
-**Actualización de paquetes y creación del usuario ubuntu**
+**Actualización de paquetes**
 ```shell
 # Actualización de paquetes
 apt update -y && apt upgrade -y
+```
 
+**Creación y configuración del usuario ubuntu**
+```shell
 # Creación del usuario ubuntu
 adduser ubuntu --disabled-password --gecos ""
 
