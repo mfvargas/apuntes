@@ -172,6 +172,8 @@ Modificaciones
     - packages
     - cassandra
 
+# En /home/ubuntu/ansible/ala-install/ansible/roles/cassandra3/tasks/main.yml
+# se eliminó la opción force=yes, por estar en desuso
 - name: install Cassandra (Debian)
   apt: name=cassandra state=latest update_cache=yes
   tags:
