@@ -141,7 +141,7 @@ o si se usó el IP en:\
 
 **Otros**  
 
-Comandos de utilidad  
+Ingreso al shell del contenedor la-toolkit  
 ```shell
 # Ingreso al shell del contenedor la-toolkit
 docker exec -it la-toolkit bash
@@ -169,7 +169,7 @@ Modificaciones
     update_cache: yes
   when: ansible_os_family == "Debian"
   tags:
-    - packages
+    - packages"
     - cassandra
 
 # En /home/ubuntu/ansible/ala-install/ansible/roles/cassandra3/tasks/main.yml
@@ -182,6 +182,12 @@ Modificaciones
   notify:
     - restart cassandra
   when: ansible_os_family == "Debian"
+```
+
+Ejecución "manual" del "deploy"  
+```shell
+cd /home/ubuntu/ansible/la-inventories/crbio/crbio-inventories
+./ansiblew --alainstall=/home/ubuntu/ansible/ala-install --nodryrun --user ubuntu all 
 ```
 
 #### Datos 01
