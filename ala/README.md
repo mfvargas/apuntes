@@ -148,7 +148,8 @@ docker exec -it la-toolkit bash
 
 Directorios de interés  
 ```shell
-# Directorio de archivos de inventarios de ansible
+# Directorio de archivos de inventarios de ansible 
+# ("crbio" debe sustituirse por el nombre del proyecto especificado en la interfaz gráfica de la-toolkit)
 /home/ubuntu/ansible/la-inventories/crbio/crbio-inventories
 
 # Directorio de ala-install
