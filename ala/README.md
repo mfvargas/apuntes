@@ -186,21 +186,23 @@ Modificaciones a los playbooks de Ansible
 
 Ejecución "manual" de "pre deploy", "branding deploy", "deploy" y "post deploy"  
 ```shell
-# Posicionamiento en el directorio con los archivos de inventario
-# ("crbio" debe sustituirse por el nombre del proyecto especificado en la interfaz gráfica de la-toolkit)
-cd /home/ubuntu/ansible/la-inventories/crbio/crbio-inventories
+# En los comandos que se muestran seguidamente,
+# "crbio" debe sustituirse por el nombre del proyecto especificado en la interfaz gráfica de la-toolkit
 
 # pre deploy
+cd /home/ubuntu/ansible/la-inventories/crbio/crbio-pre-deploy
 ansible-playbook -i ../crbio-inventories/crbio-inventory.ini -i inventory.yml pre-deploy.yml --tags pre-task-etc-hosts,pre-task-solr-limits,pre-task-deps --user ubuntu
 
 # branding deploy
 /home/ubuntu/ansible/la-inventories/crbio/crbio-branding/deploy.sh
 
 # deploy
+cd /home/ubuntu/ansible/la-inventories/crbio/crbio-inventories
 ./ansiblew --alainstall=/home/ubuntu/ansible/ala-install --nodryrun --user ubuntu all
 
 # post deploy
-
+cd /home/ubuntu/ansible/la-inventories/crbio/crbio-post-deploy
+ansible-playbook -i ../crbio-inventories/crbio-inventory.ini -i inventory.yml post-deploy.yml --tags post-task-postfix --user ubuntu
 ```
 
 #### Datos 01
