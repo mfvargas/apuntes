@@ -139,6 +139,21 @@ El LA Toolkit debe estar disponible en:\
 o si se usó el IP en:\
 [http://localhost:2010/](http://localhost:2010/)
 
+**Otros**
+```shell
+# Ingreso al shell del contenedor la-toolkit
+docker exec -it la-toolkit bash
+```
+
+Directorios de interés  
+```shell
+# Archivos de inventarios de ansible
+/home/ubuntu/ansible/la-inventories/crbio/crbio-inventories
+
+# ala-install
+/home/ubuntu/ansible/ala-install/ansible
+```
+
 #### Datos 01
 ```shell
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB - Llave crbio
