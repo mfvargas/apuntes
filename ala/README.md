@@ -140,6 +140,7 @@ o si se usó el IP en:\
 [http://localhost:2010/](http://localhost:2010/)
 
 **Otros**  
+
 Comandos de utilidad  
 ```shell
 # Ingreso al shell del contenedor la-toolkit
