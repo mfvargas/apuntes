@@ -186,6 +186,7 @@ Modificaciones
 
 Ejecución "manual" del "deploy"  
 ```shell
+# Ejecución del deploy
 cd /home/ubuntu/ansible/la-inventories/crbio/crbio-inventories
 ./ansiblew --alainstall=/home/ubuntu/ansible/ala-install --nodryrun --user ubuntu all 
 ```
