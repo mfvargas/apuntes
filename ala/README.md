@@ -140,6 +140,7 @@ o si se usó el IP en:\
 [http://localhost:2010/](http://localhost:2010/)
 
 **Otros**
+Comandos de utilidad  
 ```shell
 # Ingreso al shell del contenedor la-toolkit
 docker exec -it la-toolkit bash
@@ -147,10 +148,10 @@ docker exec -it la-toolkit bash
 
 Directorios de interés  
 ```shell
-# Archivos de inventarios de ansible
+# Directorio de archivos de inventarios de ansible
 /home/ubuntu/ansible/la-inventories/crbio/crbio-inventories
 
-# ala-install
+# Directorio de ala-install
 /home/ubuntu/ansible/ala-install/ansible
 ```
 
