@@ -157,6 +157,31 @@ Directorios de interés
 /home/ubuntu/ansible/ala-install/ansible
 ```
 
+Modificaciones  
+```yaml
+# En /home/ubuntu/ansible/ala-install/ansible/roles/cassandra3/tasks/main.yml
+# se actualizó el enlace al repositorio de Cassandra para apt
+- name: add apt repository (Debian)
+  apt_repository:
+    repo: "deb https://debian.cassandra.apache.org 311x main"
+    state: present
+    filename: "cassandra.sources"
+    update_cache: yes
+  when: ansible_os_family == "Debian"
+  tags:
+    - packages
+    - cassandra
+
+- name: install Cassandra (Debian)
+  apt: name=cassandra state=latest update_cache=yes
+  tags:
+    - packages
+    - cassandra
+  notify:
+    - restart cassandra
+  when: ansible_os_family == "Debian"
+```
+
 #### Datos 01
 ```shell
 # NYC1 - Ubuntu 18.04 (LTS) x64 - 8 CPU 16 GB 320 GB - Llave crbio
