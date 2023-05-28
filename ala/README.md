@@ -157,7 +157,7 @@ Directorios de interés
 /home/ubuntu/ansible/ala-install/ansible
 ```
 
-Modificaciones  
+Modificaciones a los playbooks de Ansible  
 ```yaml
 # En /home/ubuntu/ansible/ala-install/ansible/roles/cassandra3/tasks/main.yml
 # se actualizó el enlace al repositorio de Cassandra para apt
@@ -184,12 +184,23 @@ Modificaciones
   when: ansible_os_family == "Debian"
 ```
 
-Ejecución "manual" del "deploy"  
+Ejecución "manual" de "pre deploy", "branding deploy", "deploy" y "post deploy"  
 ```shell
-# Ejecución del deploy
+# Posicionamiento en el directorio con los archivos de inventario
 # ("crbio" debe sustituirse por el nombre del proyecto especificado en la interfaz gráfica de la-toolkit)
 cd /home/ubuntu/ansible/la-inventories/crbio/crbio-inventories
-./ansiblew --alainstall=/home/ubuntu/ansible/ala-install --nodryrun --user ubuntu all 
+
+# pre deploy
+ansible-playbook -i ../crbio-inventories/crbio-inventory.ini -i inventory.yml pre-deploy.yml --tags pre-task-etc-hosts,pre-task-solr-limits,pre-task-deps --user ubuntu
+
+# branding deploy
+/home/ubuntu/ansible/la-inventories/crbio/crbio-branding/deploy.sh
+
+# deploy
+./ansiblew --alainstall=/home/ubuntu/ansible/ala-install --nodryrun --user ubuntu all
+
+# post deploy
+
 ```
 
 #### Datos 01
