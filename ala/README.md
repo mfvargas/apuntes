@@ -187,6 +187,7 @@ Modificaciones
 Ejecución "manual" del "deploy"  
 ```shell
 # Ejecución del deploy
+# ("crbio" debe sustituirse por el nombre del proyecto especificado en la interfaz gráfica de la-toolkit)
 cd /home/ubuntu/ansible/la-inventories/crbio/crbio-inventories
 ./ansiblew --alainstall=/home/ubuntu/ansible/ala-install --nodryrun --user ubuntu all 
 ```
