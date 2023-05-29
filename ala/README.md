@@ -122,15 +122,18 @@ exit
 
 # Creación de un tunel ssh
 ssh -i ~/.ssh/crbio -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.crbio.xyz -N -f
-# ssh -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@<DIRECCION-IP> -N -f
 ```
 
 Si el puerto está en uso:
 ```shell
+# Revisión del puerto 2010
 sudo netstat -tulpn | grep 2010
 
-# Debe matarse el proceso en 0.0.0.0:2010
+# Debe matarse el proceso que usa el puerto 2010
 sudo kill -9 <PROCESO>
+
+# Se intenta nuevamente la creación del tunel
+ssh -i ~/.ssh/crbio -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.crbio.xyz -N -f
 ```
 
 El LA Toolkit debe estar disponible en:\
@@ -158,6 +161,7 @@ Directorios de interés
 ```
 
 Modificaciones a los playbooks de Ansible  
+**Nota**: parece que los playbooks se sincronizan con https://github.com/AtlasOfLivingAustralia/ala-install justo antes de ejecutarlos desde la interfaz gráfica de la-toolkit (en "pre deploy", "branding deploy", "deploy" y "post deploy"). Esto debe tenerse en cuenta si van a ejecutarse, por ejemplo, desde la línea de comandos del sistema operativo.
 ```yaml
 # En /home/ubuntu/ansible/ala-install/ansible/roles/cassandra3/tasks/main.yml
 # se actualizó el enlace al repositorio de Cassandra para apt
