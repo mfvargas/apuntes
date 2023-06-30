@@ -25,10 +25,10 @@ doctl compute droplet create \
   --tag-names ala,crbio,latoolkit \
   latoolkit.crbio.xyz
 ```
-- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre  
-  `latoolkit.crbio.xyz`.
-- Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con  
-  `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre:  
+  `latoolkit.crbio.xyz`
+- Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con:  
+  `doctl compute droplet list --format "ID,Name,PublicIPv4"`
 
 **Conexión con el usuario root**
 ```shell
@@ -222,8 +222,10 @@ doctl compute droplet create \
   --tag-names ala,crbio,latoolkit \
   datos01.crbio.xyz
 ```
-- Para efectos de esta guía, el IP de la máquina creada se mapea a los nombres `crbio.xyz`, `datos01.crbio.xyz`, ...
-- Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea a los nombres:  
+  `crbio.xyz`, `datos01.crbio.xyz`
+- Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con
+  `doctl compute droplet list --format "ID,Name,PublicIPv4"`
 
 **Conexión con el usuario root**
 ```shell
@@ -272,8 +274,10 @@ doctl compute droplet create \
   --tag-names ala,crbio,latoolkit \
   datos02.crbio.xyz
 ```
-- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre `datos02.crbio.xyz`, ....
-- Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con `doctl compute droplet list --format "ID,Name,PublicIPv4"`.
+- Para efectos de esta guía, el IP de la máquina creada se mapea al nombre:  
+  `datos02.crbio.xyz`
+- Si no se usa un nombre, debe anotarse el IP de la máquina creada, el cual puede obtenerse con
+  `doctl compute droplet list --format "ID,Name,PublicIPv4"`
 
 **Conexión con el usuario root**
 ```shell
