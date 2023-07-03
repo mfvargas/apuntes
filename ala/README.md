@@ -95,8 +95,9 @@ sudo chmod -R 777 /data
 ```shell
 # Salida para volver a la estación de trabajo (puede que sea necesario repetir el comando)
 exit
+exit
 
-# Copia de las llaves
+# Copia de las llaves (desde la estación de trabajo)
 scp -i ~/.ssh/crbio ~/.ssh/crbio* ubuntu@latoolkit.crbio.xyz:/data/la-toolkit/ssh
 ```
 
