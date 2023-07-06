@@ -98,7 +98,7 @@ exit
 exit
 
 # Copia de las llaves (desde la estación de trabajo)
-scp -i ~/.ssh/crbio ~/.ssh/crbio* ubuntu@latoolkit.crbio.xyz:/data/la-toolkit/ssh
+scp -o StrictHostKeyChecking=no -i ~/.ssh/crbio ~/.ssh/crbio* ubuntu@latoolkit.crbio.xyz:/data/la-toolkit/ssh
 ```
 
 **Ejecución de la-toolkit**
