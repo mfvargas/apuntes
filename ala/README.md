@@ -104,7 +104,7 @@ scp -o StrictHostKeyChecking=no -i ~/.ssh/crbio ~/.ssh/crbio* ubuntu@latoolkit.c
 **Ejecución de la-toolkit**
 ```shell
 # Conexión con el usuario ubuntu y la llave pública
-ssh -i ~/.ssh/crbio ubuntu@latoolkit.crbio.xyz
+ssh -o StrictHostKeyChecking=no -i ~/.ssh/crbio ubuntu@latoolkit.crbio.xyz
 
 # Clonación del repositorio
 cd
