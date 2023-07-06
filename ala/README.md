@@ -231,7 +231,7 @@ doctl compute droplet create \
 **Conexión con el usuario root**
 ```shell
 # Conexión con el nombre
-ssh -i ~/.ssh/crbio root@datos01.crbio.xyz
+ssh -o StrictHostKeyChecking=no -i ~/.ssh/crbio root@datos01.crbio.xyz
 ```
 
 **Actualización de paquetes**
