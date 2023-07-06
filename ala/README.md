@@ -142,7 +142,7 @@ ssh -i ~/.ssh/crbio -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.
 El LA Toolkit debe estar disponible en:\
 [http://latoolkit.crbio.zyz:2010/](http://latoolkit.crbio.xyz:2010/)
 
-o si se usó el IP en:\
+o si se usó el IP, en:\
 [http://localhost:2010/](http://localhost:2010/)
 
 **Otros**  
