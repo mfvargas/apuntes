@@ -165,6 +165,10 @@ Directorios de interés
 
 Modificaciones a los playbooks de Ansible  
 **Nota**: parece que los playbooks se sincronizan con https://github.com/AtlasOfLivingAustralia/ala-install justo antes de ejecutarlos desde la interfaz gráfica de la-toolkit (en "pre deploy", "branding deploy", "deploy" y "post deploy"). Esto debe tenerse en cuenta si van a ejecutarse, por ejemplo, desde la línea de comandos del sistema operativo.
+
+<details>
+<summary>Cambio de repositorio de Cassandra (resuelto)</summary>
+  
 ```yaml
 # En /home/ubuntu/ansible/ala-install/ansible/roles/cassandra3/tasks/main.yml
 # se actualizó el enlace al repositorio de Cassandra para apt
@@ -190,6 +194,8 @@ Modificaciones a los playbooks de Ansible
     - restart cassandra
   when: ansible_os_family == "Debian"
 ```
+
+</details>
 
 Ejecución "manual" de "pre deploy", "branding deploy", "deploy" y "post deploy"  
 ```shell
