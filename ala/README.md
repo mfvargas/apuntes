@@ -124,7 +124,7 @@ docker ps
 exit
 
 # Creación de un tunel ssh
-ssh -i ~/.ssh/crbio -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.crbio.xyz -N -f
+ssh -o StrictHostKeyChecking=no -i ~/.ssh/crbio -L 2010:127.0.0.1:2010 -L 2011:127.0.0.1:2011 -L 2012:127.0.0.1:2012 ubuntu@latoolkit.crbio.xyz -N -f
 ```
 
 Si el puerto está en uso:
