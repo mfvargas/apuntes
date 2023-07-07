@@ -63,7 +63,7 @@ exit
 **Conexión con el usuario ubuntu y la llave pública**
 ```shell
 # Conexión con el usuario ubuntu y la llave pública
-ssh -i ~/.ssh/crbio ubuntu@latoolkit.crbio.xyz
+ssh -o StrictHostKeyChecking=no -i ~/.ssh/crbio ubuntu@latoolkit.crbio.xyz
 ```
 
 **Instalación y configuración de Docker**\
