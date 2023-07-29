@@ -338,5 +338,8 @@ doctl compute image list-distribution
 # Lista de droplets
 doctl compute droplet list --format "ID,Name,PublicIPv4"
 
+# Reconstrucción de un droplet (con Ubuntu 18)
+doctl compute droplet-action rebuild <ID-DROPLET> --image ubuntu-18-04-x64
+
 # Borrado de un droplet
 doctl compute droplet delete <ID-DROPLET>
