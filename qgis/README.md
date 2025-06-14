@@ -6,19 +6,24 @@
 ## Instalación en un ambiente Conda
 ```shell
 # Actualización de Conda
-$ conda update -n base -c defaults conda
-
-# Actualización de Miniconda
-$ conda update conda
+conda update conda
 
 # Creación del ambiente
-$ conda create -n qgis
+conda create -n qgis-ltr
 
 # Activación del ambiente
-$ conda activate qgis
+conda activate qgis-ltr
 
-# Instalación de paquetes
-$ conda install -c conda-forge qgis
+# Configuración del ambiente
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
 
-# Desactivación (para el final del proceso)
-$ conda deactivate
+# Instalación de mamba
+conda install mamba -c conda-forge
+
+# Instalación de módulos
+mamba install -c conda-forge/label/qgis_ltr qgis
+
+# Ejecución
+qgis &
+```
