@@ -1,4 +1,4 @@
-# Instalación de software en Ubuntu 22.04
+# Instalación de software en Ubuntu 24.04
 
 ## Docker
 
