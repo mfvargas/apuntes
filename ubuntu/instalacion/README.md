@@ -1,4 +1,4 @@
-# Instalación de software en Dell Alienware m18 R2
+# Instalación de software en Ubuntu 22.04
 
 ## Docker
 
@@ -33,4 +33,5 @@ sudo docker run hello-world
 # (Opcional, pero recomendado) Ejecutar Docker sin sudo
 sudo usermod -aG docker $USER
 # Debe cerrarse la sesión y volver a entrar para que el cambio surja efecto
+# (fue necesario reiniciar la computadora).
 ```
