@@ -2,7 +2,7 @@
 
 ## Docker
 
-´´´bash
+```bash
 # Actualizar la lista de paquetes
 sudo apt update
 sudo apt upgrade -y
@@ -33,4 +33,4 @@ sudo docker run hello-world
 # (Opcional, pero recomendado) Ejecutar Docker sin sudo
 sudo usermod -aG docker $USER
 # Debe cerrarse la sesión y volver a entrar para que el cambio surja efecto
-´´´
+```
