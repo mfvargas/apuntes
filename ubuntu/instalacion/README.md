@@ -35,3 +35,35 @@ sudo usermod -aG docker $USER
 # Debe cerrarse la sesión y volver a entrar para que el cambio surja efecto
 # (fue necesario reiniciar la computadora).
 ```
+
+## Miniconda
+
+```bash
+# 1) Requisitos mínimos
+sudo apt update && sudo apt install -y wget bzip2
+
+# 2) Descargar (x86_64)
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+cd
+
+# (Opcional) Verificar la integridad
+sha256sum ~/miniconda.sh
+
+# 3) Instalación silenciosa en el HOME
+bash ~/miniconda.sh -b -p $HOME/miniconda3
+
+# 4) Inicializar el shell
+$HOME/miniconda3/bin/conda init bash
+
+# 5) Activar cambios en la sesión actual (bash)
+source ~/.bashrc
+
+# 6) Prueba
+conda --version
+
+# 7) Actualizar conda
+conda update -n base -c defaults conda -y
+
+# 8) Instalar mamba
+conda install -n base mamba -c conda-forge
+```
