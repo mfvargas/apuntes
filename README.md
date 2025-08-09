@@ -30,6 +30,7 @@
 * [Rasterio](https://github.com/mfvargas/snippets/blob/master/rasterio/README.md)
 * [Shapely](https://github.com/mfvargas/snippets/blob/master/shapely/README.md)
 * [TMDb - API](https://github.com/mfvargas/snippets/blob/master/tmdb-api/README.md)
+* [Ubuntu - instalación](https://github.com/mfvargas/snippets/blob/master/ubuntu/instalacion/README.md)
 * [Unix/Linux](https://github.com/mfvargas/snippets/blob/master/unix-linux/README.md)
 * [Unix/Linux Networking](https://github.com/mfvargas/snippets/blob/master/unix-linux-networking/README.md)
 * [VirtualBox](https://github.com/mfvargas/snippets/blob/master/virtualbox/README.md)
