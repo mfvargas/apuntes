@@ -67,3 +67,26 @@ conda update -n base -c defaults conda -y
 # Instalar mamba
 conda install -n base mamba -c conda-forge
 ```
+
+## VS Code
+
+```bash
+# Actualizar la lista de paquetes
+sudo apt update
+
+# Instalar utilidades
+sudo apt install -y wget gpg apt-transport-https
+
+# Descargar la clave pública de Microsoft
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/ms_vscode.gpg
+
+# Declarar el repositorio oficial de VS Code para APT
+echo "deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/ms_vscode.gpg] https://packages.microsoft.com/repos/code stable main" | \
+  sudo tee /etc/apt/sources.list.d/vscode.list
+
+# Volver a actualizar el índice de paquetes para incluir el nuevo repo de VS Code
+sudo apt update
+
+# Instalar VS Code
+sudo apt install -y code
+```
