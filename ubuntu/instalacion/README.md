@@ -90,3 +90,16 @@ sudo apt update
 # Instalar VS Code
 sudo apt install -y code
 ```
+
+## LibreOffice
+
+```bash
+# Actualizar la lista de paquetes
+sudo apt update
+
+# Instalar LibreOffice
+sudo apt install -y libreoffice libreoffice-help-es libreoffice-l10n-es hunspell-es hyphen-es mythes-es
+
+# Verificación
+libreoffice --version
+```
