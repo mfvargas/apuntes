@@ -103,3 +103,28 @@ sudo apt install -y libreoffice libreoffice-help-es libreoffice-l10n-es hunspell
 # Verificación
 libreoffice --version
 ```
+
+## QGIS
+
+```bash
+# Instalar la llave con el keyring
+sudo mkdir -m755 -p /etc/apt/keyrings
+sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg
+sudo chmod 644 /etc/apt/keyrings/qgis-archive-keyring.gpg
+
+# Apuntar el archivo con el keyring a la LTR
+sudo tee /etc/apt/sources.list.d/qgis.sources >/dev/null <<'EOF'
+Types: deb deb-src
+URIs: https://qgis.org/ubuntu-ltr
+Suites: noble
+Architectures: amd64
+Components: main
+Signed-By: /etc/apt/keyrings/qgis-archive-keyring.gpg
+EOF
+
+# Actualizar la lista de paquetes
+sudo apt update
+
+# Instalar QGIS
+sudo apt install -y qgis qgis-plugin-grass
+```
