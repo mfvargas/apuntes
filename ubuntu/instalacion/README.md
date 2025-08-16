@@ -91,6 +91,17 @@ sudo apt update
 sudo apt install -y code
 ```
 
+### Extensiones
+
+#### Markdown
+
+Markdown All in One
+markdownlint
+
+#### Docker
+
+Docker
+
 ## LibreOffice
 
 ```bash
