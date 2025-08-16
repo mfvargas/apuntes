@@ -95,12 +95,12 @@ sudo apt install -y code
 
 #### Markdown
 
-Markdown All in One
-markdownlint
+- Markdown All in One
+- markdownlint
 
 #### Docker
 
-Docker
+- Docker
 
 ## LibreOffice
 
