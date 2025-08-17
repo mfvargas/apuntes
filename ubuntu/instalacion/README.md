@@ -36,6 +36,27 @@ sudo usermod -aG docker $USER
 # (fue necesario reiniciar la computadora).
 ```
 
+### Limpiar espacio
+
+```bash
+# Observar cuanto espacio en disco está usando Docker
+docker system df -v
+
+# Limpiar TODO lo no usado (contenedores, imágenes, redes y volúmenes)
+# -a = imágenes no usadas por ningún contenedor
+# --volumes = volúmenes no referenciados por contenedores
+docker system prune -a --volumes -f
+
+# Limpiar caché de compilación (BuildKit/Buildx)
+# (los builds dejan capas/cachés que no desaparecen con el paso anterior)
+# Para Docker con BuildKit (actual por defecto)
+docker builder prune -a -f
+
+# Verificar el ahorro
+docker system df -v
+du -sh /var/lib/docker/* 2>/dev/null
+```
+
 ## Miniconda
 
 ```bash
