@@ -173,3 +173,10 @@ wget https://zoom.us/client/latest/zoom_amd64.deb
 # Instalar
 sudo apt install ./zoom_amd64.deb
 ```
+
+## VLC Media Player
+
+```bash
+sudo apt update
+sudo apt install vlc
+```
