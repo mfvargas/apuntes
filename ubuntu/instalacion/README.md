@@ -164,6 +164,9 @@ sudo apt install -y qgis qgis-plugin-grass
 ## Zoom
 
 ```bash
+# Actualizar la lista de paquetes
+sudo apt update
+
 # Descargar el paquete
 wget https://zoom.us/client/latest/zoom_amd64.deb
 
