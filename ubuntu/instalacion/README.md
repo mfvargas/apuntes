@@ -180,3 +180,25 @@ sudo apt install ./zoom_amd64.deb
 sudo apt update
 sudo apt install vlc
 ```
+
+## Node.js
+
+```bash
+# Actualizar la lista de paquetes
+sudo apt update
+
+# Instalar dependencias útiles para compilar módulos nativos
+sudo apt install -y curl build-essential python3
+
+# Instalar NVM (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+# Cargar nvm en el shell actual
+source ~/.bashrc
+
+# Instalar la última LTS (22.x al 2025-08-23) y fijarla por defecto
+nvm install --lts
+nvm alias default lts/*
+
+# Verificar
+node -v && npm -v
+```
