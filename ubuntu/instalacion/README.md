@@ -203,7 +203,7 @@ nvm alias default lts/*
 node -v && npm -v
 ```
 
-Claude Code
+## Claude Code
 
 ```bash
 npm install -g @anthropic-ai/claude-code
