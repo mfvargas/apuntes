@@ -112,6 +112,20 @@ sudo apt update
 sudo apt install -y code
 ```
 
+Para actualizar:
+
+```bash
+# Revisar la versión actual
+code --version
+
+# Actualizar
+sudo apt update
+sudo apt install --only-upgrade code
+
+# Revisar la versión recién instalada
+code --version
+```
+
 ### Extensiones
 
 #### Markdown
