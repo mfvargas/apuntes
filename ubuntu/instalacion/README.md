@@ -229,12 +229,12 @@ npm install -g @anthropic-ai/claude-code
 # Actualizar paquetes
 sudo apt update && sudo apt upgrade -y
 
-# Descargar el archivo `.AppImage` de https://cursor.com/download
+# Descargar el archivo .AppImage de https://cursor.com/download
 
 # Cambiar al directorio en el que se descargó el archivo
 cd ~/Downloads
 
-# Hacer el archivo (ej. `Cursor-2.2.43-x86_64.AppImage`) ejecutable
+# Hacer el archivo (ej. Cursor-2.2.43-x86_64.AppImage) ejecutable
 chmod +x Cursor-*.AppImage
 
 # Mover el archivo a una carpeta permanente
