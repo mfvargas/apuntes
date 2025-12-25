@@ -246,7 +246,7 @@ sudo apt install libfuse2
 # Crear un archivo de escritorio
 sudo nano /usr/share/applications/cursor.desktop
 
-# Copiar y pegar el cursor.desktop
+# Copiar y pegar en cursor.desktop
 [Desktop Entry]
 Name=Cursor
 Exec=/opt/cursor.appimage --no-sandbox
