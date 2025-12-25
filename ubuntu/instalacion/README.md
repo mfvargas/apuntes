@@ -198,7 +198,7 @@ sudo apt install vlc
 ## Node.js
 
 ```bash
-# Actualizar la lista de paquetes
+# Actualizar paquetes
 sudo apt update
 
 # Instalar dependencias útiles para compilar módulos nativos
@@ -221,4 +221,43 @@ node -v && npm -v
 
 ```bash
 npm install -g @anthropic-ai/claude-code
+```
+
+## Cursor
+
+```bash
+# Actualizar paquetes
+sudo apt update && sudo apt upgrade -y
+
+# Descargar el archivo `.AppImage` de https://cursor.com/download
+
+# Cambiar al directorio en el que se descargó el archivo
+cd ~/Downloads
+
+# Hacer el archivo (ej. `Cursor-2.2.43-x86_64.AppImage`) ejecutable
+chmod +x Cursor-*.AppImage
+
+# Mover el archivo a una carpeta permanente
+sudo mv Cursor-*.AppImage /opt/cursor.appimage
+
+# Instalar dependencias
+sudo apt install libfuse2
+
+# Crear un archivo de escritorio
+sudo nano /usr/share/applications/cursor.desktop
+
+# Copiar y pegar el cursor.desktop
+[Desktop Entry]
+Name=Cursor
+Exec=/opt/cursor.appimage --no-sandbox
+Icon=/opt/cursor.png
+Type=Application
+Categories=Development;
+
+# Para ejecutar desde la terminal con solo un comando
+echo "alias cursor='/opt/cursor.appimage --no-sandbox'" >> ~/.bashrc
+source ~/.bashrc
+
+# Ahora solo debe escribirse en la terminal:
+cursor
 ```
